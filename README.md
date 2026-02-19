@@ -1,2 +1,4 @@
-# Dashboard-Profil-Klinik
-Dashboard visualisasi data yang menyajikan profil menyeluruh layanan klinik, mencakup demografi pasien, tren penyakit, dan statistik kunjungan secara terpadu.
+
+<h1 align="center">🏥 <b>Dashboard Profil Klinik</b> 🚑💊</h1>
+
+<h2 align="center"><i>"Smart Insights, Healthy Lives"</i></h2>
