@@ -27,6 +27,18 @@
 </p>
 <hr>
 
+<details>
+  <summary><b>🖱️ Klik di sini untuk membuka Navigasi Menu</b></summary>
+  <br>
+  <ul>
+    <li><a href="#apa-itu-klinikhub">🏥 Tentang KlinikHub</a></li>
+    <li><a href="#deskripsi-proyek">📋 Deskripsi Proyek</a></li>
+    <li><a href="#tampilan-dashboard">📸 Tampilan Dashboard</a></li>
+    <li><a href="#skema-basis-data">🗄️ Skema Database & ERD</a></li>
+  </ul>
+</details>
+<hr>
+
 ## 📑 Menu
 
 - [📌 Apa itu KlinikHub?](#apa-itu-klinikhub)
@@ -78,26 +90,9 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
 
 
 
-> **`root@klinikhub:~# ./tampilkan_menu`**
-> 
-> 🔹 [`./01_tentang_platform`](#apa-itu-klinikhub)
-> 🔹 [`./02_deskripsi_proyek`](#deskripsi-proyek)
-> 🔹 [`./03_tampilan_dashboard`](#tampilan-dashboard)
-> 🔹 [`./04_skema_database`](#skema-basis-data)
 
 
 
-<details>
-  <summary><b>🖱️ Klik di sini untuk membuka Navigasi Menu</b></summary>
-  <br>
-  <ul>
-    <li><a href="#apa-itu-klinikhub">🏥 Tentang KlinikHub</a></li>
-    <li><a href="#deskripsi-proyek">📋 Deskripsi Proyek</a></li>
-    <li><a href="#tampilan-dashboard">📸 Tampilan Dashboard</a></li>
-    <li><a href="#skema-basis-data">🗄️ Skema Database & ERD</a></li>
-  </ul>
-</details>
-<hr>
 
-| 🏥 <br> [Tentang Platform](#apa-itu-klinikhub) | 📋 <br> [Deskripsi Proyek](#deskripsi-proyek) | 📸 <br> [Tampilan Dashboard](#tampilan-dashboard) | 🗄️ <br> [Skema & ERD](#skema-basis-data) |
-| :---: | :---: | :---: | :---: |
+
+
