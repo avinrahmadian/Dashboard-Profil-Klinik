@@ -35,13 +35,13 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
 
 ---
 
-## 📌 Apa itu KlinikHub?
+<h2 id="apa-itu-klinikhub">📌 Apa itu KlinikHub?</h2>
 
 🏥 **KlinikHub - Platform Pusat Informasi & Data Klinik**
 
 **KlinikHub!** adalah platform analitik yang menghadirkan pengalaman terbaik dalam mengeksplorasi data kesehatan. Dengan database klinis yang terpercaya, pengguna dapat menelusuri profil pasien, tren penyakit, hingga statistik kunjungan secara akurat. Temukan wawasan medis terbaik hanya di KlinikHub! 📊🩺✨
 
-## 📋 Deskripsi Proyek
+<h2 id="deskripsi-proyek">📋 Deskripsi Proyek</h2>
 
 Tugas mata kuliah **Pemrosesan Data Besar** ini bertujuan untuk merancang dan mengoptimalkan sistem manajemen database (Platform KlinikHub) serta memvisualisasikannya ke dalam bentuk *dashboard* interaktif berbasis web menggunakan framework **RShiny**.
 
