@@ -1,6 +1,32 @@
 <h1 align="center">🏥 <b>Welcome To KlinikHub</b> 🚑💊</h1>
 <h2 align="center"><i>"Smart Insights, Healthy Lives"</i></h2>
 
+## 🧭 Navigasi Cepat
+
+| 🏥 Pengenalan | 📊 Visual & Data | ⚙️ Sisi Teknis |
+| :--- | :--- | :--- |
+| [Apa itu KlinikHub?](#apa-itu-klinikhub) | [Tampilan Dashboard](#tampilan-dashboard) | [Struktur Folder](#struktur-folder-proyek) |
+| [Deskripsi Proyek](#deskripsi-proyek) | [Skema Database (ERD)](#skema-basis-data) | [Git Workflow](#panduan-kolaborasi) |
+
+---
+
+
+<div align="center">
+  <a href="#apa-itu-klinikhub"><img src="https://img.shields.io/badge/1.-Apa_itu_KlinikHub%3F-00599C?style=for-the-badge"></a>
+  <a href="#deskripsi-proyek"><img src="https://img.shields.io/badge/2.-Deskripsi_Proyek-10b981?style=for-the-badge"></a>
+  <a href="#tampilan-dashboard"><img src="https://img.shields.io/badge/3.-Tampilan_Dashboard-FF4B4B?style=for-the-badge"></a>
+  <a href="#skema-basis-data"><img src="https://img.shields.io/badge/4.-Database_&_ERD-6366f1?style=for-the-badge"></a>
+</div>
+<br>
+
+<p align="center">
+  <a href="#apa-itu-klinikhub"><b>🏥 Tentang Platform</b></a> &nbsp; | &nbsp; 
+  <a href="#deskripsi-proyek"><b>📋 Deskripsi Proyek</b></a> &nbsp; | &nbsp; 
+  <a href="#tampilan-dashboard"><b>📸 Tampilan Dashboard</b></a> &nbsp; | &nbsp; 
+  <a href="#skema-basis-data"><b>🗄️ Database & ERD</b></a>
+</p>
+<hr>
+
 ## 📑 Menu
 
 - [📌 Apa itu KlinikHub?](#apa-itu-klinikhub)
@@ -48,28 +74,4 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
 
 
 
-## 🧭 Navigasi Cepat
 
-| 🏥 Pengenalan | 📊 Visual & Data | ⚙️ Sisi Teknis |
-| :--- | :--- | :--- |
-| [Apa itu KlinikHub?](#apa-itu-klinikhub) | [Tampilan Dashboard](#tampilan-dashboard) | [Struktur Folder](#struktur-folder-proyek) |
-| [Deskripsi Proyek](#deskripsi-proyek) | [Skema Database (ERD)](#skema-basis-data) | [Git Workflow](#panduan-kolaborasi) |
-
----
-
-
-<div align="center">
-  <a href="#apa-itu-klinikhub"><img src="https://img.shields.io/badge/1.-Apa_itu_KlinikHub%3F-00599C?style=for-the-badge"></a>
-  <a href="#deskripsi-proyek"><img src="https://img.shields.io/badge/2.-Deskripsi_Proyek-10b981?style=for-the-badge"></a>
-  <a href="#tampilan-dashboard"><img src="https://img.shields.io/badge/3.-Tampilan_Dashboard-FF4B4B?style=for-the-badge"></a>
-  <a href="#skema-basis-data"><img src="https://img.shields.io/badge/4.-Database_&_ERD-6366f1?style=for-the-badge"></a>
-</div>
-<br>
-
-<p align="center">
-  <a href="#apa-itu-klinikhub"><b>🏥 Tentang Platform</b></a> &nbsp; | &nbsp; 
-  <a href="#deskripsi-proyek"><b>📋 Deskripsi Proyek</b></a> &nbsp; | &nbsp; 
-  <a href="#tampilan-dashboard"><b>📸 Tampilan Dashboard</b></a> &nbsp; | &nbsp; 
-  <a href="#skema-basis-data"><b>🗄️ Database & ERD</b></a>
-</p>
-<hr>
