@@ -1,4 +1,3 @@
-
 <h1 align="center">🏥 <b>Welcome To KlinikHub</b> 🚑💊</h1>
 <h2 align="center"><i>"Smart Insights, Healthy Lives"</i></h2>
 
@@ -6,6 +5,7 @@
 
 - [📌 Apa itu KlinikHub?](#apa-itu-klinikhub)
 - [📋 Deskripsi Proyek](#deskripsi-proyek)
+- [📸 Tampilan Dashboard](#tampilan-dashboard)
 
 ---
 
@@ -23,7 +23,22 @@ Proyek ini berangkat dari *dataset raw* berbentuk CSV (`Dataset_Klinik_Raw.csv` 
 
 Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri data dokter berdasarkan spesialisasi, melihat riwayat kunjungan pasien, serta mengevaluasi tren layanan. Platform ini juga dilengkapi fitur pencarian spesifik, seperti memfilter jadwal berdasarkan nama klinik, tanggal kunjungan, atau nama dokter secara cepat.
 
+---
 
+<h2 id="tampilan-dashboard">📸 Tampilan Dashboard</h2>
 
+**1. Tampilan Menu Utama atau Homepage**
+* Menampilkan ringkasan informasi metrik penting (KPI) seperti total klinik, jumlah dokter terdaftar, dan total kunjungan pasien.
+* Statistik distribusi pasien berdasarkan poliklinik atau spesialisasi dalam bentuk grafik interaktif.
+* Menampilkan daftar layanan atau dokter dengan tingkat kunjungan tertinggi.
 
+*(Ganti teks ini dengan Screenshot Halaman Utama aplikasimu)*
+`![Homepage KlinikHub](link-gambar-atau-lokasi-folder-gambar.png)`
 
+**2. Tampilan Eksplorasi Data & Filter**
+* Menyediakan fitur filter dinamis untuk mencari data berdasarkan kategori tertentu.
+* Pengguna dapat mencari jadwal berdasarkan nama klinik, rentang tanggal kunjungan, atau nama dokter secara cepat.
+* Menampilkan detail tabel riwayat kunjungan dan tindakan medis pasien.
+
+*(Ganti teks ini dengan Screenshot Halaman Eksplorasi aplikasimu)*
+`![Eksplorasi KlinikHub](link-gambar-atau-lokasi-folder-gambar.png)`
