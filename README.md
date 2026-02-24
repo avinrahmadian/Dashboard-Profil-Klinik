@@ -2,17 +2,6 @@
 <h1 align="center">🏥 <b>Welcome To KlinikHub</b> 🚑💊</h1>
 <h2 align="center"><i>"Smart Insights, Healthy Lives"</i></h2>
 
-## 📄 Menu Utama
-* [🚀 Apa itu KlinikHub?](#-apa-itu-klinikhub)
-* [📋 Deskripsi Proyek](#-deskripsi-proyek)
-* [🗄️ Desain & Arsitektur Database](#️-desain--arsitektur-database)
-* [📊 Kriteria & Komponen Dashboard](#-kriteria--komponen-dashboard)
-* [📸 Tampilan Dashboard](#-tampilan-dashboard)
-* [📂 Struktur Folder Proyek](#-struktur-folder-proyek)
-* [🔄 Panduan Kolaborasi (Git Workflow)](#-panduan-kolaborasi-git-workflow)
-
----
-
 🏥 KlinikHub - Platform Pusat Informasi & Data Klinik
 
 ### 🚀Apa itu KlinikHub?
