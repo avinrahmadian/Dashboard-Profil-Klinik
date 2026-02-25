@@ -62,13 +62,13 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
 <table width="100%">
   <tr>
     <td align="center" width="25%" style="vertical-align: top;">
-      <img src="https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white" alt="RStudio"><br><br>
+      <img src="https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=rstudio&logoColor=white" alt="RStudio"><br><br>
       <b>IDE & Language</b>
       <hr>
       <p align="left"><sub>Digunakan sebagai lingkungan pengembangan utama untuk penulisan skrip R dan manajemen proyek.</sub></p>
     </td>
     <td align="center" width="25%" style="vertical-align: top;">
-      <img src="https://img.shields.io/badge/R_Shiny-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="RShiny"><br><br>
+      <img src="https://img.shields.io/badge/R_Shiny-276DC3?style=for-the-badge&logo=rshiny&logoColor=white" alt="RShiny"><br><br>
       <b>Web Framework</b>
       <hr>
       <p align="left"><sub>Digunakan untuk membangun dashboard interaktif dengan fitur reaktivitas untuk visualisasi data klinis.</sub></p>
@@ -80,7 +80,7 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
       <p align="left"><sub>Digunakan untuk menjalankan mesin database lokal guna mendukung penyimpanan data relasional yang efisien.</sub></p>
     </td>
     <td align="center" width="25%" style="vertical-align: top;">
-      <img src="https://img.shields.io/badge/TablePlus-212529?style=for-the-badge&logo=postman&logoColor=white" alt="TablePlus"><br><br>
+      <img src="https://img.shields.io/badge/TablePlus-FFC107?style=for-the-badge&logo=postgresql&logoColor=black" alt="TablePlus"><br><br>
       <b>DB Management</b>
       <hr>
       <p align="left"><sub>Digunakan untuk mengelola skema tabel, relasi, dan memvalidasi query SQL secara visual.</sub></p>
@@ -92,11 +92,11 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
 
 <p align="center">
   <b>Powered by R Libraries:</b><br>
-  <img src="https://img.shields.io/badge/tidyverse-blue?style=flat-square"> 
-  <img src="https://img.shields.io/badge/dplyr-red?style=flat-square"> 
-  <img src="https://img.shields.io/badge/ggplot2-green?style=flat-square"> 
-  <img src="https://img.shields.io/badge/DBI-orange?style=flat-square"> 
-  <img src="https://img.shields.io/badge/bs4Dash-lightgrey?style=flat-square">
+  <img src="https://img.shields.io/badge/tidyverse-blue?style=flat-square&logo=tidyverse&logoColor=white"> 
+  <img src="https://img.shields.io/badge/dplyr-red?style=flat-square&logo=r&logoColor=white"> 
+  <img src="https://img.shields.io/badge/ggplot2-green?style=flat-square&logo=r&logoColor=white"> 
+  <img src="https://img.shields.io/badge/DBI-orange?style=flat-square&logo=database&logoColor=white"> 
+  <img src="https://img.shields.io/badge/bs4Dash-lightgrey?style=flat-square&logo=bootstrap&logoColor=white">
 </p>
 
 <h2 id="tim-pengembang">👥 Tim Pengembang</h2>
