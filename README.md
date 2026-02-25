@@ -15,11 +15,10 @@
   <a href="#apa-itu-klinikhub"><img src="https://img.shields.io/badge/1.-Apa_itu_KlinikHub%3F-00599C?style=for-the-badge"></a>
   <a href="#deskripsi-proyek"><img src="https://img.shields.io/badge/2.-Deskripsi_Proyek-10b981?style=for-the-badge"></a>
   <a href="#tampilan-dashboard"><img src="https://img.shields.io/badge/3.-Tampilan_Dashboard-FF4B4B?style=for-the-badge"></a>
-  <a href="#tools-digunakan"><img src="https://img.shields.io/badge/4.-Tools_Digunakan-7B1FA2?style=for-the-badge"></a>
-  <a href="#tim-pengembang"><img src="https://img.shields.io/badge/5.-Tim_Pengembang-F57C00?style=for-the-badge"></a>
+  <a href="#tools-digunakan"><img src="https://img.shields.io/badge/4.-Tools_Digunakan-9C27B0?style=for-the-badge"></a>
+  <a href="#struktur-folder"><img src="https://img.shields.io/badge/5.-Struktur_Folder-2E7D32?style=for-the-badge"></a>
+  <a href="#tim-pengembang"><img src="https://img.shields.io/badge/6.-Tim_Pengembang-F57C00?style=for-the-badge"></a>
 </div>
-
-<br>
 
 <h2 id="apa-itu-klinikhub">📌 Apa itu KlinikHub?</h2>
 
@@ -98,6 +97,27 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
   <img src="https://img.shields.io/badge/DBI-orange?style=flat-square&logo=database&logoColor=white"> 
   <img src="https://img.shields.io/badge/bs4Dash-lightgrey?style=flat-square&logo=bootstrap&logoColor=white">
 </p>
+
+<h2 id="struktur-folder">📂 Struktur Folder</h2>
+
+<p>Repositori ini disusun dengan rapi untuk memisahkan antara logika aplikasi, dataset, aset visual, dan dokumentasi agar mudah dikembangkan lebih lanjut:</p>
+
+```text
+.
+├── app/                     # Direktori utama aplikasi RShiny
+│   ├── server.R             # Logika backend, koneksi database, dan reaktivitas
+│   └── ui.R                 # Antarmuka pengguna (Frontend dashboard)
+├── data/                    # Penyimpanan dataset proyek
+│   ├── clean/               # Dataset yang telah dinormalisasi (siap pakai)
+│   └── raw/                 # Dataset mentah awal (Dataset_Klinik_Raw.csv)
+├── doc/                     # Dokumentasi teknis proyek
+│   └── ERD.png              # Gambar Entity Relationship Diagram (ERD)
+├── images/                  # Aset visual untuk UI dashboard dan README
+│   ├── joice.png            # Foto profil anggota tim
+│   ├── wita.png
+│   └── ika.png
+└── README.md                # Dokumentasi utama repositori (file ini)
+```
 
 <h2 id="tim-pengembang">👥 Tim Pengembang</h2>
 
