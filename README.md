@@ -37,8 +37,6 @@ Proyek ini berangkat dari *dataset raw* berbentuk CSV (`Dataset_Klinik_Raw.csv` 
 
 Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri data dokter berdasarkan spesialisasi, melihat riwayat kunjungan pasien, serta mengevaluasi tren layanan. Platform ini juga dilengkapi fitur pencarian spesifik, seperti memfilter jadwal berdasarkan nama klinik, tanggal kunjungan, atau nama dokter secara cepat.
 
----
-
 <h2 id="tampilan-dashboard">📸 Tampilan Dashboard</h2>
 
 **1. Tampilan Menu Utama atau Homepage**
@@ -56,8 +54,6 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
 
 *(Ganti teks ini dengan Screenshot Halaman Eksplorasi aplikasimu)*
 `![Eksplorasi KlinikHub](link-gambar-atau-lokasi-folder-gambar.png)`
-
----
 
 <h2 id="tools-digunakan">🛠️ Tools yang Digunakan</h2>
 
@@ -102,8 +98,6 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
   <img src="https://img.shields.io/badge/DBI-orange?style=flat-square"> 
   <img src="https://img.shields.io/badge/bs4Dash-lightgrey?style=flat-square">
 </p>
-
----
 
 <h2 id="tim-pengembang">👥 Tim Pengembang</h2>
 
