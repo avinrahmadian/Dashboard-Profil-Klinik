@@ -186,9 +186,44 @@ Proyek **KlinikHub** ini dikembangkan melalui kolaborasi tim yang hebat, dengan 
 </table>
 <br>
 
+## 👥 Tim Pengembang KlinikHub
 
+<br>
 
+<div>
+  <img align="left" width="200" src="images/joice.png" alt="Joice">
+  <h3><a href="https://github.com/username_joice">Joice Junansi Tandirerung</a></h3>
+  <b>M0501251007 | 🗄️ Database Manager</b><br><br>
+  <i>Mendesain struktur database dan ERD, serta menulis dan menguji query SQL yang akan digunakan oleh backend.</i>
+</div>
+<br clear="left"/>
+<hr>
 
+<div>
+  <img align="left" width="200" src="images/wita.png" alt="Wita">
+  <h3><a href="https://github.com/username_wita">Baiq Wita Rachmatia</a></h3>
+  <b>M0501251061 | 🎨 Frontend Developer</b><br><br>
+  <i>Mendesain struktur UI dashboard beserta komponen input/output, dan mengintegrasikan hasil dari server ke tampilan visual pengguna.</i>
+</div>
+<br clear="left"/>
+<hr>
+
+<div>
+  <img align="left" width="200" src="https://github.com/avinrahmadian.png" alt="Avin">
+  <h3><a href="https://github.com/avinrahmadian">Avin Rahmadian</a></h3>
+  <b>M0501251023 | 🖥️ Backend Developer</b><br><br>
+  <i>Menghubungkan R dengan database, mengelola logika reaktivitas server RShiny, dan memproses data untuk disediakan ke frontend.</i>
+</div>
+<br clear="left"/>
+<hr>
+
+<div>
+  <img align="left" width="200" src="images/ika.png" alt="Ika">
+  <h3><a href="https://github.com/username_ika">Ika Lailia N. R. N.</a></h3>
+  <b>M0501251020 | 📊 Data Analyst</b><br><br>
+  <i>Menentukan KPI, menguji validitas data pada dashboard, serta menyusun interpretasi insight utama dan dokumentasi proyek.</i>
+</div>
+<br clear="left"/>
 
 
 
