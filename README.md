@@ -1,17 +1,8 @@
 <h1 align="center">🏥 <b>Welcome To KlinikHub</b> 🚑💊</h1>
 <h2 align="center"><i>"Smart Insights, Healthy Lives"</i></h2>
 
-1
-## 🧭 Navigasi Cepat
+## 📑 Menu
 
-| 🏥 Pengenalan | 📊 Visual & Data | ⚙️ Sisi Teknis |
-| :--- | :--- | :--- |
-| [Apa itu KlinikHub?](#apa-itu-klinikhub) | [Tampilan Dashboard](#tampilan-dashboard) | [Struktur Folder](#struktur-folder-proyek) |
-| [Deskripsi Proyek](#deskripsi-proyek) | [Skema Database (ERD)](#skema-basis-data) | [Git Workflow](#panduan-kolaborasi) |
-
----
-
-2
 <div align="center">
   <a href="#apa-itu-klinikhub"><img src="https://img.shields.io/badge/1.-Apa_itu_KlinikHub%3F-00599C?style=for-the-badge"></a>
   <a href="#deskripsi-proyek"><img src="https://img.shields.io/badge/2.-Deskripsi_Proyek-10b981?style=for-the-badge"></a>
@@ -19,44 +10,6 @@
   <a href="#skema-basis-data"><img src="https://img.shields.io/badge/4.-Database_&_ERD-6366f1?style=for-the-badge"></a>
 </div>
 <br>
-
-3
-<p align="center">
-  <a href="#apa-itu-klinikhub"><b>🏥 Tentang Platform</b></a> &nbsp; | &nbsp; 
-  <a href="#deskripsi-proyek"><b>📋 Deskripsi Proyek</b></a> &nbsp; | &nbsp; 
-  <a href="#tampilan-dashboard"><b>📸 Tampilan Dashboard</b></a> &nbsp; | &nbsp; 
-  <a href="#skema-basis-data"><b>🗄️ Database & ERD</b></a>
-</p>
-<hr>
-
-4
-<details>
-  <summary><b>🖱️ Klik di sini untuk membuka Navigasi Menu</b></summary>
-  <br>
-  <ul>
-    <li><a href="#apa-itu-klinikhub">🏥 Tentang KlinikHub</a></li>
-    <li><a href="#deskripsi-proyek">📋 Deskripsi Proyek</a></li>
-    <li><a href="#tampilan-dashboard">📸 Tampilan Dashboard</a></li>
-    <li><a href="#skema-basis-data">🗄️ Skema Database & ERD</a></li>
-  </ul>
-</details>
-<hr>
-
-5
-|                  🧭 M E N U                       |
-|---------------------------------------------------|
-| > [Apa itu KlinikHub?](#apa-itu-klinikhub)        |
-| > [Deskripsi Proyek](#deskripsi-proyek)           |
-| > [Tampilan Dashboard](#tampilan-dashboard)       |
-| > [Skema Basis Data](#skema-basis-data)           |
-
-## 📑 Menu
-
-- [📌 Apa itu KlinikHub?](#apa-itu-klinikhub)
-- [📋 Deskripsi Proyek](#deskripsi-proyek)
-- [📸 Tampilan Dashboard](#tampilan-dashboard)
-
----
 
 <h2 id="apa-itu-klinikhub">📌 Apa itu KlinikHub?</h2>
 
