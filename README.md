@@ -1,6 +1,14 @@
 <h1 align="center">🏥 <b>Welcome To KlinikHub</b> 🚑💊</h1>
 <h2 align="center"><i>"Smart Insights, Healthy Lives"</i></h2>
 
+<div align="center">
+  <a href="MASUKKAN_LINK_SHINYAPPS_DI_SINI">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Coba_KlinikHub_Sekarang!-2ea043?style=for-the-badge" alt="Live Demo">
+  </a>
+</div>
+
+<br>
+
 ## 📑 Menu
 
 <div align="center">
@@ -15,6 +23,8 @@
 🏥 **KlinikHub - Platform Pusat Informasi & Data Klinik**
 
 **KlinikHub!** adalah platform analitik yang menghadirkan pengalaman terbaik dalam mengeksplorasi data kesehatan. Dengan database klinis yang terpercaya, pengguna dapat menelusuri profil pasien, tren penyakit, hingga statistik kunjungan secara akurat. Temukan wawasan medis terbaik hanya di KlinikHub! 📊🩺✨
+
+> **Coba langsung aplikasinya secara interaktif melalui link [Live Demo di sini](MASUKKAN_LINK_SHINYAPPS_DI_SINI).**
 
 <h2 id="deskripsi-proyek">📋 Deskripsi Proyek</h2>
 
@@ -219,11 +229,16 @@ Proyek **KlinikHub** ini dikembangkan melalui kolaborasi tim yang hebat, dengan 
 
 <div>
   <img align="left" width="200" src="images/ika.png" alt="Ika">
-  <h3><a href="https://github.com/username_ika">Ika Lailia N. R. N.</a></h3>
+  <h3><a href="https://github.com/username_ika">Ika Lailia Nur Rohmatun Nazila</a></h3>
   <b>M0501251020 | 📊 Data Analyst</b><br><br>
   <i>Menentukan KPI, menguji validitas data pada dashboard, serta menyusun interpretasi insight utama dan dokumentasi proyek.</i>
 </div>
 <br clear="left"/>
+
+
+
+
+
 
 
 
