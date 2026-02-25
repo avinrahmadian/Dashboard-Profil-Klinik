@@ -15,6 +15,18 @@
   <a href="#apa-itu-klinikhub"><img src="https://img.shields.io/badge/1.-Apa_itu_KlinikHub%3F-00599C?style=for-the-badge"></a>
   <a href="#deskripsi-proyek"><img src="https://img.shields.io/badge/2.-Deskripsi_Proyek-10b981?style=for-the-badge"></a>
   <a href="#tampilan-dashboard"><img src="https://img.shields.io/badge/3.-Tampilan_Dashboard-FF4B4B?style=for-the-badge"></a>
+  <a href="#tools-digunakan"><img src="https://img.shields.io/badge/4.-Tools_Digunakan-7B1FA2?style=for-the-badge"></a>
+  <a href="#tim-pengembang"><img src="https://img.shields.io/badge/5.-Tim_Pengembang-F57C00?style=for-the-badge"></a>
+</div>
+
+<br>
+
+## 📑 Menu
+
+<div align="center">
+  <a href="#apa-itu-klinikhub"><img src="https://img.shields.io/badge/1.-Apa_itu_KlinikHub%3F-00599C?style=for-the-badge"></a>
+  <a href="#deskripsi-proyek"><img src="https://img.shields.io/badge/2.-Deskripsi_Proyek-10b981?style=for-the-badge"></a>
+  <a href="#tampilan-dashboard"><img src="https://img.shields.io/badge/3.-Tampilan_Dashboard-FF4B4B?style=for-the-badge"></a>
 </div>
 <br>
 
@@ -278,6 +290,7 @@ Proyek **KlinikHub** ini dikembangkan melalui kolaborasi tim yang hebat, dengan 
   <i>Menentukan KPI, menguji validitas data pada dashboard, serta menyusun interpretasi insight utama dan dokumentasi proyek.</i>
 </div>
 <br clear="left"/>
+
 
 
 
