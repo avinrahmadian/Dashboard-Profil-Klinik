@@ -44,6 +44,47 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
 *(Ganti teks ini dengan Screenshot Halaman Eksplorasi aplikasimu)*
 `![Eksplorasi KlinikHub](link-gambar-atau-lokasi-folder-gambar.png)`
 
+## 👥 Tim Pengembang
+
+Proyek **KlinikHub** ini dikembangkan melalui kolaborasi tim yang hebat, dengan rincian anggota dan pembagian peran sebagai berikut:
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/username_joice">
+        <img src="https://github.com/username_joice.png?size=100" width="100px;" alt="Joice"/><br>
+        <sub><b>Joice Junansi T.</b></sub>
+      </a><br>
+      <sub>M0501251007</sub><br>
+      <i>Database Manager</i>
+    </td>
+    <td align="center">
+      <a href="https://github.com/username_wita">
+        <img src="https://github.com/username_wita.png?size=100" width="100px;" alt="Wita"/><br>
+        <sub><b>Baiq Wita Rachmatia</b></sub>
+      </a><br>
+      <sub>M0501251061</sub><br>
+      <i>Frontend Developer</i>
+    </td>
+    <td align="center">
+      <a href="https://github.com/avinrahmadian">
+        <img src="https://github.com/avinrahmadian.png?size=100" width="100px;" alt="Avin"/><br>
+        <sub><b>Avin Rahmadian</b></sub>
+      </a><br>
+      <sub>M0501251023</sub><br>
+      <i>Backend Developer</i>
+    </td>
+    <td align="center">
+      <a href="https://github.com/username_ika">
+        <img src="https://github.com/username_ika.png?size=100" width="100px;" alt="Ika"/><br>
+        <sub><b>Ika Lailia N. R. N.</b></sub>
+      </a><br>
+      <sub>M0501251020</sub><br>
+      <i>Data Analyst</i>
+    </td>
+  </tr>
+</table>
+<br>
 
 
 
