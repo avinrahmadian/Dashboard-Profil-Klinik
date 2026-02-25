@@ -100,23 +100,23 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
 
 <h2 id="struktur-folder">📂 Struktur Folder</h2>
 
-<p>Repositori ini disusun dengan rapi untuk memisahkan antara logika aplikasi, dataset, aset visual, dan dokumentasi agar mudah dikembangkan lebih lanjut:</p>
+<p>Repositori ini disusun dengan arsitektur yang rapi untuk memisahkan antara logika aplikasi (backend/frontend), dataset, aset visual, dan dokumentasi agar mudah dipelihara dan dikembangkan lebih lanjut:</p>
 
 ```text
 .
-├── app/                     # Direktori utama aplikasi RShiny
-│   ├── server.R             # Logika backend, koneksi database, dan reaktivitas
-│   └── ui.R                 # Antarmuka pengguna (Frontend dashboard)
-├── data/                    # Penyimpanan dataset proyek
-│   ├── clean/               # Dataset yang telah dinormalisasi (siap pakai)
-│   └── raw/                 # Dataset mentah awal (Dataset_Klinik_Raw.csv)
-├── doc/                     # Dokumentasi teknis proyek
-│   └── ERD.png              # Gambar Entity Relationship Diagram (ERD)
-├── images/                  # Aset visual untuk UI dashboard dan README
-│   ├── joice.png            # Foto profil anggota tim
-│   ├── wita.png
-│   └── ika.png
-└── README.md                # Dokumentasi utama repositori (file ini)
+├── 📂 app/                     # Direktori utama aplikasi RShiny
+│   ├── 📄 server.R             # Logika backend, koneksi database, dan reaktivitas
+│   └── 📄 ui.R                 # Antarmuka pengguna (Frontend dashboard)
+├── 📂 data/                    # Penyimpanan dataset proyek
+│   ├── 📂 clean/               # Dataset yang telah dinormalisasi (siap pakai)
+│   └── 📂 raw/                 # Dataset mentah awal (Dataset_Klinik_Raw.csv)
+├── 📂 doc/                     # Dokumentasi teknis proyek
+│   └── 🖼️ ERD.png              # Gambar Entity Relationship Diagram (ERD)
+├── 📂 images/                  # Aset visual untuk UI dashboard dan README
+│   ├── 🖼️ joice.png            # Foto profil anggota tim
+│   ├── 🖼️ wita.png
+│   └── 🖼️ ika.png
+└── 📝 README.md                # Dokumentasi utama repositori (file ini)
 ```
 
 <h2 id="tim-pengembang">👥 Tim Pengembang</h2>
