@@ -89,41 +89,6 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
 
 <br>
 
-<h2 id="tools-digunakan">🛠️ Tools yang Digunakan</h2>
-
-<p>Proyek <b>KlinikHub</b> dibangun menggunakan ekosistem teknologi modern untuk memastikan performa pengolahan data besar yang optimal dan antarmuka yang interaktif:</p>
-
-<table width="100%">
-  <tr>
-    <td align="center" width="25%" style="vertical-align: top;">
-      <img src="https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=RStudio&logoColor=white" alt="RStudio"><br><br>
-      <b>IDE & Language</b>
-      <hr>
-      <p align="left"><sub>Lingkungan pengembangan utama untuk penulisan skrip R dan manajemen proyek[cite: 25, 27].</sub></p>
-    </td>
-    <td align="center" width="25%" style="vertical-align: top;">
-      <img src="https://img.shields.io/badge/R_Shiny-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="RShiny"><br><br>
-      <b>Web Framework</b>
-      <hr>
-      <p align="left"><sub>Framework utama untuk membangun dashboard interaktif dengan fitur reaktivitas visual[cite: 26, 30].</sub></p>
-    </td>
-    <td align="center" width="25%" style="vertical-align: top;">
-      <img src="https://img.shields.io/badge/DBngin-4169E1?style=for-the-badge&logo=databricks&logoColor=white" alt="DBngin"><br><br>
-      <b>DB Engine</b>
-      <hr>
-      <p align="left"><sub>Menjalankan mesin database lokal untuk penyimpanan data relasional yang efisien[cite: 28].</sub></p>
-    </td>
-    <td align="center" width="25%" style="vertical-align: top;">
-      <img src="https://img.shields.io/badge/TablePlus-212529?style=for-the-badge&logo=postman&logoColor=white" alt="TablePlus"><br><br>
-      <b>DB Management</b>
-      <hr>
-      <p align="left"><sub>Mengelola skema tabel, relasi, dan memvalidasi query SQL secara visual[cite: 29].</sub></p>
-    </td>
-  </tr>
-</table>
-
-<br>
-
 <p align="center">
   <b>Powered by R Libraries:</b><br>
   <img src="https://img.shields.io/badge/tidyverse-blue?style=flat-square"> 
