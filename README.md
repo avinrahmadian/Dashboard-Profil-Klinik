@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="Images/Header.png" width="1000" height="500">
+  <br>
+</p>
+
 <h1 align="center">🏥 <b>Welcome To KlinikHub</b> 🚑💊</h1>
 <h2 align="center"><i>"Smart Insights, Healthy Lives"</i></h2>
 
