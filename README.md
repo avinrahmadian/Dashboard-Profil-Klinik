@@ -102,6 +102,38 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
   </tr>
 </table>
 
+<h2 id="deskripsi-data">📜 Deskripsi Data & DDL</h2>
+
+Bagian ini mendeskripsikan struktur tabel, tipe data (Data Dictionary), serta sintaks SQL (Data Definition Language/DDL) yang digunakan untuk membangun skema basis data KlinikHub.
+
+### 🧮 Membuat Basis Data (Database)
+
+Basis Data **KlinikHub** menyimpan informasi operasional medis yang mewakili atribut data yang saling berhubungan untuk keperluan analisis.
+
+```sql
+CREATE DATABASE IF NOT EXISTS klinikhub_db;
+
+USE klinikhub_db;
+```
+
+### 🎬Membuat Tabel Directors
+
+Tabel Directors menyediakan informasi tentang entitas Sutradara. Pengguna dapat mengetahui dari ID sutradara, nama sutradara.
+
+| Attribute        | Type                   | Description       |
+|------------------|------------------------|-------------------|
+| director_id (PK) | Character Varying(5)   | ID unik sutradara |
+| director_name    | Character Varying(255) | Nama sutradara    |
+
+with the SQL script :
+
+``` sql
+CREATE TABLE IF NOT EXISTS directors (
+  director_id VARCHAR(5) PRIMARY KEY,
+  director_name VARCHAR(255)
+);
+```
+
 <h2 id="tools-digunakan">🛠️ Tools yang Digunakan</h2>
 
 <p>Proyek <b>KlinikHub</b> dibangun menggunakan ekosistem teknologi modern untuk memastikan performa pengolahan data besar yang optimal dan antarmuka yang interaktif:</p>
