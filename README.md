@@ -16,9 +16,11 @@
   <a href="#deskripsi-proyek"><img src="https://img.shields.io/badge/2.-Deskripsi_Proyek-10b981?style=for-the-badge"></a>
   <a href="#tampilan-dashboard"><img src="https://img.shields.io/badge/3.-Tampilan_Dashboard-FF4B4B?style=for-the-badge"></a>
   <a href="#skema-basis-data"><img src="https://img.shields.io/badge/4.-Skema_Basis_Data_&_ERD-1E88E5?style=for-the-badge"></a>
-  <a href="#tools-digunakan"><img src="https://img.shields.io/badge/5.-Tools_Digunakan-9C27B0?style=for-the-badge"></a>
-  <a href="#struktur-folder"><img src="https://img.shields.io/badge/6.-Struktur_Folder-2E7D32?style=for-the-badge"></a>
-  <a href="#tim-pengembang"><img src="https://img.shields.io/badge/7.-Tim_Pengembang-F57C00?style=for-the-badge"></a>
+  <br><br>
+  <a href="#deskripsi-data"><img src="https://img.shields.io/badge/5.-Deskripsi_Data-0288D1?style=for-the-badge"></a>
+  <a href="#tools-digunakan"><img src="https://img.shields.io/badge/6.-Tools_Digunakan-9C27B0?style=for-the-badge"></a>
+  <a href="#struktur-folder"><img src="https://img.shields.io/badge/7.-Struktur_Folder-2E7D32?style=for-the-badge"></a>
+  <a href="#tim-pengembang"><img src="https://img.shields.io/badge/8.-Tim_Pengembang-F57C00?style=for-the-badge"></a>
 </div>
 
 <h2 id="apa-itu-klinikhub">📌 Apa itu KlinikHub?</h2>
