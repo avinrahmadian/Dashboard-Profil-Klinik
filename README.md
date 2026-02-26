@@ -118,23 +118,25 @@ CREATE DATABASE IF NOT EXISTS klinikhub_db;
 USE klinikhub_db;
 ```
 
-### 🎬Membuat Tabel Directors
+### 🏥 Membuat Tabel Klinik
 
-Tabel Directors menyediakan informasi tentang entitas Sutradara. Pengguna dapat mengetahui dari ID sutradara, nama sutradara.
+Tabel Klinik menyediakan informasi mengenai entitas fasilitas kesehatan. Pengguna dapat mengetahui dari ID unik klinik, nama klinik, dan kota tempat klinik beroperasi.
 
 | Attribute        | Type                   | Description       |
 |------------------|------------------------|-------------------|
-| director_id (PK) | Character Varying(5)   | ID unik sutradara |
-| director_name    | Character Varying(255) | Nama sutradara    |
+| id_klinik (PK)   | Character Varying(5)   | ID unik klinik    |
+| nama_klinik      | Character Varying(255) | Nama klinik       |
 
 with the SQL script :
 
 ``` sql
 CREATE TABLE IF NOT EXISTS directors (
-  director_id VARCHAR(5) PRIMARY KEY,
-  director_name VARCHAR(255)
+  id_klinik VARCHAR(5) PRIMARY KEY,
+  nama_klinik VARCHAR(255)
 );
 ```
+Lanjut Seterusnya......
+
 
 <h2 id="tools-digunakan">🛠️ Tools yang Digunakan</h2>
 
