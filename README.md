@@ -36,7 +36,7 @@ Proyek ini berangkat dari *dataset raw* berbentuk CSV (`Dataset_Klinik_Raw.csv` 
 
 Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri data dokter berdasarkan spesialisasi, melihat riwayat kunjungan pasien, serta mengevaluasi tren layanan. Platform ini juga dilengkapi fitur pencarian spesifik, seperti memfilter jadwal berdasarkan nama klinik, tanggal kunjungan, atau nama dokter secara cepat.
 
-<h2 id="tampilan-dashboard">📸 Tampilan Dashboard</h2>
+<h2 id="tampilan-dashboard">📸 Tampilan Dashboard (Nanti Diisi Kalo Dashboard udah jadi)</h2>
 
 **1. Tampilan Menu Utama atau Homepage**
 * Menampilkan ringkasan informasi metrik penting (KPI) seperti total klinik, jumlah dokter terdaftar, dan total kunjungan pasien.
