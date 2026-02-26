@@ -54,6 +54,53 @@ Hasil akhirnya adalah aplikasi web yang memudahkan pengguna dalam menelusuri dat
 *(Ganti teks ini dengan Screenshot Halaman Eksplorasi aplikasimu)*
 `![Eksplorasi KlinikHub](link-gambar-atau-lokasi-folder-gambar.png)`
 
+<h2 id="skema-basis-data">🗄️ Skema Basis Data & ERD</h2>
+
+<p>Sistem basis data dalam proyek <b>KlinikHub</b> dirancang menggunakan arsitektur relasional untuk memastikan integritas data medis dan efisiensi <i>query</i>. Semua entitas operasional terpusat dan berelasi kuat dengan entitas utama layanan kesehatan.</p>
+
+<div align="center">
+  <img src="images/ERD.png" alt="Entity Relationship Diagram KlinikHub" width="80%">
+  <br>
+  <i>Gambar 1: Entity Relationship Diagram (ERD) KlinikHub</i>
+</div>
+<br>
+
+<h3>🔑 Struktur Kunci (Keys)</h3>
+<p>Untuk membangun hubungan antar entitas dan menerapkan <i>referential integrity constraints</i>, kami menetapkan <i>Primary Key</i> (PK) dan <i>Foreign Key</i> (FK) sebagai berikut:</p>
+<ul>
+  <li><b>Primary Key (PK):</b> <code>id_klinik</code> (tabel klinik), <code>id_dokter</code> (tabel dokter), <code>id_pasien</code> (tabel pasien), dan <code>id_kunjungan</code> (tabel kunjungan).</li>
+  <li><b>Foreign Key (FK):</b> Terdapat pada tabel transaksional seperti <b>kunjungan</b> (menghubungkan <code>id_pasien</code>, <code>id_dokter</code>, dan <code>id_klinik</code>) untuk merelasikan riwayat medis.</li>
+</ul>
+
+<h3>🌐 Relasi Antar Entitas</h3>
+<table width="100%">
+  <tr>
+    <th width="25%">Hubungan</th>
+    <th width="15%" style="text-align: center;">Kardinalitas</th>
+    <th width="60%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td><b>Klinik → Dokter</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
+    <td>Satu klinik dapat memiliki <b>banyak dokter</b> yang berpraktik, tetapi satu profil dokter terkait dengan <b>satu klinik utama</b> dalam pencatatan ini.</td>
+  </tr>
+  <tr>
+    <td><b>Pasien → Kunjungan</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
+    <td>Satu pasien dapat melakukan <b>banyak kunjungan</b> medis dari waktu ke waktu, tetapi satu rekam kunjungan hanya milik <b>satu pasien</b>.</td>
+  </tr>
+  <tr>
+    <td><b>Dokter → Kunjungan</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
+    <td>Satu dokter dapat menangani <b>banyak kunjungan</b> pasien, tetapi satu sesi kunjungan spesifik hanya ditangani oleh <b>satu dokter penanggung jawab</b>.</td>
+  </tr>
+  <tr>
+    <td><b>Kunjungan → Tindakan Medis</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="M to N"></td>
+    <td>Satu kunjungan bisa mencakup <b>banyak tindakan medis</b>, dan satu jenis tindakan bisa diberikan pada <b>banyak kunjungan</b>. Relasi <i>many-to-many</i> ini dikelola melalui tabel detail/penghubung.</td>
+  </tr>
+</table>
+
 <h2 id="tools-digunakan">🛠️ Tools yang Digunakan</h2>
 
 <p>Proyek <b>KlinikHub</b> dibangun menggunakan ekosistem teknologi modern untuk memastikan performa pengolahan data besar yang optimal dan antarmuka yang interaktif:</p>
