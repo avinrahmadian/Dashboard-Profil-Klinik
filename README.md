@@ -176,6 +176,107 @@ CREATE TABLE IF NOT EXISTS `diagnosis` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+### 👨‍⚕️ Membuat Tabel Dokter
+
+Tabel `doctor` menyimpan informasi detail mengenai dokter yang praktik di berbagai klinik. Tabel ini mencakup ID unik dokter, relasi ke klinik tempat praktik, nama, jenis kelamin, spesialisasi, hingga biaya konsultasi.
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **doctor_id (PK)** | VARCHAR(12) | ID unik dokter (Wajib diisi) | `DOC000001` |
+| **clinic_id (FK)** | VARCHAR(12) | ID klinik tempat dokter praktik (Wajib diisi) | `CLN00025` |
+| **doctor_name** | VARCHAR(200) | Nama lengkap dokter (Wajib diisi) | `dr. Abyasa Jailani` |
+| **doctor_gender** | CHAR(1) | Jenis kelamin dokter (misal: 'L' untuk Laki-laki) | `L` |
+| **doctor_specialty** | VARCHAR(100) | Bidang spesialisasi dokter | `Umum` |
+| **doctor_consultation_fee** | DECIMAL(14,2) | Biaya konsultasi dokter | `50000.00` |
+
+**Catatan:** * Tabel ini memiliki **Foreign Key** pada kolom `clinic_id` yang terhubung langsung ke tabel `clinic`.
+* Dilengkapi dengan **Unique Key** (`uk_doctor_natural`) pada kombinasi ID klinik, nama, jenis kelamin, dan spesialisasi untuk mencegah duplikasi pencatatan dokter yang sama di satu klinik.
+
+with the SQL script :
+
+```sql
+CREATE TABLE IF NOT EXISTS `doctor` (
+  `doctor_id` VARCHAR(12) NOT NULL,
+  `clinic_id` VARCHAR(12) NOT NULL,
+  `doctor_name` VARCHAR(200) NOT NULL,
+  `doctor_gender` CHAR(1) NULL,
+  `doctor_specialty` VARCHAR(100) NULL,
+  `doctor_consultation_fee` DECIMAL(14,2) NULL,
+  PRIMARY KEY (`doctor_id`),
+  UNIQUE KEY `uk_doctor_natural` (`clinic_id`, `doctor_name`, `doctor_gender`, `doctor_specialty`),
+  KEY `idx_doctor_clinic` (`clinic_id`),
+  CONSTRAINT `fk_doctor_clinic`
+    FOREIGN KEY (`clinic_id`) REFERENCES `clinic` (`clinic_id`)
+    ON UPDATE CASCADE ON DELETE RESTRICT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+### 👤 Membuat Tabel Pasien
+
+Tabel `patient` berfungsi untuk menyimpan data demografi dan informasi fisik dari pasien. Tabel ini memuat ID unik pasien, nama lengkap, jenis kelamin, tanggal lahir, tinggi dan berat badan, lokasi domisili, hingga jenis layanan pasien (seperti BPJS atau Umum).
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **patient_id (PK)** | VARCHAR(14) | ID unik pasien (Wajib diisi) | `PAT0000001` |
+| **patient_name** | VARCHAR(200) | Nama lengkap pasien (Wajib diisi) | `Abyasa Agustina` |
+| **gender** | CHAR(1) | Jenis kelamin pasien (misal: 'L' atau 'P') | `L` |
+| **date_of_birth** | DATE | Tanggal lahir pasien | `1988-05-05` |
+| **height** | SMALLINT | Tinggi badan pasien (dalam cm) | `176` |
+| **weight** | SMALLINT | Berat badan pasien (dalam kg) | `73` |
+| **patient_city** | VARCHAR(100) | Kota domisili pasien | `Balikpapan` |
+| **patient_province** | VARCHAR(100) | Provinsi domisili pasien | `Kalimantan Timur` |
+| **patient_type** | VARCHAR(50) | Jenis layanan atau asuransi pasien | `BPJS` |
+
+**Catatan:** Tabel ini dilengkapi dengan **Unique Key** (`uk_patient_natural`) pada kombinasi nama, jenis kelamin, tanggal lahir, postur tubuh (tinggi & berat), kota, provinsi, dan jenis pasien. Hal ini sangat berguna untuk mencegah pembuatan data rekam medis ganda untuk pasien yang sama persis.
+
+with the SQL script :
+
+```sql
+CREATE TABLE IF NOT EXISTS `patient` (
+  `patient_id` VARCHAR(14) NOT NULL,
+  `patient_name` VARCHAR(200) NOT NULL,
+  `gender` CHAR(1) NULL,
+  `date_of_birth` DATE NULL,
+  `height` SMALLINT NULL,
+  `weight` SMALLINT NULL,
+  `patient_city` VARCHAR(100) NULL,
+  `patient_province` VARCHAR(100) NULL,
+  `patient_type` VARCHAR(50) NULL,
+  PRIMARY KEY (`patient_id`),
+  UNIQUE KEY `uk_patient_natural` (`patient_name`, `gender`, `date_of_birth`, `height`, `weight`, `patient_city`, `patient_province`, `patient_type`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+### 💊 Membuat Tabel Obat (Medicine)
+
+Tabel `medicine` berfungsi untuk menyimpan data referensi obat-obatan yang tersedia di klinik. Tabel ini memuat informasi penting seperti ID unik obat, nama, kategori medis, harga satuan, dosis harian, hingga durasi konsumsi obat dalam hitungan hari.
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **medicine_id (PK)** | VARCHAR(12) | ID unik obat (Wajib diisi) | `MED000003` |
+| **medicine_name** | VARCHAR(255) | Nama obat beserta ukurannya (Wajib diisi) | `Amlodipine 5 mg tablet` |
+| **medicine_category** | VARCHAR(100) | Kategori jenis obat | `Antihipertensi` |
+| **medicine_unit_price** | DECIMAL(14,2) | Harga satuan obat | `900.00` |
+| **medicine_dosage_per_day** | DECIMAL(10,2) | Dosis konsumsi obat per hari | `1.00` |
+| **medicine_duration_days** | INT | Lama durasi konsumsi obat (dalam hari) | `7` |
+
+**Catatan:** Tabel ini dilengkapi dengan **Unique Key** (`uk_medicine_natural`) pada kombinasi nama obat, kategori, harga satuan, dosis per hari, dan durasi untuk memastikan tidak ada pencatatan atribut obat yang ganda di dalam sistem.
+
+with the SQL script :
+
+```sql
+CREATE TABLE IF NOT EXISTS `medicine` (
+  `medicine_id` VARCHAR(12) NOT NULL,
+  `medicine_name` VARCHAR(255) NOT NULL,
+  `medicine_category` VARCHAR(100) NULL,
+  `medicine_unit_price` DECIMAL(14,2) NULL,
+  `medicine_dosage_per_day` DECIMAL(10,2) NULL,
+  `medicine_duration_days` INT NULL,
+  PRIMARY KEY (`medicine_id`),
+  UNIQUE KEY `uk_medicine_natural` (`medicine_name`, `medicine_category`, `medicine_unit_price`, `medicine_dosage_per_day`, `medicine_duration_days`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
 Lanjut Seterusnya......
 
 
