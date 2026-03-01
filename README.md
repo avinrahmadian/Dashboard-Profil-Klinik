@@ -156,7 +156,6 @@ CREATE TABLE IF NOT EXISTS `clinic` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 🩺 Membuat Tabel Diagnosis
 
@@ -182,7 +181,6 @@ CREATE TABLE IF NOT EXISTS `diagnosis` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 👨‍⚕️ Membuat Tabel Dokter
 
@@ -221,7 +219,6 @@ CREATE TABLE IF NOT EXISTS `doctor` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 👤 Membuat Tabel Pasien
 
@@ -261,7 +258,6 @@ CREATE TABLE IF NOT EXISTS `patient` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 💊 Membuat Tabel Obat (Medicine)
 
@@ -295,7 +291,6 @@ CREATE TABLE IF NOT EXISTS `medicine` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 💳 Membuat Tabel Transaksi (Transactions)
 
@@ -348,7 +343,6 @@ CREATE TABLE IF NOT EXISTS `transactions` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 💉 Membuat Tabel Tindakan (Treatment)
 
@@ -376,7 +370,6 @@ CREATE TABLE IF NOT EXISTS `treatment` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 📅 Membuat Tabel Kunjungan (Visit)
 
@@ -423,7 +416,6 @@ CREATE TABLE IF NOT EXISTS `visit` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 📋 Membuat Tabel Diagnosis Kunjungan (Visit Diagnosis)
 
@@ -458,7 +450,6 @@ CREATE TABLE IF NOT EXISTS `visit_diagnosis` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 💊 Membuat Tabel Obat Kunjungan (Visit Medicine)
 
@@ -493,7 +484,6 @@ CREATE TABLE IF NOT EXISTS `visit_medicine` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 💉 Membuat Tabel Tindakan Kunjungan (Visit Treatment)
 
