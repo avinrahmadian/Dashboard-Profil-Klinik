@@ -122,7 +122,7 @@ CREATE DATABASE IF NOT EXISTS klinikhub_db;
 USE klinikhub_db;
 ```
 
-### 🏥 Membuat Tabel Klinik
+### 🏥 1. Membuat Tabel Klinik
 
 Tabel `clinic` menyediakan informasi mengenai entitas fasilitas kesehatan. Pengguna dapat mengetahui ID unik klinik, nama klinik, lokasi (kota dan provinsi), tanggal operasional, dokter kepala, hingga biaya administrasi.
 
@@ -157,32 +157,7 @@ CREATE TABLE IF NOT EXISTS `clinic` (
 
 </details>
 
-### 🩺 Membuat Tabel Diagnosis
-
-Tabel `diagnosis` menyimpan data referensi mengenai jenis penyakit atau diagnosis medis. Tabel ini mencatat ID unik untuk setiap diagnosis beserta nama penyakitnya.
-
-| Attribute | Type | Description | Contoh Isian |
-| :--- | :--- | :--- | :--- |
-| **diagnosis_id (PK)** | VARCHAR(12) | ID unik diagnosis (Wajib diisi) | `DIA00004` |
-| **diagnosis_name** | VARCHAR(200) | Nama diagnosis atau penyakit (Wajib diisi) | `Diare Akut` |
-
-**Catatan:** Tabel ini dilengkapi dengan *Unique Key* pada kolom nama diagnosis (`uk_diagnosis_name`) untuk memastikan tidak ada pencatatan nama penyakit yang ganda di dalam sistem.
-
-<details>
-<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
-
-```sql
-CREATE TABLE IF NOT EXISTS `diagnosis` (
-  `diagnosis_id` VARCHAR(12) NOT NULL,
-  `diagnosis_name` VARCHAR(200) NOT NULL,
-  PRIMARY KEY (`diagnosis_id`),
-  UNIQUE KEY `uk_diagnosis_name` (`diagnosis_name`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-```
-
-</details>
-
-### 👨‍⚕️ Membuat Tabel Dokter
+### 👨‍⚕️ 2. Membuat Tabel Dokter
 
 Tabel `doctor` menyimpan informasi detail mengenai dokter yang praktik di berbagai klinik. Tabel ini mencakup ID unik dokter, relasi ke klinik tempat praktik, nama, jenis kelamin, spesialisasi, hingga biaya konsultasi.
 
@@ -220,7 +195,7 @@ CREATE TABLE IF NOT EXISTS `doctor` (
 
 </details>
 
-### 👤 Membuat Tabel Pasien
+### 👤 3. Membuat Tabel Pasien
 
 Tabel `patient` berfungsi untuk menyimpan data demografi dan informasi fisik dari pasien. Tabel ini memuat ID unik pasien, nama lengkap, jenis kelamin, tanggal lahir, tinggi dan berat badan, lokasi domisili, hingga jenis layanan pasien (seperti BPJS atau Umum).
 
@@ -259,7 +234,32 @@ CREATE TABLE IF NOT EXISTS `patient` (
 
 </details>
 
-### 💊 Membuat Tabel Obat (Medicine)
+### 🩺 4. Membuat Tabel Diagnosis
+
+Tabel `diagnosis` menyimpan data referensi mengenai jenis penyakit atau diagnosis medis. Tabel ini mencatat ID unik untuk setiap diagnosis beserta nama penyakitnya.
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **diagnosis_id (PK)** | VARCHAR(12) | ID unik diagnosis (Wajib diisi) | `DIA00004` |
+| **diagnosis_name** | VARCHAR(200) | Nama diagnosis atau penyakit (Wajib diisi) | `Diare Akut` |
+
+**Catatan:** Tabel ini dilengkapi dengan *Unique Key* pada kolom nama diagnosis (`uk_diagnosis_name`) untuk memastikan tidak ada pencatatan nama penyakit yang ganda di dalam sistem.
+
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
+
+```sql
+CREATE TABLE IF NOT EXISTS `diagnosis` (
+  `diagnosis_id` VARCHAR(12) NOT NULL,
+  `diagnosis_name` VARCHAR(200) NOT NULL,
+  PRIMARY KEY (`diagnosis_id`),
+  UNIQUE KEY `uk_diagnosis_name` (`diagnosis_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+</details>
+
+### 💊 5. Membuat Tabel Obat (Medicine)
 
 Tabel `medicine` berfungsi untuk menyimpan data referensi obat-obatan yang tersedia di klinik. Tabel ini memuat informasi penting seperti ID unik obat, nama, kategori medis, harga satuan, dosis harian, hingga durasi konsumsi obat dalam hitungan hari.
 
@@ -292,7 +292,34 @@ CREATE TABLE IF NOT EXISTS `medicine` (
 
 </details>
 
-### 💳 Membuat Tabel Transaksi (Transactions)
+### 💉 6. Membuat Tabel Tindakan (Treatment)
+
+Tabel `treatment` menyimpan referensi data mengenai berbagai jenis tindakan medis atau layanan perawatan yang tersedia di klinik. Tabel ini mencatat ID unik, nama tindakan, beserta standar biaya untuk masing-masing tindakan tersebut.
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **treatment_id (PK)** | VARCHAR(12) | ID unik tindakan medis (Wajib diisi) | `TRT00001` |
+| **treatment_name** | VARCHAR(200) | Nama tindakan atau layanan medis (Wajib diisi) | `Konsultasi Kehamilan` |
+| **treatment_fee** | DECIMAL(14,2) | Standar biaya tindakan medis | `60000.00` |
+
+**Catatan:** Tabel ini dilengkapi dengan **Unique Key** (`uk_treatment_name_fee`) pada kombinasi nama tindakan dan biayanya. Hal ini berguna untuk mencegah adanya duplikasi pencatatan layanan yang sama dengan harga yang sama persis di dalam sistem.
+
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
+
+```sql
+CREATE TABLE IF NOT EXISTS `treatment` (
+  `treatment_id` VARCHAR(12) NOT NULL,
+  `treatment_name` VARCHAR(200) NOT NULL,
+  `treatment_fee` DECIMAL(14,2) NULL,
+  PRIMARY KEY (`treatment_id`),
+  UNIQUE KEY `uk_treatment_name_fee` (`treatment_name`, `treatment_fee`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+</details>
+
+### 💳 7. Membuat Tabel Transaksi (Transactions)
 
 Tabel `transactions` berfungsi untuk mencatat detail pembayaran dan tagihan dari setiap kunjungan pasien. Tabel ini merangkum rincian biaya mulai dari administrasi, konsultasi dokter, tindakan medis, hingga pembelian obat, serta menghubungkannya dengan data kunjungan dan diagnosis utama pasien.
 
@@ -344,34 +371,7 @@ CREATE TABLE IF NOT EXISTS `transactions` (
 
 </details>
 
-### 💉 Membuat Tabel Tindakan (Treatment)
-
-Tabel `treatment` menyimpan referensi data mengenai berbagai jenis tindakan medis atau layanan perawatan yang tersedia di klinik. Tabel ini mencatat ID unik, nama tindakan, beserta standar biaya untuk masing-masing tindakan tersebut.
-
-| Attribute | Type | Description | Contoh Isian |
-| :--- | :--- | :--- | :--- |
-| **treatment_id (PK)** | VARCHAR(12) | ID unik tindakan medis (Wajib diisi) | `TRT00001` |
-| **treatment_name** | VARCHAR(200) | Nama tindakan atau layanan medis (Wajib diisi) | `Konsultasi Kehamilan` |
-| **treatment_fee** | DECIMAL(14,2) | Standar biaya tindakan medis | `60000.00` |
-
-**Catatan:** Tabel ini dilengkapi dengan **Unique Key** (`uk_treatment_name_fee`) pada kombinasi nama tindakan dan biayanya. Hal ini berguna untuk mencegah adanya duplikasi pencatatan layanan yang sama dengan harga yang sama persis di dalam sistem.
-
-<details>
-<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
-
-```sql
-CREATE TABLE IF NOT EXISTS `treatment` (
-  `treatment_id` VARCHAR(12) NOT NULL,
-  `treatment_name` VARCHAR(200) NOT NULL,
-  `treatment_fee` DECIMAL(14,2) NULL,
-  PRIMARY KEY (`treatment_id`),
-  UNIQUE KEY `uk_treatment_name_fee` (`treatment_name`, `treatment_fee`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-```
-
-</details>
-
-### 📅 Membuat Tabel Kunjungan (Visit)
+### 📅 8. Membuat Tabel Kunjungan (Visit)
 
 Tabel `visit` adalah tabel operasional utama yang mencatat setiap kedatangan atau kunjungan pasien ke klinik. Tabel ini sangat krusial karena menghubungkan data pasien, dokter pemeriksa, lokasi klinik, waktu kejadian, hingga keluhan awal pasien.
 
@@ -417,7 +417,7 @@ CREATE TABLE IF NOT EXISTS `visit` (
 
 </details>
 
-### 📋 Membuat Tabel Diagnosis Kunjungan (Visit Diagnosis)
+### 📋 9. Membuat Tabel Diagnosis Kunjungan (Visit Diagnosis)
 
 Tabel `visit_diagnosis` merupakan tabel pendetailan yang mencatat rincian diagnosis penyakit dari setiap kunjungan pasien. Karena dalam satu kali kunjungan pasien bisa didiagnosis memiliki lebih dari satu penyakit, tabel ini menggunakan nomor urut sekuens (`diagnosis_seq`) untuk mencatat urutan diagnosisnya (misalnya urutan ke-1 untuk diagnosis utama).
 
@@ -451,7 +451,7 @@ CREATE TABLE IF NOT EXISTS `visit_diagnosis` (
 
 </details>
 
-### 💊 Membuat Tabel Obat Kunjungan (Visit Medicine)
+### 💊 10. Membuat Tabel Obat Kunjungan (Visit Medicine)
 
 Tabel `visit_medicine` adalah tabel pendetailan yang menyimpan riwayat resep atau pemberian obat kepada pasien dalam setiap kunjungan. Mengingat seorang pasien sering kali menerima lebih dari satu jenis obat dalam satu kali pemeriksaan, tabel ini menggunakan nomor urut sekuens (`medicine_seq`) untuk mendata setiap obat yang diberikan.
 
@@ -485,7 +485,7 @@ CREATE TABLE IF NOT EXISTS `visit_medicine` (
 
 </details>
 
-### 💉 Membuat Tabel Tindakan Kunjungan (Visit Treatment)
+### 💉 11. Membuat Tabel Tindakan Kunjungan (Visit Treatment)
 
 Tabel `visit_treatment` adalah tabel pendetailan yang berfungsi untuk mencatat riwayat tindakan medis atau perawatan yang diberikan kepada pasien selama waktu kunjungan. Karena pasien bisa menerima beberapa tindakan sekaligus dalam satu kali pemeriksaan, tabel ini menggunakan nomor urut sekuens (`treatment_seq`) untuk mendatanya dengan rapi.
 
