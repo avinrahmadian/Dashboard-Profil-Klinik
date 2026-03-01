@@ -1,0 +1,88 @@
+"clinic_id","clinic_name","clinic_city","clinic_province","clinic_open_date","head_doctor_name_of_clinic","administration_fee"
+"CLN00001","Klinik Sehat Bersama Balikpapan 1","Balikpapan","Kalimantan Timur","2019-07-11","dr. Lidya Mayasari, Sp.PD",50000
+"CLN00002","Klinik Sehat Bersama Balikpapan 2","Balikpapan","Kalimantan Timur","2011-12-12","dr. Amelia Lazuardi",50000
+"CLN00003","Klinik Sehat Bersama Bandar Lampung 1","Bandar Lampung","Lampung","2023-03-01","dr. Pranata Sinaga",50000
+"CLN00004","Klinik Sehat Bersama Bandar Lampung 2","Bandar Lampung","Lampung","2012-02-03","dr. Artawan Narpati, Sp.THT",50000
+"CLN00005","Klinik Sehat Bersama Bandung 1","Bandung","Jawa Barat","2021-01-19","dr. Liman Mulyani",60000
+"CLN00006","Klinik Sehat Bersama Bandung 2","Bandung","Jawa Barat","2012-04-04","dr. Raden Laksmiwati, Sp.PD",60000
+"CLN00007","Klinik Sehat Bersama Bandung 3","Bandung","Jawa Barat","2012-11-12","dr. Keisha Sihotang, Sp.OG",60000
+"CLN00008","Klinik Sehat Bersama Bandung 4","Bandung","Jawa Barat","2018-07-30","dr. Jane Dongoran, Sp.OG",60000
+"CLN00009","Klinik Sehat Bersama Bandung 5","Bandung","Jawa Barat","2024-06-23","dr. Vanesa Budiyanto, Sp.KK",60000
+"CLN00010","Klinik Sehat Bersama Bandung 6","Bandung","Jawa Barat","2018-02-14","dr. Nyoman Sudiati, Sp.OG",60000
+"CLN00011","Klinik Sehat Bersama Banjarmasin 1","Banjarmasin","Kalimantan Selatan","2011-10-31","dr. Viktor Puspasari, Sp.A",50000
+"CLN00012","Klinik Sehat Bersama Banjarmasin 2","Banjarmasin","Kalimantan Selatan","2013-08-18","dr. Siti Prayoga",50000
+"CLN00013","Klinik Sehat Bersama Banjarmasin 3","Banjarmasin","Kalimantan Selatan","2014-08-28","dr. Dimaz Sihotang, Sp.PD",50000
+"CLN00014","Klinik Sehat Bersama Banjarmasin 4","Banjarmasin","Kalimantan Selatan","2011-11-03","dr. Wani Mahendra, Sp.KK",50000
+"CLN00015","Klinik Sehat Bersama Bekasi 1","Bekasi","Jawa Barat","2017-12-08","dr. Karsana Palastri",50000
+"CLN00016","Klinik Sehat Bersama Bekasi 2","Bekasi","Jawa Barat","2022-12-29","dr. Eko Pranowo",50000
+"CLN00017","Klinik Sehat Bersama Bekasi 3","Bekasi","Jawa Barat","2021-07-25","drg. Hilda Padmasari",50000
+"CLN00018","Klinik Sehat Bersama Bekasi 4","Bekasi","Jawa Barat","2011-03-03","dr. Raina Pranowo, Sp.KK",50000
+"CLN00019","Klinik Sehat Bersama Bogor 1","Bogor","Jawa Barat","2024-08-23","dr. Restu Sihombing, Sp.OG",50000
+"CLN00020","Klinik Sehat Bersama Bogor 2","Bogor","Jawa Barat","2017-09-24","dr. Patricia Megantara",50000
+"CLN00021","Klinik Sehat Bersama Bogor 3","Bogor","Jawa Barat","2024-02-15","dr. Purwadi Rahayu",50000
+"CLN00022","Klinik Sehat Bersama Denpasar 1","Denpasar","Bali","2024-06-29","dr. Ellis Tampubolon",50000
+"CLN00023","Klinik Sehat Bersama Denpasar 2","Denpasar","Bali","2014-08-03","dr. Zulaikha Yulianti",50000
+"CLN00024","Klinik Sehat Bersama Denpasar 3","Denpasar","Bali","2012-07-08","drg. Bagus Maheswara",50000
+"CLN00025","Klinik Sehat Bersama Denpasar 4","Denpasar","Bali","2015-08-01","dr. Hartana Kuswandari",50000
+"CLN00026","Klinik Sehat Bersama Denpasar 5","Denpasar","Bali","2015-10-30","dr. Rahmi Latupono",50000
+"CLN00027","Klinik Sehat Bersama Denpasar 6","Denpasar","Bali","2020-01-14","dr. Caket Pangestu, Sp.THT",50000
+"CLN00028","Klinik Sehat Bersama Depok 1","Depok","Jawa Barat","2023-02-21","dr. Okto Nashiruddin, Sp.OG",50000
+"CLN00029","Klinik Sehat Bersama Depok 2","Depok","Jawa Barat","2023-04-21","dr. Mujur Sihombing, Sp.THT",50000
+"CLN00030","Klinik Sehat Bersama Depok 3","Depok","Jawa Barat","2011-12-09","dr. Bakidin Hutasoit",50000
+"CLN00031","Klinik Sehat Bersama Depok 4","Depok","Jawa Barat","2018-03-24","dr. Keisha Lailasari",50000
+"CLN00032","Klinik Sehat Bersama Depok 5","Depok","Jawa Barat","2023-05-29","dr. Sakura Puspita",50000
+"CLN00033","Klinik Sehat Bersama Jakarta 1","Jakarta","DKI Jakarta","2018-06-19","dr. Gawati Utami, Sp.A",60000
+"CLN00034","Klinik Sehat Bersama Jakarta 2","Jakarta","DKI Jakarta","2012-03-10","dr. Luluh Tamba, Sp.A",60000
+"CLN00035","Klinik Sehat Bersama Jakarta 3","Jakarta","DKI Jakarta","2011-02-18","dr. Ciaobella Nasyidah, Sp.A",60000
+"CLN00036","Klinik Sehat Bersama Jakarta 4","Jakarta","DKI Jakarta","2021-06-07","dr. Bambang Thamrin, Sp.PD",60000
+"CLN00037","Klinik Sehat Bersama Jakarta 5","Jakarta","DKI Jakarta","2010-11-21","dr. Syahrini Nasyidah",60000
+"CLN00038","Klinik Sehat Bersama Jakarta 6","Jakarta","DKI Jakarta","2020-12-22","dr. Sabrina Lestari, Sp.THT",60000
+"CLN00039","Klinik Sehat Bersama Jakarta 7","Jakarta","DKI Jakarta","2011-07-22","dr. Ganep Pratama, Sp.THT",60000
+"CLN00040","Klinik Sehat Bersama Jakarta 8","Jakarta","DKI Jakarta","2023-03-12","dr. Vicky Hutasoit",60000
+"CLN00041","Klinik Sehat Bersama Makassar 1","Makassar","Sulawesi Selatan","2017-01-12","dr. Aurora Anggraini",50000
+"CLN00042","Klinik Sehat Bersama Makassar 2","Makassar","Sulawesi Selatan","2010-05-15","dr. Keisha Irawan",50000
+"CLN00043","Klinik Sehat Bersama Makassar 3","Makassar","Sulawesi Selatan","2012-10-02","dr. Laila Pertiwi, Sp.THT",50000
+"CLN00044","Klinik Sehat Bersama Makassar 4","Makassar","Sulawesi Selatan","2023-09-29","dr. Jaeman Waskita",50000
+"CLN00045","Klinik Sehat Bersama Makassar 5","Makassar","Sulawesi Selatan","2016-05-12","dr. Gandi Widiastuti, Sp.PD",50000
+"CLN00046","Klinik Sehat Bersama Makassar 6","Makassar","Sulawesi Selatan","2020-08-31","dr. Chelsea Permadi",50000
+"CLN00047","Klinik Sehat Bersama Makassar 7","Makassar","Sulawesi Selatan","2014-01-27","dr. Yani Sihotang",50000
+"CLN00048","Klinik Sehat Bersama Makassar 8","Makassar","Sulawesi Selatan","2022-12-02","dr. Galuh Usamah",50000
+"CLN00049","Klinik Sehat Bersama Makassar 9","Makassar","Sulawesi Selatan","2020-06-02","dr. Keisha Irawan",50000
+"CLN00050","Klinik Sehat Bersama Malang 1","Malang","Jawa Timur","2014-11-15","dr. Tania Kusmawati, Sp.PD",50000
+"CLN00051","Klinik Sehat Bersama Malang 2","Malang","Jawa Timur","2012-08-20","dr. Usyi Irawan",50000
+"CLN00052","Klinik Sehat Bersama Medan 1","Medan","Sumatera Utara","2011-08-24","dr. Genta Aryani",60000
+"CLN00053","Klinik Sehat Bersama Medan 2","Medan","Sumatera Utara","2020-11-24","dr. Siti Mulyani",60000
+"CLN00054","Klinik Sehat Bersama Medan 3","Medan","Sumatera Utara","2018-06-07","dr. Tri Hutapea",60000
+"CLN00055","Klinik Sehat Bersama Medan 4","Medan","Sumatera Utara","2018-03-26","dr. Hartana Andriani",60000
+"CLN00056","Klinik Sehat Bersama Medan 5","Medan","Sumatera Utara","2024-03-15","dr. Ulya Manullang",60000
+"CLN00057","Klinik Sehat Bersama Padang 1","Padang","Sumatera Barat","2011-04-29","drg. Warsa Sihombing",50000
+"CLN00058","Klinik Sehat Bersama Padang 2","Padang","Sumatera Barat","2019-10-16","dr. Ian Halimah",50000
+"CLN00059","Klinik Sehat Bersama Palembang 1","Palembang","Sumatera Selatan","2020-04-25","dr. Omar Salahudin, Sp.KK",50000
+"CLN00060","Klinik Sehat Bersama Palembang 2","Palembang","Sumatera Selatan","2020-09-19","dr. Lega Safitri",50000
+"CLN00061","Klinik Sehat Bersama Palembang 3","Palembang","Sumatera Selatan","2011-11-27","drg. Kartika Utama",50000
+"CLN00062","Klinik Sehat Bersama Pekanbaru 1","Pekanbaru","Riau","2018-04-13","dr. Keisha Utama",50000
+"CLN00063","Klinik Sehat Bersama Pekanbaru 2","Pekanbaru","Riau","2018-09-08","dr. Dono Aryani",50000
+"CLN00064","Klinik Sehat Bersama Pontianak 1","Pontianak","Kalimantan Barat","2011-06-06","dr. Ridwan Prasetyo",50000
+"CLN00065","Klinik Sehat Bersama Pontianak 2","Pontianak","Kalimantan Barat","2013-04-15","dr. Jagaraga Pratiwi",50000
+"CLN00066","Klinik Sehat Bersama Pontianak 3","Pontianak","Kalimantan Barat","2015-07-14","dr. Hana Widodo",50000
+"CLN00067","Klinik Sehat Bersama Pontianak 4","Pontianak","Kalimantan Barat","2014-11-18","dr. Ozy Aryani, Sp.OG",50000
+"CLN00068","Klinik Sehat Bersama Semarang 1","Semarang","Jawa Tengah","2018-12-15","dr. Rafi Damanik",50000
+"CLN00069","Klinik Sehat Bersama Semarang 2","Semarang","Jawa Tengah","2011-05-08","drg. Vicky Dabukke",50000
+"CLN00070","Klinik Sehat Bersama Semarang 3","Semarang","Jawa Tengah","2010-10-08","dr. Faizah Hakim",50000
+"CLN00071","Klinik Sehat Bersama Surabaya 1","Surabaya","Jawa Timur","2014-10-24","dr. Kenzie Mandala, Sp.A",60000
+"CLN00072","Klinik Sehat Bersama Surabaya 2","Surabaya","Jawa Timur","2018-02-02","dr. Ilsa Tamba",60000
+"CLN00073","Klinik Sehat Bersama Surabaya 3","Surabaya","Jawa Timur","2021-10-10","dr. Gamblang Susanti",60000
+"CLN00074","Klinik Sehat Bersama Surabaya 4","Surabaya","Jawa Timur","2022-09-29","dr. Ade Rahayu, Sp.A",60000
+"CLN00075","Klinik Sehat Bersama Surabaya 5","Surabaya","Jawa Timur","2015-05-09","dr. Bahuwarna Napitupulu",60000
+"CLN00076","Klinik Sehat Bersama Surabaya 6","Surabaya","Jawa Timur","2022-03-26","drg. Enteng Napitupulu",60000
+"CLN00077","Klinik Sehat Bersama Surabaya 7","Surabaya","Jawa Timur","2020-05-11","drg. Elisa Kusumo",60000
+"CLN00078","Klinik Sehat Bersama Surabaya 8","Surabaya","Jawa Timur","2024-02-11","dr. Vicky Sitompul",60000
+"CLN00079","Klinik Sehat Bersama Surabaya 9","Surabaya","Jawa Timur","2021-05-12","dr. Arsipatra Usada, Sp.PD",60000
+"CLN00080","Klinik Sehat Bersama Tangerang 1","Tangerang","Banten","2016-04-29","dr. Zelaya Budiyanto, Sp.KK",50000
+"CLN00081","Klinik Sehat Bersama Tangerang 2","Tangerang","Banten","2020-08-28","dr. Adika Marbun, Sp.PD",50000
+"CLN00082","Klinik Sehat Bersama Tangerang 3","Tangerang","Banten","2010-08-12","drg. Rahayu Anggriawan",50000
+"CLN00083","Klinik Sehat Bersama Tangerang 4","Tangerang","Banten","2024-01-22","dr. Zelda Nasyidah, Sp.PD",50000
+"CLN00084","Klinik Sehat Bersama Yogyakarta 1","Yogyakarta","DI Yogyakarta","2020-02-21","dr. Harjaya Budiyanto",50000
+"CLN00085","Klinik Sehat Bersama Yogyakarta 2","Yogyakarta","DI Yogyakarta","2017-10-08","dr. Farah Maryadi, Sp.KK",50000
+"CLN00086","Klinik Sehat Bersama Yogyakarta 3","Yogyakarta","DI Yogyakarta","2024-02-10","dr. Dian Prasetyo",50000
+"CLN00087","Klinik Sehat Bersama Yogyakarta 4","Yogyakarta","DI Yogyakarta","2024-03-27","dr. Eva Suryono, Sp.A",50000
