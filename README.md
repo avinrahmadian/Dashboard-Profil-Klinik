@@ -126,99 +126,7 @@ USE klinikhub_db;
 
 Tabel `clinic` menyediakan informasi mengenai entitas fasilitas kesehatan. Pengguna dapat mengetahui ID unik klinik, nama klinik, lokasi (kota dan provinsi), tanggal operasional, dokter kepala, hingga biaya administrasi.
 
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| **clinic_id (PK)** | VARCHAR(12) | ID unik klinik (Wajib diisi) |
-| **clinic_name** | VARCHAR(200) | Nama klinik (Wajib diisi) |
-| **clinic_city** | VARCHAR(100) | Kota tempat klinik beroperasi (Wajib diisi) |
-| **clinic_province** | VARCHAR(100) | Provinsi tempat klinik beroperasi (Wajib diisi) |
-| **clinic_open_date** | DATE | Tanggal klinik mulai beroperasi |
-| **head_doctor_name_of_clinic** | VARCHAR(200) | Nama dokter kepala di klinik tersebut |
-| **administration_fee** | DECIMAL(14,2) | Biaya administrasi klinik |
-
-**Catatan:** Tabel ini dilengkapi dengan *Unique Key* pada kombinasi nama, kota, provinsi, tanggal buka, dan nama dokter untuk mencegah duplikasi data klinik.
-
-with the SQL script :
-
-```sql
-CREATE TABLE IF NOT EXISTS `clinic` (
-  `clinic_id` VARCHAR(12) NOT NULL,
-  `clinic_name` VARCHAR(200) NOT NULL,
-  `clinic_city` VARCHAR(100) NOT NULL,
-  `clinic_province` VARCHAR(100) NOT NULL,
-  `clinic_open_date` DATE NULL,
-  `head_doctor_name_of_clinic` VARCHAR(200) NULL,
-  `administration_fee` DECIMAL(14,2) NULL,
-  PRIMARY KEY (`clinic_id`),
-  UNIQUE KEY `uk_clinic_natural` (`clinic_name`, `clinic_city`, `clinic_province`, `clinic_open_date`, `head_doctor_name_of_clinic`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-```
-
-### 🩺 Membuat Tabel Diagnosis
-
-Tabel `diagnosis` menyimpan data referensi mengenai jenis penyakit atau diagnosis medis. Tabel ini mencatat ID unik untuk setiap diagnosis beserta nama penyakitnya.
-
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| **diagnosis_id (PK)** | VARCHAR(12) | ID unik diagnosis (Wajib diisi) |
-| **diagnosis_name** | VARCHAR(200) | Nama diagnosis atau penyakit (Wajib diisi) |
-
-**Catatan:** Tabel ini dilengkapi dengan *Unique Key* pada kolom nama diagnosis (`uk_diagnosis_name`) untuk memastikan tidak ada pencatatan nama penyakit yang ganda di dalam sistem.
-
-with the SQL script :
-
-```sql
-CREATE TABLE IF NOT EXISTS `diagnosis` (
-  `diagnosis_id` VARCHAR(12) NOT NULL,
-  `diagnosis_name` VARCHAR(200) NOT NULL,
-  PRIMARY KEY (`diagnosis_id`),
-  UNIQUE KEY `uk_diagnosis_name` (`diagnosis_name`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-```
-
-### 🏥 Membuat Tabel Klinik
-
-Tabel `clinic` menyediakan informasi mengenai entitas fasilitas kesehatan. Pengguna dapat mengetahui ID unik klinik, nama klinik, lokasi (kota dan provinsi), tanggal operasional, dokter kepala, hingga biaya administrasi.
-
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| **clinic_id (PK)** | VARCHAR(12) | ID unik klinik (Wajib diisi) |
-| **clinic_name** | VARCHAR(200) | Nama klinik (Wajib diisi) |
-| **clinic_city** | VARCHAR(100) | Kota tempat klinik beroperasi (Wajib diisi) |
-| **clinic_province** | VARCHAR(100) | Provinsi tempat klinik beroperasi (Wajib diisi) |
-| **clinic_open_date** | DATE | Tanggal klinik mulai beroperasi |
-| **head_doctor_name_of_clinic** | VARCHAR(200) | Nama dokter kepala di klinik tersebut |
-| **administration_fee** | DECIMAL(14,2) | Biaya administrasi klinik |
-
-**Catatan:** Tabel ini dilengkapi dengan *Unique Key* pada kombinasi nama, kota, provinsi, tanggal buka, dan nama dokter untuk mencegah duplikasi data klinik.
-
-**Contoh Data:**
-| clinic_id | clinic_name | clinic_city | clinic_province | clinic_open_date | head_doctor_name_of_clinic | administration_fee |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| CLN00001 | Klinik Sehat Bersama Balikpapan 1 | Balikpapan | Kalimantan Timur | 2019-07-11 | dr. Lidya Mayasari, Sp.PD | 50000.00 |
-| CLN00002 | Klinik Sehat Bersama Balikpapan 2 | Balikpapan | Kalimantan Timur | 2011-12-12 | dr. Amelia Lazuardi | 50000.00 |
-
-with the SQL script :
-
-```sql
-CREATE TABLE IF NOT EXISTS `clinic` (
-  `clinic_id` VARCHAR(12) NOT NULL,
-  `clinic_name` VARCHAR(200) NOT NULL,
-  `clinic_city` VARCHAR(100) NOT NULL,
-  `clinic_province` VARCHAR(100) NOT NULL,
-  `clinic_open_date` DATE NULL,
-  `head_doctor_name_of_clinic` VARCHAR(200) NULL,
-  `administration_fee` DECIMAL(14,2) NULL,
-  PRIMARY KEY (`clinic_id`),
-  UNIQUE KEY `uk_clinic_natural` (`clinic_name`, `clinic_city`, `clinic_province`, `clinic_open_date`, `head_doctor_name_of_clinic`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-```
-
-### 🏥 Membuat Tabel Klinik
-
-Tabel `clinic` menyediakan informasi mengenai entitas fasilitas kesehatan. Pengguna dapat mengetahui ID unik klinik, nama klinik, lokasi (kota dan provinsi), tanggal operasional, dokter kepala, hingga biaya administrasi.
-
-| Attribute | Type | Description | Contoh Data |
+| Attribute | Type | Description | Contoh Isian |
 | :--- | :--- | :--- | :--- |
 | **clinic_id (PK)** | VARCHAR(12) | ID unik klinik (Wajib diisi) | `CLN00001` |
 | **clinic_name** | VARCHAR(200) | Nama klinik (Wajib diisi) | `Klinik Sehat Bersama Balikpapan 1` |
@@ -246,6 +154,27 @@ CREATE TABLE IF NOT EXISTS `clinic` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+### 🩺 Membuat Tabel Diagnosis
+
+Tabel `diagnosis` menyimpan data referensi mengenai jenis penyakit atau diagnosis medis. Tabel ini mencatat ID unik untuk setiap diagnosis beserta nama penyakitnya.
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **diagnosis_id (PK)** | VARCHAR(12) | ID unik diagnosis (Wajib diisi) | `DIA00004` |
+| **diagnosis_name** | VARCHAR(200) | Nama diagnosis atau penyakit (Wajib diisi) | `Diare Akut` |
+
+**Catatan:** Tabel ini dilengkapi dengan *Unique Key* pada kolom nama diagnosis (`uk_diagnosis_name`) untuk memastikan tidak ada pencatatan nama penyakit yang ganda di dalam sistem.
+
+with the SQL script :
+
+```sql
+CREATE TABLE IF NOT EXISTS `diagnosis` (
+  `diagnosis_id` VARCHAR(12) NOT NULL,
+  `diagnosis_name` VARCHAR(200) NOT NULL,
+  PRIMARY KEY (`diagnosis_id`),
+  UNIQUE KEY `uk_diagnosis_name` (`diagnosis_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
 
 Lanjut Seterusnya......
 
