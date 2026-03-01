@@ -154,6 +154,42 @@ CREATE TABLE IF NOT EXISTS `clinic` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+### 🏥 Membuat Tabel Klinik
+
+Tabel `clinic` menyediakan informasi mengenai entitas fasilitas kesehatan. Pengguna dapat mengetahui ID unik klinik, nama klinik, lokasi (kota dan provinsi), tanggal operasional, dokter kepala, hingga biaya administrasi.
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **clinic_id (PK)** | VARCHAR(12) | ID unik klinik (Wajib diisi) | `CLN00001` |
+| **clinic_name** | VARCHAR(200) | Nama klinik (Wajib diisi) | `Klinik Sehat Bersama Balikpapan 1` |
+| **clinic_city** | VARCHAR(100) | Kota tempat klinik beroperasi (Wajib diisi) | `Balikpapan` |
+| **clinic_province** | VARCHAR(100) | Provinsi tempat klinik beroperasi (Wajib diisi) | `Kalimantan Timur` |
+| **clinic_open_date** | DATE | Tanggal klinik mulai beroperasi | `2019-07-11` |
+| **head_doctor_name_of_clinic** | VARCHAR(200) | Nama dokter kepala di klinik tersebut | `dr. Lidya Mayasari, Sp.PD` |
+| **administration_fee** | DECIMAL(14,2) | Biaya administrasi klinik | `50000.00` |
+
+**Catatan:** Tabel ini dilengkapi dengan *Unique Key* pada kombinasi nama, kota, provinsi, tanggal buka, dan nama dokter untuk mencegah duplikasi data klinik.
+
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
+
+```sql
+CREATE TABLE IF NOT EXISTS `clinic` (
+  `clinic_id` VARCHAR(12) NOT NULL,
+  `clinic_name` VARCHAR(200) NOT NULL,
+  `clinic_city` VARCHAR(100) NOT NULL,
+  `clinic_province` VARCHAR(100) NOT NULL,
+  `clinic_open_date` DATE NULL,
+  `head_doctor_name_of_clinic` VARCHAR(200) NULL,
+  `administration_fee` DECIMAL(14,2) NULL,
+  PRIMARY KEY (`clinic_id`),
+  UNIQUE KEY `uk_clinic_natural` (`clinic_name`, `clinic_city`, `clinic_province`, `clinic_open_date`, `head_doctor_name_of_clinic`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
+
 ### 🩺 Membuat Tabel Diagnosis
 
 Tabel `diagnosis` menyimpan data referensi mengenai jenis penyakit atau diagnosis medis. Tabel ini mencatat ID unik untuk setiap diagnosis beserta nama penyakitnya.
