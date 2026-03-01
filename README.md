@@ -593,52 +593,6 @@ Proyek **KlinikHub** ini dikembangkan melalui kolaborasi tim yang hebat, dengan 
 </table>
 <br>
 
-## 👥 Tim Pengembang
-
-Proyek **KlinikHub** ini dikembangkan melalui kolaborasi tim yang hebat, dengan rincian anggota dan pembagian peran sebagai berikut:
-
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/username_joice">
-        <img src="https://github.com/username_joice.png?size=250" width="200px;" alt="Joice"/><br>
-        <br><b>Joice Junansi T.</b>
-      </a><br>
-      <sub>M0501251007</sub><br>
-      <i>Database Manager</i>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/username_wita">
-        <img src="https://github.com/username_wita.png?size=250" width="200px;" alt="Wita"/><br>
-        <br><b>Baiq Wita Rachmatia</b>
-      </a><br>
-      <sub>M0501251061</sub><br>
-      <i>Frontend Developer</i>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <br>
-      <a href="https://github.com/avinrahmadian">
-        <img src="https://github.com/avinrahmadian.png?size=250" width="200px;" alt="Avin"/><br>
-        <br><b>Avin Rahmadian</b>
-      </a><br>
-      <sub>M0501251023</sub><br>
-      <i>Backend Developer</i>
-    </td>
-    <td align="center" width="50%">
-      <br>
-      <a href="https://github.com/username_ika">
-        <img src="https://github.com/username_ika.png?size=250" width="200px;" alt="Ika"/><br>
-        <br><b>Ika Lailia N. R. N.</b>
-      </a><br>
-      <sub>M0501251020</sub><br>
-      <i>Data Analyst</i>
-    </td>
-  </tr>
-</table>
-<br>
-
 ## 👥 Tim Pengembang KlinikHub
 
 <table width="100%">
