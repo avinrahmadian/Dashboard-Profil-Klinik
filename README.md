@@ -424,10 +424,67 @@ CREATE TABLE IF NOT EXISTS `visit_diagnosis` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+### 💊 Membuat Tabel Obat Kunjungan (Visit Medicine)
 
+Tabel `visit_medicine` adalah tabel pendetailan yang menyimpan riwayat resep atau pemberian obat kepada pasien dalam setiap kunjungan. Mengingat seorang pasien sering kali menerima lebih dari satu jenis obat dalam satu kali pemeriksaan, tabel ini menggunakan nomor urut sekuens (`medicine_seq`) untuk mendata setiap obat yang diberikan.
 
-Lanjut Seterusnya......
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **visit_id (PK, FK)** | VARCHAR(20) | ID referensi kunjungan pasien (Wajib diisi) | `VST-0001E1133AB3` |
+| **medicine_seq (PK)** | INT | Nomor urut pemberian obat pada satu kunjungan | `1` |
+| **medicine_id (FK)** | VARCHAR(12) | ID referensi obat yang diresepkan | `MED000001` |
 
+**Catatan:** * Tabel ini menggunakan **Composite Primary Key** (Kunci Primer Gabungan) pada kolom `visit_id` dan `medicine_seq`.
+* Tabel ini juga memiliki **Foreign Key** ke tabel `visit` dan `medicine`. Sama seperti tabel diagnosis kunjungan, relasi ke tabel `visit` menggunakan aturan `ON DELETE CASCADE` agar data rincian obat otomatis terhapus jika data kunjungan utamanya dihapus.
+
+with the SQL script :
+
+```sql
+CREATE TABLE IF NOT EXISTS `visit_medicine` (
+  `visit_id` VARCHAR(20) NOT NULL,
+  `medicine_seq` INT NOT NULL,
+  `medicine_id` VARCHAR(12) NOT NULL,
+  PRIMARY KEY (`visit_id`, `medicine_seq`),
+  KEY `idx_visit_medicine_medicine` (`medicine_id`),
+  CONSTRAINT `fk_visit_medicine_visit`
+    FOREIGN KEY (`visit_id`) REFERENCES `visit` (`visit_id`)
+    ON UPDATE CASCADE ON DELETE CASCADE,
+  CONSTRAINT `fk_visit_medicine_medicine`
+    FOREIGN KEY (`medicine_id`) REFERENCES `medicine` (`medicine_id`)
+    ON UPDATE CASCADE ON DELETE RESTRICT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+### 💉 Membuat Tabel Tindakan Kunjungan (Visit Treatment)
+
+Tabel `visit_treatment` adalah tabel pendetailan yang berfungsi untuk mencatat riwayat tindakan medis atau perawatan yang diberikan kepada pasien selama waktu kunjungan. Karena pasien bisa menerima beberapa tindakan sekaligus dalam satu kali pemeriksaan, tabel ini menggunakan nomor urut sekuens (`treatment_seq`) untuk mendatanya dengan rapi.
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **visit_id (PK, FK)** | VARCHAR(20) | ID referensi kunjungan pasien (Wajib diisi) | `VST-001B45B2C354` |
+| **treatment_seq (PK)** | INT | Nomor urut tindakan medis pada satu kunjungan | `2` |
+| **treatment_id (FK)** | VARCHAR(12) | ID referensi tindakan medis yang diberikan | `TRT00001` |
+
+**Catatan:** * Tabel ini menggunakan **Composite Primary Key** (Kunci Primer Gabungan) pada kolom `visit_id` dan `treatment_seq`.
+* Memiliki **Foreign Key** ke tabel `visit` dan `treatment`. Relasi ke tabel `visit` menerapkan `ON DELETE CASCADE`, sehingga jika rujukan data kunjungan utamanya dihapus, maka rincian tindakan pada kunjungan tersebut juga akan terhapus otomatis demi menjaga integritas data.
+
+with the SQL script :
+
+```sql
+CREATE TABLE IF NOT EXISTS `visit_treatment` (
+  `visit_id` VARCHAR(20) NOT NULL,
+  `treatment_seq` INT NOT NULL,
+  `treatment_id` VARCHAR(12) NOT NULL,
+  PRIMARY KEY (`visit_id`, `treatment_seq`),
+  KEY `idx_visit_treatment_treatment` (`treatment_id`),
+  CONSTRAINT `fk_visit_treatment_visit`
+    FOREIGN KEY (`visit_id`) REFERENCES `visit` (`visit_id`)
+    ON UPDATE CASCADE ON DELETE CASCADE,
+  CONSTRAINT `fk_visit_treatment_treatment`
+    FOREIGN KEY (`treatment_id`) REFERENCES `treatment` (`treatment_id`)
+    ON UPDATE CASCADE ON DELETE RESTRICT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
 
 <h2 id="tools-digunakan">🛠️ Tools yang Digunakan</h2>
 
