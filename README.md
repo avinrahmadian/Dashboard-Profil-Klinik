@@ -138,38 +138,6 @@ Tabel `clinic` menyediakan informasi mengenai entitas fasilitas kesehatan. Pengg
 
 **Catatan:** Tabel ini dilengkapi dengan *Unique Key* pada kombinasi nama, kota, provinsi, tanggal buka, dan nama dokter untuk mencegah duplikasi data klinik.
 
-with the SQL script :
-
-```sql
-CREATE TABLE IF NOT EXISTS `clinic` (
-  `clinic_id` VARCHAR(12) NOT NULL,
-  `clinic_name` VARCHAR(200) NOT NULL,
-  `clinic_city` VARCHAR(100) NOT NULL,
-  `clinic_province` VARCHAR(100) NOT NULL,
-  `clinic_open_date` DATE NULL,
-  `head_doctor_name_of_clinic` VARCHAR(200) NULL,
-  `administration_fee` DECIMAL(14,2) NULL,
-  PRIMARY KEY (`clinic_id`),
-  UNIQUE KEY `uk_clinic_natural` (`clinic_name`, `clinic_city`, `clinic_province`, `clinic_open_date`, `head_doctor_name_of_clinic`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-```
-
-### 🏥 Membuat Tabel Klinik
-
-Tabel `clinic` menyediakan informasi mengenai entitas fasilitas kesehatan. Pengguna dapat mengetahui ID unik klinik, nama klinik, lokasi (kota dan provinsi), tanggal operasional, dokter kepala, hingga biaya administrasi.
-
-| Attribute | Type | Description | Contoh Isian |
-| :--- | :--- | :--- | :--- |
-| **clinic_id (PK)** | VARCHAR(12) | ID unik klinik (Wajib diisi) | `CLN00001` |
-| **clinic_name** | VARCHAR(200) | Nama klinik (Wajib diisi) | `Klinik Sehat Bersama Balikpapan 1` |
-| **clinic_city** | VARCHAR(100) | Kota tempat klinik beroperasi (Wajib diisi) | `Balikpapan` |
-| **clinic_province** | VARCHAR(100) | Provinsi tempat klinik beroperasi (Wajib diisi) | `Kalimantan Timur` |
-| **clinic_open_date** | DATE | Tanggal klinik mulai beroperasi | `2019-07-11` |
-| **head_doctor_name_of_clinic** | VARCHAR(200) | Nama dokter kepala di klinik tersebut | `dr. Lidya Mayasari, Sp.PD` |
-| **administration_fee** | DECIMAL(14,2) | Biaya administrasi klinik | `50000.00` |
-
-**Catatan:** Tabel ini dilengkapi dengan *Unique Key* pada kombinasi nama, kota, provinsi, tanggal buka, dan nama dokter untuk mencegah duplikasi data klinik.
-
 <details>
 <summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
@@ -201,7 +169,8 @@ Tabel `diagnosis` menyimpan data referensi mengenai jenis penyakit atau diagnosi
 
 **Catatan:** Tabel ini dilengkapi dengan *Unique Key* pada kolom nama diagnosis (`uk_diagnosis_name`) untuk memastikan tidak ada pencatatan nama penyakit yang ganda di dalam sistem.
 
-with the SQL script :
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
 ```sql
 CREATE TABLE IF NOT EXISTS `diagnosis` (
@@ -211,6 +180,9 @@ CREATE TABLE IF NOT EXISTS `diagnosis` (
   UNIQUE KEY `uk_diagnosis_name` (`diagnosis_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
+
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 👨‍⚕️ Membuat Tabel Dokter
 
@@ -228,7 +200,8 @@ Tabel `doctor` menyimpan informasi detail mengenai dokter yang praktik di berbag
 **Catatan:** * Tabel ini memiliki **Foreign Key** pada kolom `clinic_id` yang terhubung langsung ke tabel `clinic`.
 * Dilengkapi dengan **Unique Key** (`uk_doctor_natural`) pada kombinasi ID klinik, nama, jenis kelamin, dan spesialisasi untuk mencegah duplikasi pencatatan dokter yang sama di satu klinik.
 
-with the SQL script :
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
 ```sql
 CREATE TABLE IF NOT EXISTS `doctor` (
@@ -246,6 +219,9 @@ CREATE TABLE IF NOT EXISTS `doctor` (
     ON UPDATE CASCADE ON DELETE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
+
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 👤 Membuat Tabel Pasien
 
@@ -265,7 +241,8 @@ Tabel `patient` berfungsi untuk menyimpan data demografi dan informasi fisik dar
 
 **Catatan:** Tabel ini dilengkapi dengan **Unique Key** (`uk_patient_natural`) pada kombinasi nama, jenis kelamin, tanggal lahir, postur tubuh (tinggi & berat), kota, provinsi, dan jenis pasien. Hal ini sangat berguna untuk mencegah pembuatan data rekam medis ganda untuk pasien yang sama persis.
 
-with the SQL script :
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
 ```sql
 CREATE TABLE IF NOT EXISTS `patient` (
@@ -283,6 +260,9 @@ CREATE TABLE IF NOT EXISTS `patient` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
+
 ### 💊 Membuat Tabel Obat (Medicine)
 
 Tabel `medicine` berfungsi untuk menyimpan data referensi obat-obatan yang tersedia di klinik. Tabel ini memuat informasi penting seperti ID unik obat, nama, kategori medis, harga satuan, dosis harian, hingga durasi konsumsi obat dalam hitungan hari.
@@ -298,7 +278,8 @@ Tabel `medicine` berfungsi untuk menyimpan data referensi obat-obatan yang terse
 
 **Catatan:** Tabel ini dilengkapi dengan **Unique Key** (`uk_medicine_natural`) pada kombinasi nama obat, kategori, harga satuan, dosis per hari, dan durasi untuk memastikan tidak ada pencatatan atribut obat yang ganda di dalam sistem.
 
-with the SQL script :
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
 ```sql
 CREATE TABLE IF NOT EXISTS `medicine` (
@@ -312,6 +293,9 @@ CREATE TABLE IF NOT EXISTS `medicine` (
   UNIQUE KEY `uk_medicine_natural` (`medicine_name`, `medicine_category`, `medicine_unit_price`, `medicine_dosage_per_day`, `medicine_duration_days`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
+
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 💳 Membuat Tabel Transaksi (Transactions)
 
@@ -334,7 +318,8 @@ Tabel `transactions` berfungsi untuk mencatat detail pembayaran dan tagihan dari
 **Catatan:** * Tabel ini memiliki **Foreign Key** ke tabel `visit` (`visit_id`) dan tabel `diagnosis` (`primary_diagnosis_id`).
 * Terdapat **Unique Key** pada `transaction_number` untuk memastikan nomor struk/invoice tidak ada yang ganda, serta pada `visit_id` yang menandakan bahwa satu kunjungan hanya bisa memiliki satu transaksi pembayaran.
 
-with the SQL script :
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
 ```sql
 CREATE TABLE IF NOT EXISTS `transactions` (
@@ -362,6 +347,9 @@ CREATE TABLE IF NOT EXISTS `transactions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
+
 ### 💉 Membuat Tabel Tindakan (Treatment)
 
 Tabel `treatment` menyimpan referensi data mengenai berbagai jenis tindakan medis atau layanan perawatan yang tersedia di klinik. Tabel ini mencatat ID unik, nama tindakan, beserta standar biaya untuk masing-masing tindakan tersebut.
@@ -374,7 +362,8 @@ Tabel `treatment` menyimpan referensi data mengenai berbagai jenis tindakan medi
 
 **Catatan:** Tabel ini dilengkapi dengan **Unique Key** (`uk_treatment_name_fee`) pada kombinasi nama tindakan dan biayanya. Hal ini berguna untuk mencegah adanya duplikasi pencatatan layanan yang sama dengan harga yang sama persis di dalam sistem.
 
-with the SQL script :
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
 ```sql
 CREATE TABLE IF NOT EXISTS `treatment` (
@@ -385,6 +374,9 @@ CREATE TABLE IF NOT EXISTS `treatment` (
   UNIQUE KEY `uk_treatment_name_fee` (`treatment_name`, `treatment_fee`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
+
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 ### 📅 Membuat Tabel Kunjungan (Visit)
 
@@ -402,7 +394,8 @@ Tabel `visit` adalah tabel operasional utama yang mencatat setiap kedatangan ata
 **Catatan:** * Tabel ini bertindak sebagai jembatan relasi dengan memiliki **Foreign Key** ke tiga tabel sekaligus: `clinic`, `doctor`, dan `patient`.
 * Tabel ini juga dilengkapi dengan beberapa indeks (seperti `idx_visit_datetime`) untuk mempercepat proses pencarian atau *filtering* data berdasarkan tanggal, klinik, dokter, maupun pasien.
 
-with the SQL script :
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
 ```sql
 CREATE TABLE IF NOT EXISTS `visit` (
@@ -429,6 +422,9 @@ CREATE TABLE IF NOT EXISTS `visit` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
+
 ### 📋 Membuat Tabel Diagnosis Kunjungan (Visit Diagnosis)
 
 Tabel `visit_diagnosis` merupakan tabel pendetailan yang mencatat rincian diagnosis penyakit dari setiap kunjungan pasien. Karena dalam satu kali kunjungan pasien bisa didiagnosis memiliki lebih dari satu penyakit, tabel ini menggunakan nomor urut sekuens (`diagnosis_seq`) untuk mencatat urutan diagnosisnya (misalnya urutan ke-1 untuk diagnosis utama).
@@ -442,7 +438,8 @@ Tabel `visit_diagnosis` merupakan tabel pendetailan yang mencatat rincian diagno
 **Catatan:** * Tabel ini menggunakan **Composite Primary Key** (Kunci Primer Gabungan) pada kolom `visit_id` dan `diagnosis_seq`.
 * Tabel ini memiliki **Foreign Key** ke tabel `visit` dan `diagnosis`. Menariknya, relasi ke tabel `visit` menggunakan aturan `ON DELETE CASCADE`, yang artinya jika data sebuah kunjungan dihapus oleh sistem, maka rincian diagnosis untuk kunjungan tersebut akan ikut terhapus secara otomatis agar tidak menjadi data yatim/sampah (*orphan data*).
 
-with the SQL script :
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
 ```sql
 CREATE TABLE IF NOT EXISTS `visit_diagnosis` (
@@ -460,6 +457,9 @@ CREATE TABLE IF NOT EXISTS `visit_diagnosis` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
+
 ### 💊 Membuat Tabel Obat Kunjungan (Visit Medicine)
 
 Tabel `visit_medicine` adalah tabel pendetailan yang menyimpan riwayat resep atau pemberian obat kepada pasien dalam setiap kunjungan. Mengingat seorang pasien sering kali menerima lebih dari satu jenis obat dalam satu kali pemeriksaan, tabel ini menggunakan nomor urut sekuens (`medicine_seq`) untuk mendata setiap obat yang diberikan.
@@ -473,7 +473,8 @@ Tabel `visit_medicine` adalah tabel pendetailan yang menyimpan riwayat resep ata
 **Catatan:** * Tabel ini menggunakan **Composite Primary Key** (Kunci Primer Gabungan) pada kolom `visit_id` dan `medicine_seq`.
 * Tabel ini juga memiliki **Foreign Key** ke tabel `visit` dan `medicine`. Sama seperti tabel diagnosis kunjungan, relasi ke tabel `visit` menggunakan aturan `ON DELETE CASCADE` agar data rincian obat otomatis terhapus jika data kunjungan utamanya dihapus.
 
-with the SQL script :
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
 ```sql
 CREATE TABLE IF NOT EXISTS `visit_medicine` (
@@ -491,6 +492,9 @@ CREATE TABLE IF NOT EXISTS `visit_medicine` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
+
 ### 💉 Membuat Tabel Tindakan Kunjungan (Visit Treatment)
 
 Tabel `visit_treatment` adalah tabel pendetailan yang berfungsi untuk mencatat riwayat tindakan medis atau perawatan yang diberikan kepada pasien selama waktu kunjungan. Karena pasien bisa menerima beberapa tindakan sekaligus dalam satu kali pemeriksaan, tabel ini menggunakan nomor urut sekuens (`treatment_seq`) untuk mendatanya dengan rapi.
@@ -504,7 +508,8 @@ Tabel `visit_treatment` adalah tabel pendetailan yang berfungsi untuk mencatat r
 **Catatan:** * Tabel ini menggunakan **Composite Primary Key** (Kunci Primer Gabungan) pada kolom `visit_id` dan `treatment_seq`.
 * Memiliki **Foreign Key** ke tabel `visit` dan `treatment`. Relasi ke tabel `visit` menerapkan `ON DELETE CASCADE`, sehingga jika rujukan data kunjungan utamanya dihapus, maka rincian tindakan pada kunjungan tersebut juga akan terhapus otomatis demi menjaga integritas data.
 
-with the SQL script :
+<details>
+<summary><b>🖥️ Klik untuk melihat SQL Script</b></summary>
 
 ```sql
 CREATE TABLE IF NOT EXISTS `visit_treatment` (
@@ -521,6 +526,9 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
     ON UPDATE CASCADE ON DELETE RESTRICT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
+
+</details>
+<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
 <h2 id="tools-digunakan">🛠️ Tools yang Digunakan</h2>
 
