@@ -326,6 +326,106 @@ CREATE TABLE IF NOT EXISTS `transactions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+### 💉 Membuat Tabel Tindakan (Treatment)
+
+Tabel `treatment` menyimpan referensi data mengenai berbagai jenis tindakan medis atau layanan perawatan yang tersedia di klinik. Tabel ini mencatat ID unik, nama tindakan, beserta standar biaya untuk masing-masing tindakan tersebut.
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **treatment_id (PK)** | VARCHAR(12) | ID unik tindakan medis (Wajib diisi) | `TRT00001` |
+| **treatment_name** | VARCHAR(200) | Nama tindakan atau layanan medis (Wajib diisi) | `Konsultasi Kehamilan` |
+| **treatment_fee** | DECIMAL(14,2) | Standar biaya tindakan medis | `60000.00` |
+
+**Catatan:** Tabel ini dilengkapi dengan **Unique Key** (`uk_treatment_name_fee`) pada kombinasi nama tindakan dan biayanya. Hal ini berguna untuk mencegah adanya duplikasi pencatatan layanan yang sama dengan harga yang sama persis di dalam sistem.
+
+with the SQL script :
+
+```sql
+CREATE TABLE IF NOT EXISTS `treatment` (
+  `treatment_id` VARCHAR(12) NOT NULL,
+  `treatment_name` VARCHAR(200) NOT NULL,
+  `treatment_fee` DECIMAL(14,2) NULL,
+  PRIMARY KEY (`treatment_id`),
+  UNIQUE KEY `uk_treatment_name_fee` (`treatment_name`, `treatment_fee`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+### 📅 Membuat Tabel Kunjungan (Visit)
+
+Tabel `visit` adalah tabel operasional utama yang mencatat setiap kedatangan atau kunjungan pasien ke klinik. Tabel ini sangat krusial karena menghubungkan data pasien, dokter pemeriksa, lokasi klinik, waktu kejadian, hingga keluhan awal pasien.
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **visit_id (PK)** | VARCHAR(20) | ID unik kunjungan (Wajib diisi) | `VST-0000D83254E1` |
+| **visit_datetime** | DATETIME | Waktu dan tanggal pasien berkunjung | `2022-12-18 09:15:00` |
+| **clinic_id (FK)** | VARCHAR(12) | ID klinik tempat pasien berkunjung (Wajib diisi) | `CLN00073` |
+| **doctor_id (FK)** | VARCHAR(12) | ID dokter yang menangani pasien (Wajib diisi) | `DOC000104` |
+| **patient_id (FK)** | VARCHAR(14) | ID pasien yang berkunjung (Wajib diisi) | `PAT0098899` |
+| **complaint** | TEXT | Catatan keluhan awal atau gejala pasien | `Bersin-bersin dan hidung gatal berulang` |
+
+**Catatan:** * Tabel ini bertindak sebagai jembatan relasi dengan memiliki **Foreign Key** ke tiga tabel sekaligus: `clinic`, `doctor`, dan `patient`.
+* Tabel ini juga dilengkapi dengan beberapa indeks (seperti `idx_visit_datetime`) untuk mempercepat proses pencarian atau *filtering* data berdasarkan tanggal, klinik, dokter, maupun pasien.
+
+with the SQL script :
+
+```sql
+CREATE TABLE IF NOT EXISTS `visit` (
+  `visit_id` VARCHAR(20) NOT NULL,
+  `visit_datetime` DATETIME NULL,
+  `clinic_id` VARCHAR(12) NOT NULL,
+  `doctor_id` VARCHAR(12) NOT NULL,
+  `patient_id` VARCHAR(14) NOT NULL,
+  `complaint` TEXT NULL,
+  PRIMARY KEY (`visit_id`),
+  KEY `idx_visit_datetime` (`visit_datetime`),
+  KEY `idx_visit_clinic` (`clinic_id`),
+  KEY `idx_visit_doctor` (`doctor_id`),
+  KEY `idx_visit_patient` (`patient_id`),
+  CONSTRAINT `fk_visit_clinic`
+    FOREIGN KEY (`clinic_id`) REFERENCES `clinic` (`clinic_id`)
+    ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT `fk_visit_doctor`
+    FOREIGN KEY (`doctor_id`) REFERENCES `doctor` (`doctor_id`)
+    ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT `fk_visit_patient`
+    FOREIGN KEY (`patient_id`) REFERENCES `patient` (`patient_id`)
+    ON UPDATE CASCADE ON DELETE RESTRICT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+### 📋 Membuat Tabel Diagnosis Kunjungan (Visit Diagnosis)
+
+Tabel `visit_diagnosis` merupakan tabel pendetailan yang mencatat rincian diagnosis penyakit dari setiap kunjungan pasien. Karena dalam satu kali kunjungan pasien bisa didiagnosis memiliki lebih dari satu penyakit, tabel ini menggunakan nomor urut sekuens (`diagnosis_seq`) untuk mencatat urutan diagnosisnya (misalnya urutan ke-1 untuk diagnosis utama).
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **visit_id (PK, FK)** | VARCHAR(20) | ID referensi kunjungan pasien (Wajib diisi) | `VST-00028BB41ACC` |
+| **diagnosis_seq (PK)** | INT | Nomor urut diagnosis pada satu kunjungan | `1` |
+| **diagnosis_id (FK)** | VARCHAR(12) | ID referensi diagnosis atau penyakit | `DIA00001` |
+
+**Catatan:** * Tabel ini menggunakan **Composite Primary Key** (Kunci Primer Gabungan) pada kolom `visit_id` dan `diagnosis_seq`.
+* Tabel ini memiliki **Foreign Key** ke tabel `visit` dan `diagnosis`. Menariknya, relasi ke tabel `visit` menggunakan aturan `ON DELETE CASCADE`, yang artinya jika data sebuah kunjungan dihapus oleh sistem, maka rincian diagnosis untuk kunjungan tersebut akan ikut terhapus secara otomatis agar tidak menjadi data yatim/sampah (*orphan data*).
+
+with the SQL script :
+
+```sql
+CREATE TABLE IF NOT EXISTS `visit_diagnosis` (
+  `visit_id` VARCHAR(20) NOT NULL,
+  `diagnosis_seq` INT NOT NULL,
+  `diagnosis_id` VARCHAR(12) NOT NULL,
+  PRIMARY KEY (`visit_id`, `diagnosis_seq`),
+  KEY `idx_visit_diagnosis_diag` (`diagnosis_id`),
+  CONSTRAINT `fk_visit_diagnosis_visit`
+    FOREIGN KEY (`visit_id`) REFERENCES `visit` (`visit_id`)
+    ON UPDATE CASCADE ON DELETE CASCADE,
+  CONSTRAINT `fk_visit_diagnosis_diagnosis`
+    FOREIGN KEY (`diagnosis_id`) REFERENCES `diagnosis` (`diagnosis_id`)
+    ON UPDATE CASCADE ON DELETE RESTRICT
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+
+
 Lanjut Seterusnya......
 
 
