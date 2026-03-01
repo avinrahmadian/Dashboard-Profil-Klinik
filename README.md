@@ -277,6 +277,55 @@ CREATE TABLE IF NOT EXISTS `medicine` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
+### 💳 Membuat Tabel Transaksi (Transactions)
+
+Tabel `transactions` berfungsi untuk mencatat detail pembayaran dan tagihan dari setiap kunjungan pasien. Tabel ini merangkum rincian biaya mulai dari administrasi, konsultasi dokter, tindakan medis, hingga pembelian obat, serta menghubungkannya dengan data kunjungan dan diagnosis utama pasien.
+
+| Attribute | Type | Description | Contoh Isian |
+| :--- | :--- | :--- | :--- |
+| **transaction_id (PK)** | BIGINT | ID unik sistem untuk transaksi (Wajib diisi) | `1` |
+| **transaction_number** | VARCHAR(30) | Nomor referensi/invoice transaksi (Wajib diisi) | `TRX-00000001` |
+| **visit_id (FK)** | VARCHAR(20) | ID kunjungan referensi (Wajib diisi) | `VST-0000D83254E1` |
+| **primary_diagnosis_id (FK)** | VARCHAR(12) | ID diagnosis utama pada kunjungan tersebut | `DIA00019` |
+| **payment_method** | VARCHAR(30) | Metode pembayaran yang digunakan | `debit` |
+| **administration_fee** | DECIMAL(14,2) | Biaya administrasi klinik | `60000.00` |
+| **doctor_consultation_fee** | DECIMAL(14,2) | Biaya jasa konsultasi dokter | `60000.00` |
+| **treatment_total** | DECIMAL(14,2) | Total biaya tindakan/perawatan medis | `40000.00` |
+| **medicine_total** | DECIMAL(14,2) | Total biaya pembelian obat | `9600.00` |
+| **total_amount** | DECIMAL(14,2) | Total keseluruhan tagihan yang harus dibayar | `169600.00` |
+| **created_at** | TIMESTAMP | Waktu pencatatan transaksi di sistem | `2026-03-01 02:06:38` |
+
+**Catatan:** * Tabel ini memiliki **Foreign Key** ke tabel `visit` (`visit_id`) dan tabel `diagnosis` (`primary_diagnosis_id`).
+* Terdapat **Unique Key** pada `transaction_number` untuk memastikan nomor struk/invoice tidak ada yang ganda, serta pada `visit_id` yang menandakan bahwa satu kunjungan hanya bisa memiliki satu transaksi pembayaran.
+
+with the SQL script :
+
+```sql
+CREATE TABLE IF NOT EXISTS `transactions` (
+  `transaction_id` BIGINT NOT NULL,
+  `transaction_number` VARCHAR(30) NOT NULL,
+  `visit_id` VARCHAR(20) NOT NULL,
+  `primary_diagnosis_id` VARCHAR(12) NULL,
+  `payment_method` VARCHAR(30) NULL,
+  `administration_fee` DECIMAL(14,2) NULL,
+  `doctor_consultation_fee` DECIMAL(14,2) NULL,
+  `treatment_total` DECIMAL(14,2) NULL,
+  `medicine_total` DECIMAL(14,2) NULL,
+  `total_amount` DECIMAL(14,2) NULL,
+  `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`transaction_id`),
+  UNIQUE KEY `uk_transactions_number` (`transaction_number`),
+  UNIQUE KEY `uk_transactions_visit` (`visit_id`),
+  KEY `idx_transactions_diagnosis` (`primary_diagnosis_id`),
+  CONSTRAINT `fk_transactions_visit`
+    FOREIGN KEY (`visit_id`) REFERENCES `visit` (`visit_id`)
+    ON UPDATE CASCADE ON DELETE RESTRICT,
+  CONSTRAINT `fk_transactions_diagnosis`
+    FOREIGN KEY (`primary_diagnosis_id`) REFERENCES `diagnosis` (`diagnosis_id`)
+    ON UPDATE CASCADE ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
 Lanjut Seterusnya......
 
 
