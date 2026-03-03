@@ -46,17 +46,46 @@ Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis.
 <h2 id="tampilan-dashboard">📸 Tampilan Dashboard (Nanti Diisi Kalo Dashboard udah jadi + penjelasan menu)</h2>
 
 **1. Tampilan Menu Utama atau Homepage**
-* Menampilkan ringkasan informasi metrik penting (KPI) seperti total klinik, jumlah dokter terdaftar, dan total kunjungan pasien.
-* Statistik distribusi pasien berdasarkan poliklinik atau spesialisasi dalam bentuk grafik interaktif.
-* Menampilkan daftar layanan atau dokter dengan tingkat kunjungan tertinggi.
+* Menampilkan ringkasan informasi metrik penting (KPI) seperti total kunjungan, total pendapatan, jumlah cabang klinik, serta jumlah pasien dan dokter.
+* Grafik kunjungan pasien bulanan yang dilengkapi dengan fitur prediksi untuk membantu perencanaan operasional ke depan.
+* Visualisasi jenis diagnosa penyakit yang paling sering muncul agar beban kesehatan pasien mudah diidentifikasi.
+* Menampilkan lokasi geografis seluruh cabang klinik untuk melihat jangkauan layanan.
 
 *(Ganti teks ini dengan Screenshot Halaman Utama aplikasimu)*
 `![Homepage KlinikHub](link-gambar-atau-lokasi-folder-gambar.png)`
 
-**2. Tampilan Eksplorasi Data & Filter**
+**2. Tampilan Menu Klinik**
 * Menyediakan fitur filter dinamis untuk mencari data berdasarkan kategori tertentu.
-* Pengguna dapat mencari jadwal berdasarkan nama klinik, rentang tanggal kunjungan, atau nama dokter secara cepat.
-* Menampilkan detail tabel riwayat kunjungan dan tindakan medis pasien.
+* Menampilkan perbandingan antar klinik berdasarkan komponen biaya (admin, konsultasi, obat, dan tindakan).
+* Pengguna dapat melihat daftar cabang klinik dengan volume kunjungan pasien tertinggi.
+* Menampilkan analisis persentase pasien yang datang kembali dibandingkan dengan pasien baru.
+* Pengguna dapat melihat kecocokan antara fasilitas spesialisasi yang tersedia di tiap cabang dengan jumlah dokternya.
+* Terdapat detail tabel data mentah lengkap mengenai seluruh aktivitas di level klinik.
+
+**3. Tampilan Menu Dokter (Analisis Tenaga Medis)**
+* Menyediakan fitur filter dinamis untuk mencari data berdasarkan kategori tertentu.
+* Menyajikan informasi terkait total dokter, rata-rata beban pasien per dokter, dan spesialisasi yang paling banyak dicari.
+* Pengguna dapat melihat distribusi gender dokter di berbagai bidang spesialisasi.
+* Identifikasi dokter dengan jumlah kunjungan pasien terbanyak.
+* Menampilkan top 3 dokter dengan tarif tertinggi serta perbandingan harga konsultasi antar spesialis melalui grafik boxplot.
+* Terdapat detail tabel data mengenai profil dan performa masing-masing dokter.
+
+**4. Tampilan Menu Pasien (Analisis Demografi & Profil Kesehatan)**
+* Menyediakan informasi mengenai Distribusi pasien berdasarkan kelompok umur dan jenis kelamin.
+* Pengguna dapat melihat profil kesehatan fisik secara umum melalui grafik analisis hubungan tinggi dan berat badan pasien.
+* Visualisasi grafik garis yang menunjukkan perubahan jenis diagnosa penyakit dari waktu ke waktu.
+* Terdapat informasi mengenai proporsi pasien BPJS vs Umum serta metode pembayaran (Cash, Debit, QRIS) yang paling sering digunakan.
+* Tersedia tabel yang berisi data riwayat kunjungan pasien secara mendetail.
+
+**5. Tampilan Menu Obat (Analisis Farmasi)**
+* Menampilkan informasi mengenai total unit obat terjual, rata-rata jumlah obat dalam satu resep, dan kategori obat dengan harga tertinggi.
+* Pengguna dapat melihat daftar 10 besar obat yang paling banyak dikonsumsi oleh pasien.
+* Visualiasi tentang hubungan antara harga satuan obat dengan lama waktu pengobatan yang diberikan.
+* Menyajikan grafik analisis keterkaitan antar obat yang sering diresepkan secara bersamaan dalam satu kunjungan.
+*  Terdapat tabel yang memberikan informasi mengenai detail transaksi obat, dosis, hingga harga per unit.
+
+**5. Tampilan Team (Informasi Penyusun)**
+Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yang berkontribusi dalam pengembangan aplikasi KlinikHub.
 
 *(Ganti teks ini dengan Screenshot Halaman Eksplorasi aplikasimu)*
 `![Eksplorasi KlinikHub](link-gambar-atau-lokasi-folder-gambar.png)`
