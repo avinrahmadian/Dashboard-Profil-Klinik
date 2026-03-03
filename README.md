@@ -84,7 +84,8 @@ Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis.
 * Menyajikan grafik analisis keterkaitan antar obat yang sering diresepkan secara bersamaan dalam satu kunjungan.
 *  Terdapat tabel yang memberikan informasi mengenai detail transaksi obat, dosis, hingga harga per unit.
 
-**5. Tampilan Team (Informasi Penyusun)**
+**6. Tampilan Team (Informasi Penyusun)**
+
 Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yang berkontribusi dalam pengembangan aplikasi KlinikHub.
 
 *(Ganti teks ini dengan Screenshot Halaman Eksplorasi aplikasimu)*
