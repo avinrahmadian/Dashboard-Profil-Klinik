@@ -43,7 +43,7 @@ Proyek ini berangkat dari *dataset raw* berbentuk CSV (`Dataset_Klinik_Raw.csv` 
 
 Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis. Pengguna dapat dengan cepat memfilter informasi, menganalisis riwayat pasien, mengevaluasi tren layanan, serta menelusuri jadwal spesifik berdasarkan nama klinik maupun dokter.
 
-<h2 id="tampilan-dashboard">📸 Tampilan Dashboard (Nanti Diisi Kalo Dashboard udah jadi + penjelasan menu)</h2>
+<h2 id="tampilan-dashboard">📸 Tampilan Dashboard</h2>
 
 **1. Tampilan Menu Utama atau Homepage**
 * Menampilkan ringkasan informasi metrik penting (KPI) seperti total kunjungan, total pendapatan, jumlah cabang klinik, serta jumlah pasien dan dokter.
@@ -51,7 +51,7 @@ Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis.
 * Visualisasi jenis diagnosa penyakit yang paling sering muncul agar beban kesehatan pasien mudah diidentifikasi.
 * Menampilkan lokasi geografis seluruh cabang klinik untuk melihat jangkauan layanan.
 
-*(Ganti teks ini dengan Screenshot Halaman Utama aplikasimu)*
+
 `![Homepage Djiwa Medical](link-gambar-atau-lokasi-folder-gambar.png)`
 
 **2. Tampilan Menu Klinik**
@@ -88,7 +88,7 @@ Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis.
 
 Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yang berkontribusi dalam pengembangan aplikasi KlinikHub.
 
-*(Ganti teks ini dengan Screenshot Halaman Eksplorasi aplikasimu)*
+
 `![Eksplorasi Djiwa Medical](link-gambar-atau-lokasi-folder-gambar.png)`
 
 <h2 id="skema-basis-data">🗄️ Skema Basis Data & ERD</h2>
