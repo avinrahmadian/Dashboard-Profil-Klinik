@@ -3,12 +3,12 @@
   <br>
 </p>
 
-<h1 align="center">🏥 <b>Welcome To KlinikHub</b> 🚑💊</h1>
+<h1 align="center">🏥 <b>WELCOME TO DJIWA MEDICAL</b> 🚑💊</h1>
 <h2 align="center"><i>"Smart Insights, Healthy Lives"</i></h2>
 
 <div align="center">
   <a href="MASUKKAN_LINK_SHINYAPPS_DI_SINI">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-Coba_KlinikHub_Sekarang!-2ea043?style=for-the-badge" alt="Live Demo">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Coba_Djiwa Medical_Sekarang!-2ea043?style=for-the-badge" alt="Live Demo">
   </a>
 </div>
 
@@ -17,7 +17,7 @@
 ## 📑 Menu
 
 <div align="center">
-  <a href="#apa-itu-klinikhub"><img src="https://img.shields.io/badge/1.-Apa_itu_KlinikHub%3F-00599C?style=for-the-badge"></a>
+  <a href="#apa-itu-Djiwa Medical"><img src="https://img.shields.io/badge/1.-Apa_itu_Djiwa_Medical%3F-00599C?style=for-the-badge"></a>
   <a href="#deskripsi-proyek"><img src="https://img.shields.io/badge/2.-Deskripsi_Proyek-10b981?style=for-the-badge"></a>
   <a href="#tampilan-dashboard"><img src="https://img.shields.io/badge/3.-Tampilan_Dashboard-FF4B4B?style=for-the-badge"></a>
   <a href="#skema-basis-data"><img src="https://img.shields.io/badge/4.-Skema_Basis_Data_&_ERD-1E88E5?style=for-the-badge"></a>
@@ -27,17 +27,17 @@
   <a href="#tim-pengembang"><img src="https://img.shields.io/badge/8.-Tim_Pengembang-F57C00?style=for-the-badge"></a>
 </div>
 
-<h2 id="apa-itu-klinikhub">📌 Apa itu KlinikHub?</h2>
+<h2 id="apa-itu-Djiwa Medical">📌 Apa itu Djiwa Medical?</h2>
 
-🏥 **KlinikHub - Platform Pusat Informasi & Data Klinik**
+🏥 **Djiwa Medical - Platform Pusat Informasi & Data Klinik**
 
-**KlinikHub!** adalah platform analitik yang menghadirkan pengalaman terbaik dalam mengeksplorasi data kesehatan. Dengan database klinis yang terpercaya, pengguna dapat menelusuri profil pasien, tren penyakit, hingga statistik kunjungan secara akurat. Temukan wawasan medis terbaik hanya di KlinikHub! 📊🩺✨
+**Djiwa Medical!** adalah platform analitik yang menghadirkan pengalaman terbaik dalam mengeksplorasi data kesehatan. Dengan database klinis yang terpercaya, pengguna dapat menelusuri profil pasien, tren penyakit, hingga statistik kunjungan secara akurat. Temukan wawasan medis terbaik hanya di Djiwa Medical! 📊🩺✨
 
 > **Coba langsung aplikasinya secara interaktif melalui link [Live Demo di sini](MASUKKAN_LINK_SHINYAPPS_DI_SINI).**
 
 <h2 id="deskripsi-proyek">📋 Deskripsi Proyek</h2>
 
-Tugas mata kuliah **Pemrosesan Data Besar** ini bertujuan untuk merancang dan mengoptimalkan sistem manajemen database (Platform KlinikHub) serta memvisualisasikannya ke dalam bentuk *dashboard* interaktif berbasis web menggunakan framework **RShiny**.
+Tugas mata kuliah **Pemrosesan Data Besar** ini bertujuan untuk merancang dan mengoptimalkan sistem manajemen database (Platform Djiwa Medical) serta memvisualisasikannya ke dalam bentuk *dashboard* interaktif berbasis web menggunakan framework **RShiny**.
 
 Proyek ini berangkat dari *dataset raw* berbentuk CSV (`Dataset_Klinik_Raw.csv` dengan 307.188 baris dan 30 kolom) yang bersumber dari **Dataset Mata Kuliah Pemrosesan Data Besar**. Karena penyimpanan tabel tunggal berisiko memunculkan redundansi, data tersebut dinormalisasi ke dalam sistem basis data relasional. Struktur ini dirancang menggunakan *referential integrity constraints* pada entitas utamanya (klinik, dokter, pasien, kunjungan, dan tindakan medis) untuk memastikan validitas data dan efisiensi *query*.
 
@@ -52,7 +52,7 @@ Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis.
 * Menampilkan lokasi geografis seluruh cabang klinik untuk melihat jangkauan layanan.
 
 *(Ganti teks ini dengan Screenshot Halaman Utama aplikasimu)*
-`![Homepage KlinikHub](link-gambar-atau-lokasi-folder-gambar.png)`
+`![Homepage Djiwa Medical](link-gambar-atau-lokasi-folder-gambar.png)`
 
 **2. Tampilan Menu Klinik**
 * Menyediakan fitur filter dinamis untuk mencari data berdasarkan kategori tertentu.
@@ -89,16 +89,16 @@ Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis.
 Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yang berkontribusi dalam pengembangan aplikasi KlinikHub.
 
 *(Ganti teks ini dengan Screenshot Halaman Eksplorasi aplikasimu)*
-`![Eksplorasi KlinikHub](link-gambar-atau-lokasi-folder-gambar.png)`
+`![Eksplorasi Djiwa Medical](link-gambar-atau-lokasi-folder-gambar.png)`
 
 <h2 id="skema-basis-data">🗄️ Skema Basis Data & ERD</h2>
 
-<p>Sistem basis data dalam proyek <b>KlinikHub</b> dirancang menggunakan arsitektur relasional untuk memastikan integritas data medis dan efisiensi <i>query</i>. Semua entitas operasional terpusat dan berelasi kuat dengan entitas utama layanan kesehatan.</p>
+<p>Sistem basis data dalam proyek <b>Djiwa Medical</b> dirancang menggunakan arsitektur relasional untuk memastikan integritas data medis dan efisiensi <i>query</i>. Semua entitas operasional terpusat dan berelasi kuat dengan entitas utama layanan kesehatan.</p>
 
 <div align="center">
-  <img src="images/ERD.png" alt="Entity Relationship Diagram KlinikHub" width="80%">
+  <img src="images/ERD.png" alt="Entity Relationship Diagram Djiwa Medical" width="80%">
   <br>
-  <i>Gambar 1: Entity Relationship Diagram (ERD) KlinikHub</i>
+  <i>Gambar 1: Entity Relationship Diagram (ERD) Djiwa Medical</i>
 </div>
 <br>
 
@@ -140,11 +140,11 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
 
 <h2 id="deskripsi-data">📜 Deskripsi Data & DDL</h2>
 
-Bagian ini mendeskripsikan struktur tabel, tipe data (Data Dictionary), serta sintaks SQL (Data Definition Language/DDL) yang digunakan untuk membangun skema basis data KlinikHub.
+Bagian ini mendeskripsikan struktur tabel, tipe data (Data Dictionary), serta sintaks SQL (Data Definition Language/DDL) yang digunakan untuk membangun skema basis data Djiwa Medical.
 
 ### 🧮 Membuat Basis Data (Database)
 
-Basis Data **KlinikHub** menyimpan informasi operasional medis yang mewakili atribut data yang saling berhubungan untuk keperluan analisis.
+Basis Data **Djiwa Medical** menyimpan informasi operasional medis yang mewakili atribut data yang saling berhubungan untuk keperluan analisis.
 
 ```sql
 CREATE DATABASE IF NOT EXISTS klinikhub_db;
@@ -552,7 +552,7 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 
 <h2 id="tools-digunakan">🛠️ Tools yang Digunakan</h2>
 
-<p>Proyek <b>KlinikHub</b> dibangun menggunakan ekosistem teknologi modern untuk memastikan performa pengolahan data besar yang optimal dan antarmuka yang interaktif:</p>
+<p>Proyek <b>Djiwa Medical</b> dibangun menggunakan ekosistem teknologi modern untuk memastikan performa pengolahan data besar yang optimal dan antarmuka yang interaktif:</p>
 
 <table width="100%">
   <tr>
@@ -617,7 +617,7 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 
 <h2 id="tim-pengembang">👥 Tim Pengembang</h2>
 
-Proyek **KlinikHub** ini dikembangkan melalui kolaborasi tim yang hebat, dengan rincian anggota dan pembagian peran sebagai berikut:
+Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, dengan rincian anggota dan pembagian peran sebagai berikut:
 
 <table width="100%">
   <tr>
