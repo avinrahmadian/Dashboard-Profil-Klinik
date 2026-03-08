@@ -600,15 +600,15 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 
 ```text
 .
-├── 📂 app/                     # Direktori utama aplikasi RShiny
+├── 📂 Application/                     # Direktori utama aplikasi RShiny
 │   ├── 📄 server.R             # Logika backend, koneksi database, dan reaktivitas
 │   └── 📄 ui.R                 # Antarmuka pengguna (Frontend dashboard)
-├── 📂 data/                    # Penyimpanan dataset proyek
+├── 📂 Data/                    # Penyimpanan dataset proyek
 │   ├── 📂 clean/               # Dataset yang telah dinormalisasi (siap pakai)
 │   └── 📂 raw/                 # Dataset mentah awal (Dataset_Klinik_Raw.csv)
-├── 📂 doc/                     # Dokumentasi teknis proyek
+├── 📂 Documentation/                     # Dokumentasi teknis proyek
 │   └── 🖼️ ERD.png              # Gambar Entity Relationship Diagram (ERD)
-├── 📂 images/                  # Aset visual untuk UI dashboard dan README
+├── 📂 Images/                  # Aset visual untuk UI dashboard dan README
 │   ├── 🖼️ joice.png            # Foto profil anggota tim
 │   ├── 🖼️ wita.png
 │   └── 🖼️ ika.png
