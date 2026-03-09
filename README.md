@@ -637,7 +637,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <img src="images/wita.png" width="250" alt="Wita">
     </td>
     <td width="70%">
-      <h3><a href="https://github.com/username_wita">Baiq Wita Rachmatia</a></h3>
+      <h3><a href="https://github.com/baiqwitaa">Baiq Wita Rachmatia</a></h3>
       <b>M0501251061 | 🎨 Frontend Developer</b>
       <hr>
       <i>Merancang dan membangun antarmuka UI/UX dashboard RShiny yang interaktif dan responsif.</i>
