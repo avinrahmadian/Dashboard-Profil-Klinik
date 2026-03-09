@@ -1,15 +1,3 @@
--- ==========================================================
--- QUERY VISUALISASI LENGKAP DASHBOARD KLINIK (MySQL)
--- Tabel yang digunakan: clinic, doctor, patient, visit,
--- diagnosis, visit_diagnosis, treatment, visit_treatment,
--- medicine, visit_medicine, transactions
--- Placeholder filter klinik:
---   {{CLINIC_FILTER}}
--- Catatan:
--- - Gunakan alias `c` untuk filter klinik pada setiap query.
--- - Query prediksi bulanan memakai baseline moving average 3 bulan terakhir.
--- ==========================================================
-
 USE `db_klinik_normalisasi`;
 
 -- ==========================================================
