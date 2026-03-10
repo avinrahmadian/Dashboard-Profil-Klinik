@@ -41,8 +41,8 @@
   <div>
     <table>
       <tr border="0">
-        <td align= "center" width="40%" border="0">
-          <img src="Images/img_section1.png" width="300" height="450">
+        <td align= "center" width="40%">
+          <img src="Images/img_section1.png" width="100%">
         </td>
         <td width="60%" border="0">
           <b>Djiwa Medical!</b> adalah platform analitik yang menghadirkan pengalaman terbaik dalam mengeksplorasi data kesehatan. Dengan database klinis yang terpercaya,
