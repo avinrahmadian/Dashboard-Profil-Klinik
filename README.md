@@ -27,7 +27,7 @@
   <a href="#tim-pengembang"><img src="https://img.shields.io/badge/8.-Tim_Pengembang-F57C00?style=for-the-badge"></a>
 </div>
 
-<h2 id="apa-itu-Djiwa Medical">📌 
+<h2 id="apa-itu-Djiwa Medical">
   <p align="center">
   <img src="Images/section1.png" width="1000" height="300">
   </h2>
