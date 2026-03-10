@@ -52,6 +52,10 @@ Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis.
 * Menampilkan lokasi geografis seluruh cabang klinik untuk melihat jangkauan layanan.
 
 
+https://github.com/user-attachments/assets/84d850c6-7da1-4029-b34d-1f3d7b4f022d
+
+
+
 **2. Tampilan Menu Klinik**
 * Menyediakan fitur filter dinamis untuk mencari data berdasarkan kategori tertentu.
 * Menampilkan perbandingan antar klinik berdasarkan komponen biaya (admin, konsultasi, obat, dan tindakan).
