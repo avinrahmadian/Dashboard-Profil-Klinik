@@ -38,6 +38,20 @@
     <p align="center">
       <img src="Images/section1.png" width="1000" height="300">
   </h2>
+  <div>
+    <table>
+      <tr>
+        <td width="40%">
+          <img src="Images/img_section1.png" width="600" height="450">
+        </td>
+        <td width="60%">
+          **Djiwa Medical!** adalah platform analitik yang menghadirkan pengalaman terbaik dalam mengeksplorasi data kesehatan. Dengan database klinis yang terpercaya,
+          pengguna dapat menelusuri profil pasien, tren penyakit, hingga statistik kunjungan secara akurat. Temukan wawasan medis terbaik hanya di Djiwa Medical! 📊🩺✨
+          > **Coba langsung aplikasinya secara interaktif melalui link [Live Demo di sini](MASUKKAN_LINK_SHINYAPPS_DI_SINI).**
+        </td>
+      </tr>
+    </table>
+  </div>
   
 </div>
 
