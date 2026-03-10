@@ -39,12 +39,12 @@
       <img src="Images/section1.png" width="1000" height="300">
   </h2>
   <div>
-    <table>
-      <tr border="0">
+    <table width="100%>
+      <tr>
         <td align= "center" width="40%">
           <img src="Images/img_section1.png" width="100%">
         </td>
-        <td width="60%" border="0">
+        <td width="60%">
           <b>Djiwa Medical!</b> adalah platform analitik yang menghadirkan pengalaman terbaik dalam mengeksplorasi data kesehatan. Dengan database klinis yang terpercaya,
           pengguna dapat menelusuri profil pasien, tren penyakit, hingga statistik kunjungan secara akurat. Temukan wawasan medis terbaik hanya di Djiwa Medical! 📊🩺✨
           > Coba langsung aplikasinya secara interaktif melalui link <h3><a href="https://github.com/avinrahmadian">Live Demo di sini</a></h3>
