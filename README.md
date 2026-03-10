@@ -99,7 +99,6 @@ Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis.
 Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yang berkontribusi dalam pengembangan aplikasi KlinikHub.
 
 
-`![Eksplorasi Djiwa Medical](link-gambar-atau-lokasi-folder-gambar.png)`
 
 <h2 id="skema-basis-data"><p align="center">
   <img src="Images/section4.png" width="1000" height="300"></h2>
