@@ -1,14 +1,7 @@
--- ==========================================================
--- DATABASE + STRUKTUR TABEL NORMALISASI DATASET KLINIK (MySQL)
--- Tahap: 1NF, 2NF, 3NF
--- -- ==========================================================
--- DATABASE + STRUKTUR TABEL NORMALISASI DATASET KLINIK (MySQL)
--- Tahap: 1NF, 2NF, 3NF
--- ==========================================================
-
 CREATE DATABASE IF NOT EXISTS `db_klinik_normalisasi`
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
+
 USE `db_klinik_normalisasi`;
 -- ======================
 -- 1NF
