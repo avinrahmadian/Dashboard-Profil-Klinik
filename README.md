@@ -661,8 +661,14 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <i>Mengelola arsitektur database, melakukan normalisasi data mentah, dan memastikan integritas penyimpanan.</i>
       <br>
       <hr>
-      <a href="https://www.linkedin.com/in/joice-junansi-tandirerung/">
+      <a href="https://www.linkedin.com/in/joice-junansi-tandirerung" target="_blank">
         <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
+      </a>
+      <a href="https://www.instagram.com/joicejunans" target="_blank">
+        <img src="Images/icon_ig.png" alt="Instagram" width="24">
+      </a>
+      <a href="mailto:joice.junansitr@gmail.com" target="_blank">
+        <img src="Images/icon_email.png" alt="Instagram" width="24">
       </a>
     </td>
    
