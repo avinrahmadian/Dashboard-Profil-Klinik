@@ -42,7 +42,7 @@
     <table>
       <tr>
         <td width="40%">
-          <img src="Images/img_section1.png" width="600" height="450">
+          <img src="Images/img_section1.png" width="500" height="350">
         </td>
         <td width="60%">
           **Djiwa Medical!** adalah platform analitik yang menghadirkan pengalaman terbaik dalam mengeksplorasi data kesehatan. Dengan database klinis yang terpercaya,
