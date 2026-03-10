@@ -660,7 +660,6 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <hr>
       <i>Mengelola arsitektur database, melakukan normalisasi data mentah, dan memastikan integritas penyimpanan.</i>
       <br>
-      <hr>
       <h5>
         <b>Contact Me On :</b>
       </h5>
@@ -688,7 +687,9 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <hr>
       <i>Merancang dan membangun antarmuka UI/UX dashboard RShiny yang interaktif dan responsif.</i>
       <br>
-      <hr>
+      <h5>
+        <b>Contact Me On :</b>
+      </h5>
       <a href="https:"#" target="_blank">
         <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
       </a>
@@ -711,7 +712,9 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <hr>
       <i>Menghubungkan database ke aplikasi, mengelola pemrosesan query, dan memastikan logika server berjalan optimal.</i>
        <br>
-      <hr>
+      <h5>
+        <b>Contact Me On :</b>
+      </h5>
       <a href="https:"#" target="_blank">
         <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
       </a>
@@ -734,7 +737,9 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <hr>
       <i>Mengeksplorasi dataset, mengekstrak insight klinis, dan merancang metrik visualisasi.</i>
        <br>
-      <hr>
+      <h5>
+        <b>Contact Me On :</b>
+      </h5>
       <a href="https:"#" target="_blank">
         <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
       </a>
