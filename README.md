@@ -684,6 +684,17 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <b>M0501251061 | 🎨 Frontend Developer</b>
       <hr>
       <i>Merancang dan membangun antarmuka UI/UX dashboard RShiny yang interaktif dan responsif.</i>
+      <br>
+      <hr>
+      <a href="https:"#" target="_blank">
+        <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
+      </a>
+      <a href="#" target="_blank">
+        <img src="Images/icon_ig.png" alt="Instagram" width="24">
+      </a>
+      <a href="#" target="_blank">
+        <img src="Images/icon_email.png" alt="Instagram" width="24">
+      </a>
     </td>
   </tr>
 
@@ -696,6 +707,17 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <b>M0501251023 | 🖥️ Backend Developer</b>
       <hr>
       <i>Menghubungkan database ke aplikasi, mengelola pemrosesan query, dan memastikan logika server berjalan optimal.</i>
+       <br>
+      <hr>
+      <a href="https:"#" target="_blank">
+        <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
+      </a>
+      <a href="#" target="_blank">
+        <img src="Images/icon_ig.png" alt="Instagram" width="24">
+      </a>
+      <a href="#" target="_blank">
+        <img src="Images/icon_email.png" alt="Instagram" width="24">
+      </a>
     </td>
   </tr>
 
@@ -708,6 +730,17 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <b>M0501251020 | 📊 Data Analyst</b>
       <hr>
       <i>Mengeksplorasi dataset, mengekstrak insight klinis, dan merancang metrik visualisasi.</i>
+       <br>
+      <hr>
+      <a href="https:"#" target="_blank">
+        <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
+      </a>
+      <a href="#" target="_blank">
+        <img src="Images/icon_ig.png" alt="Instagram" width="24">
+      </a>
+      <a href="#" target="_blank">
+        <img src="Images/icon_email.png" alt="Instagram" width="24">
+      </a>
     </td>
   </tr>
 </table>
