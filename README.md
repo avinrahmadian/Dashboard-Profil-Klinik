@@ -1,18 +1,3 @@
-<div style="position:fixed; top:0; width:100%; background-color:#333; color:white; padding:15px;">
-
-<a href="#" style="color:white; margin-right:20px;">Home</a>
-<a href="#" style="color:white; margin-right:20px;">About</a>
-<a href="#" style="color:white;">Contact</a>
-
-</div>
-
-<div style="margin-top:70px;">
-<p>Isi halaman...</p>
-<p>Isi halaman...</p>
-<p>Isi halaman...</p>
-<p>Isi halaman...</p>
-</div>
-
 
 <!-- Header-->
 <div id="head">
@@ -66,7 +51,7 @@
         <td width="60%">
           <b>Djiwa Medical!</b> adalah platform analitik yang menghadirkan pengalaman terbaik dalam mengeksplorasi data kesehatan. Dengan database klinis yang terpercaya,
           pengguna dapat menelusuri profil pasien, tren penyakit, hingga statistik kunjungan secara akurat. Temukan wawasan medis terbaik hanya di Djiwa Medical! 📊🩺✨
-          > Coba langsung aplikasinya secara interaktif melalui link <h3><a href="https://github.com/avinrahmadian">Live Demo di sini</a></h3>
+          <br> Coba langsung aplikasinya secara interaktif melalui link <h3><a href="https://github.com/avinrahmadian">Live Demo di sini</a></h3>
           <!-- (MASUKKAN_LINK_SHINYAPPS_DI_SINI)-->
         </td>
       </tr>
@@ -74,6 +59,7 @@
   </div>
   
 </div>
+
 
 
 <!--Section 2 -->
