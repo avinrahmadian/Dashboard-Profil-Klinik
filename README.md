@@ -16,7 +16,7 @@
 </div>
 
 <!-- menu -->
-<div>
+<div id="menu">
   <p align="center">
   <img src="Images/menu.png" width="1000" height="300">
     <div align="center">
@@ -32,12 +32,16 @@
 </div>
 
 
-
-
-<h2 id="apa-itu-Djiwa Medical">
-  <p align="center">
-  <img src="Images/section1.png" width="1000" height="300">
+<!-- Section 1-->
+<div id="section 1">
+  <h2 id="apa-itu-Djiwa Medical">
+    <p align="center">
+      <img src="Images/section1.png" width="1000" height="300">
   </h2>
+  
+</div>
+
+
 
 🏥 **Djiwa Medical - Platform Pusat Informasi & Data Klinik**
 
