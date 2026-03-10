@@ -27,9 +27,10 @@
   <a href="#tim-pengembang"><img src="https://img.shields.io/badge/8.-Tim_Pengembang-F57C00?style=for-the-badge"></a>
 </div>
 
+
 <h2 id="apa-itu-Djiwa Medical">
   <p align="center">
-  <img src="Images/section1.png" width="1000" height="300">
+  <img src="Images/1section.png" width="1000" height="300">
   </h2>
 
 🏥 **Djiwa Medical - Platform Pusat Informasi & Data Klinik**
@@ -38,7 +39,11 @@
 
 > **Coba langsung aplikasinya secara interaktif melalui link [Live Demo di sini](MASUKKAN_LINK_SHINYAPPS_DI_SINI).**
 
-<h2 id="deskripsi-proyek">📋 Deskripsi Proyek</h2>
+
+<h2 id="deskripsi-proyek">
+  <p align="center">
+  <img src="Images/2section.png" width="1000" height="300">
+</h2>
 
 Tugas mata kuliah **Pemrosesan Data Besar** ini bertujuan untuk merancang dan mengoptimalkan sistem manajemen database (Platform Djiwa Medical) serta memvisualisasikannya ke dalam bentuk *dashboard* interaktif berbasis web menggunakan framework **RShiny**.
 
@@ -46,7 +51,8 @@ Proyek ini berangkat dari *dataset raw* berbentuk CSV (`Dataset_Klinik_Raw.csv` 
 
 Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis. Pengguna dapat dengan cepat memfilter informasi, menganalisis riwayat pasien, mengevaluasi tren layanan, serta menelusuri jadwal spesifik berdasarkan nama klinik maupun dokter.
 
-<h2 id="tampilan-dashboard">📸 Tampilan Dashboard</h2>
+<h2 id="tampilan-dashboard"><p align="center">
+  <img src="Images/3section.png" width="1000" height="300"></h2>
 
 **1. Tampilan Menu Utama atau Homepage**
 * Menampilkan ringkasan informasi metrik penting (KPI) seperti total kunjungan, total pendapatan, jumlah cabang klinik, serta jumlah pasien dan dokter.
@@ -96,7 +102,8 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
 
 `![Eksplorasi Djiwa Medical](link-gambar-atau-lokasi-folder-gambar.png)`
 
-<h2 id="skema-basis-data">🗄️ Skema Basis Data & ERD</h2>
+<h2 id="skema-basis-data"><p align="center">
+  <img src="Images/4section.png" width="1000" height="300"></h2>
 
 <p>Sistem basis data dalam proyek <b>Djiwa Medical</b> dirancang menggunakan arsitektur relasional untuk memastikan integritas data medis dan efisiensi <i>query</i>. Semua entitas operasional terpusat dan berelasi kuat dengan entitas utama layanan kesehatan.</p>
 
@@ -143,7 +150,8 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
   </tr>
 </table>
 
-<h2 id="deskripsi-data">📜 Deskripsi Data & DDL</h2>
+<h2 id="deskripsi-data"><p align="center">
+  <img src="Images/5section.png" width="1000" height="300"></h2>
 
 Bagian ini mendeskripsikan struktur tabel, tipe data (Data Dictionary), serta sintaks SQL (Data Definition Language/DDL) yang digunakan untuk membangun skema basis data Djiwa Medical.
 
@@ -555,7 +563,8 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 </details>
 <p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
 
-<h2 id="tools-digunakan">🛠️ Tools yang Digunakan</h2>
+<h2 id="tools-digunakan"><p align="center">
+  <img src="Images/6section.png" width="1000" height="300"></h2>
 
 <p>Proyek <b>Djiwa Medical</b> dibangun menggunakan ekosistem teknologi modern untuk memastikan performa pengolahan data besar yang optimal dan antarmuka yang interaktif:</p>
 
@@ -607,7 +616,8 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
   <img src="https://img.shields.io/badge/rnaturalearth-darkgreen?style=flat-square&logo=r&logoColor=white">
 </p>
 
-<h2 id="struktur-folder">📂 Struktur Folder</h2>
+<h2 id="struktur-folder"><p align="center">
+  <img src="Images/7section.png" width="1000" height="300"></h2>
 
 <p>Repositori ini disusun dengan arsitektur yang rapi untuk memisahkan antara logika aplikasi (backend/frontend), dataset, aset visual, dan dokumentasi agar mudah dipelihara dan dikembangkan lebih lanjut:</p>
 
@@ -628,7 +638,8 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 └── 📝 README.md                # Dokumentasi utama repositori (file ini)
 ```
 
-<h2 id="tim-pengembang">👥 Tim Pengembang</h2>
+<h2 id="tim-pengembang"><p align="center">
+  <img src="Images/8section.png" width="1000" height="300"></h2>
 
 <p align="center">
   <img src="Images/team1.jpg" width="1000" height="750">
