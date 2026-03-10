@@ -151,7 +151,7 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
 </table>
 
 <h2 id="deskripsi-data"><p align="center">
-  <img src="Images/5section.png" width="1000" height="300"></h2>
+  <img src="Images/section5.png" width="1000" height="300"></h2>
 
 Bagian ini mendeskripsikan struktur tabel, tipe data (Data Dictionary), serta sintaks SQL (Data Definition Language/DDL) yang digunakan untuk membangun skema basis data Djiwa Medical.
 
