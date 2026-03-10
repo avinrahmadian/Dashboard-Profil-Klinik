@@ -637,7 +637,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
 <table width="100%">
   <tr>
     <td width="30%" align="center">
-      <img src="Images/joy.png" width="250" alt="Joice">
+      <img src="Images/joy1.png" width="250" alt="Joice">
     </td>
     <td width="70%">
       <h3><a href="https://github.com/JoiceJunansi">Joice Junansi Tandirerung</a></h3>
@@ -649,7 +649,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
 
   <tr>
     <td width="30%" align="center">
-      <img src="Images/wita.png" width="250" alt="wita">
+      <img src="Images/wita2.png" width="250" alt="wita">
     </td>
     <td width="70%">
       <h3><a href="https://github.com/baiqwitaa">Baiq Wita Rachmatia</a></h3>
@@ -661,7 +661,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
 
   <tr>
     <td width="30%" align="center">
-      <img src="Images/avin.png" width="250" alt="Avin">
+      <img src="Images/avin2.png" width="250" alt="Avin">
     </td>
     <td width="70%">
       <h3><a href="https://github.com/avinrahmadian">Avin Rahmadian</a></h3>
@@ -673,7 +673,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
 
   <tr>
     <td width="30%" align="center">
-      <img src="Images/ika.png" width="250" alt="Ika">
+      <img src="Images/ika2.png" width="250" alt="Ika">
     </td>
     <td width="70%">
       <h3><a href="https://github.com/ikalailia06">Ika Lailia Nur Rohmatun Nazila</a></h3>
