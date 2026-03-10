@@ -3,8 +3,11 @@
   <br>
 </p>
 
-<h1 align="center">🏥 <b>WELCOME TO DJIWA MEDICAL</b> 🚑💊</h1>
-<h2 align="center"><i>"Smart Insights, Healthy Lives"</i></h2>
+
+
+  <p align="center">
+  <img src="Images/header.png" width="1000" height="300">
+  
 
 <div align="center">
   <a href="MASUKKAN_LINK_SHINYAPPS_DI_SINI">
