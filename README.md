@@ -668,7 +668,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
         <img src="Images/icon_ig.png" alt="Instagram" width="24">
       </a>
       <a href="mailto:joice.junansitr@gmail.com" target="_blank">
-        <img src="Images/icon_email.png" alt="Instagram" width="24">
+        <img src="Images/icon_email.png" alt="Instagram" width="25">
       </a>
     </td>
    
@@ -693,7 +693,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
         <img src="Images/icon_ig.png" alt="Instagram" width="24">
       </a>
       <a href="#" target="_blank">
-        <img src="Images/icon_email.png" alt="Instagram" width="24">
+        <img src="Images/icon_email.png" alt="Instagram" width="25">
       </a>
     </td>
   </tr>
@@ -716,7 +716,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
         <img src="Images/icon_ig.png" alt="Instagram" width="24">
       </a>
       <a href="#" target="_blank">
-        <img src="Images/icon_email.png" alt="Instagram" width="24">
+        <img src="Images/icon_email.png" alt="Instagram" width="25">
       </a>
     </td>
   </tr>
@@ -739,7 +739,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
         <img src="Images/icon_ig.png" alt="Instagram" width="24">
       </a>
       <a href="#" target="_blank">
-        <img src="Images/icon_email.png" alt="Instagram" width="24">
+        <img src="Images/icon_email.png" alt="Instagram" width="25">
       </a>
     </td>
   </tr>
