@@ -631,18 +631,39 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 
 ```text
 .
-├── 📂 Application/                     # Direktori utama aplikasi RShiny
+├── 📂 Application/                      # Direktori utama aplikasi RShiny
 │   ├── 📄 server.R             # Logika backend, koneksi database, dan reaktivitas
 │   └── 📄 ui.R                 # Antarmuka pengguna (Frontend dashboard)
-├── 📂 Data/                    # Penyimpanan dataset proyek
+├── 📂 Data/                     # Penyimpanan dataset proyek
 │   ├── 📂 clean/               # Dataset yang telah dinormalisasi (siap pakai)
 │   └── 📂 raw/                 # Dataset mentah awal (Dataset_Klinik_Raw.csv)
 ├── 📂 Documentation/                     # Dokumentasi teknis proyek
 │   └── 🖼️ ERD.png              # Gambar Entity Relationship Diagram (ERD)
 ├── 📂 Images/                  # Aset visual untuk UI dashboard dan README
-│   ├── 🖼️ joice.png            # Foto profil anggota tim
-│   ├── 🖼️ wita.png
-│   └── 🖼️ ika.png
+│   ├── 🖼️ Header.png            
+│   ├── 🖼️ Image 10-03-26 at 15.23.png 
+│   ├── 🖼️ avin2.png            
+│   ├── 🖼️ click_video_demo.png 
+│   ├── 🖼️ footer.png           
+│   ├── 🖼️ header.png           
+│   ├── 🖼️ icon_email.png       
+│   ├── 🖼️ icon_ig.png          
+│   ├── 🖼️ icon_linked1.png     
+│   ├── 🖼️ ika2.png            
+│   ├── 🖼️ joy1.png             
+│   ├── 🖼️ logo-circle.png      
+│   ├── 🖼️ logo.png             
+│   ├── 🖼️ menu.png             
+│   ├── 🖼️ section1.png         
+│   ├── 🖼️ section2.png         
+│   ├── 🖼️ section3.png         
+│   ├── 🖼️ section4.png        
+│   ├── 🖼️ section5.png         
+│   ├── 🖼️ section6.png         
+│   ├── 🖼️ section7.png         
+│   ├── 🖼️ section8.png         
+│   ├── 🖼️ team1.jpg            
+│   └── 🖼️ wita2.png            
 └── 📝 README.md                # Dokumentasi utama repositori (file ini)
 ```
 
