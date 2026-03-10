@@ -658,7 +658,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
 
   <tr>
     <td width="30%" align="center">
-      <img src="images/ika.png" width="250" alt="Ika">
+      <img src="Images/ika.png" width="250" alt="Ika">
     </td>
     <td width="70%">
       <h3><a href="https://github.com/username_ika">Ika Lailia Nur Rohmatun Nazila</a></h3>
