@@ -39,7 +39,7 @@
       <img src="Images/section1.png" width="1000" height="300">
   </h2>
   <div>
-    <table width="100%>
+    <table width="100%">
       <tr>
         <td align= "center" width="40%">
           <img src="Images/img_section1.png" width="100%">
