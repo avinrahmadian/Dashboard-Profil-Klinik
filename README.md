@@ -659,7 +659,11 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <b>M0501251007 | 🗄️ Database Manager</b>
       <hr>
       <i>Mengelola arsitektur database, melakukan normalisasi data mentah, dan memastikan integritas penyimpanan.</i>
+      <br>
+      <img src="Images/icon_linked1.png" width="20" alt="Joice">
+      <a href="https://github.com/JoiceJunansi">Joice Junansi Tandirerung</a>
     </td>
+    
   </tr>
 
   <tr>
