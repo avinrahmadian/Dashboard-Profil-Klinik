@@ -52,8 +52,6 @@ Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis.
 * Menampilkan lokasi geografis seluruh cabang klinik untuk melihat jangkauan layanan.
 
 
-`![Homepage Djiwa Medical](link-gambar-atau-lokasi-folder-gambar.png)`
-
 **2. Tampilan Menu Klinik**
 * Menyediakan fitur filter dinamis untuk mencari data berdasarkan kategori tertentu.
 * Menampilkan perbandingan antar klinik berdasarkan komponen biaya (admin, konsultasi, obat, dan tindakan).
