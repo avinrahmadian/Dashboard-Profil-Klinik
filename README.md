@@ -628,7 +628,7 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 <h2 id="tim-pengembang">👥 Tim Pengembang</h2>
 
 <p align="center">
-  <img src="Images/team1.jpg" width="1000" height="500">
+  <img src="Images/team1.jpg" width="1000" height="750">
   <br>
 </p>
 
