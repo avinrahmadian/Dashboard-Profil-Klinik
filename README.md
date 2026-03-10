@@ -627,6 +627,11 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 
 <h2 id="tim-pengembang">👥 Tim Pengembang</h2>
 
+<p align="center">
+  <img src="Images/team.png" width="1000" height="500">
+  <br>
+</p>
+
 Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, dengan rincian anggota dan pembagian peran sebagai berikut:
 
 <table width="100%">
