@@ -646,7 +646,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
 
   <tr>
     <td width="30%" align="center">
-      <img src="https://github.com/avinrahmadian.png" width="250" alt="Avin">
+      <img src="https://github.com/avin.png" width="250" alt="Avin">
     </td>
     <td width="70%">
       <h3><a href="https://github.com/avinrahmadian">Avin Rahmadian</a></h3>
