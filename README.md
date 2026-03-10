@@ -29,8 +29,8 @@
 
 <h2 id="apa-itu-Djiwa Medical">📌 
   <p align="center">
-  <img src="Images/section1.png" width="1000" height="100">
-  <br></h2>
+  <img src="Images/section1.png" width="1000" height="300">
+  </h2>
 
 🏥 **Djiwa Medical - Platform Pusat Informasi & Data Klinik**
 
