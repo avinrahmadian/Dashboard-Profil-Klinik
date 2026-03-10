@@ -1,19 +1,19 @@
-<p align="center">
-  <img src="Images/Header.png" width="1000" height="500">
-  <br>
-</p>
-
-
-
+<!-- Header-->
+<div id="head">
   <p align="center">
-  <img src="Images/header.png" width="1000" height="300">
-  
-
-<div align="center">
- <a href="https:"#" target="_blank">
-        <img src="Images/click_video_demo.png" alt="video demo" width="1000" height="300">
-      </a>
+    <img src="Images/Header.png" width="1000" height="500">
+    <br>
+  </p>
+  <p align="center">
+    <img src="Images/header.png" width="1000" height="300">
+  <div align="center">
+    <a href="https:"#" target="_blank">
+      <img src="Images/click_video_demo.png" alt="video demo" width="1000" height="300">
+    </a>
+  </div>
 </div>
+
+
 
 <!-- menu -->
 <div id="menu">
@@ -32,7 +32,8 @@
 </div>
 
 
-<!-- Section 1-->
+
+<!-- Section 1_Apa itu Diwa Medica?-->
 <div id="section 1">
   <h2 id="apa-itu-Djiwa Medical">
     <p align="center">
