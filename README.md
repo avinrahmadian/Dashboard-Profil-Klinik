@@ -72,7 +72,7 @@
   </div>
  <table width="100%">
       <tr>
-        <td align= "center" width="60%">
+        <td align= "justify" width="60%">
         <p> Tugas mata kuliah <b>Pemrosesan Data Besar</b> ini bertujuan untuk merancang dan mengoptimalkan sistem manajemen database (Platform Djiwa Medical) serta
       memvisualisasikannya ke dalam bentuk <b>dashboard</b> interaktif berbasis web menggunakan framework <b>RShiny</b>.
       Proyek ini berangkat dari <b>dataset raw</b> berbentuk CSV (`Dataset_Klinik_Raw.csv` dengan 307.188 baris dan 30 kolom) yang bersumber dari <b>Dataset Mata Kuliah Pemrosesan Data Besar. </b> Karena penyimpanan tabel tunggal berisiko memunculkan redundansi, data tersebut dinormalisasi ke dalam sistem basis data relasional. Struktur ini dirancang menggunakan <b>referential integrity constraints</b> pada entitas utamanya (klinik, dokter, pasien, kunjungan, dan tindakan medis) untuk memastikan validitas data dan efisiensi <b>query</b>.
