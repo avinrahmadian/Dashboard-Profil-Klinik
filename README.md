@@ -60,10 +60,7 @@ Hasilnya adalah aplikasi web komprehensif yang memudahkan eksplorasi data medis.
 * Visualisasi jenis diagnosa penyakit yang paling sering muncul agar beban kesehatan pasien mudah diidentifikasi.
 * Menampilkan lokasi geografis seluruh cabang klinik untuk melihat jangkauan layanan.
 
-
-https://github.com/user-attachments/assets/84d850c6-7da1-4029-b34d-1f3d7b4f022d
-
-
+[Home.webm](https://github.com/user-attachments/assets/6e224b48-e44c-43ff-9a4f-a068065fc90e)
 
 **2. Tampilan Menu Klinik**
 * Menyediakan fitur filter dinamis untuk mencari data berdasarkan kategori tertentu.
@@ -72,6 +69,8 @@ https://github.com/user-attachments/assets/84d850c6-7da1-4029-b34d-1f3d7b4f022d
 * Menampilkan analisis persentase pasien yang datang kembali dibandingkan dengan pasien baru.
 * Pengguna dapat melihat kecocokan antara fasilitas spesialisasi yang tersedia di tiap cabang dengan jumlah dokternya.
 * Terdapat detail tabel data mentah lengkap mengenai seluruh aktivitas di level klinik.
+
+[Klinik.webm](https://github.com/user-attachments/assets/0bcd1984-ef62-43ca-a37c-f61afbddd52f)
 
 **3. Tampilan Menu Dokter (Analisis Tenaga Medis)**
 * Menyediakan fitur filter dinamis untuk mencari data berdasarkan kategori tertentu.
