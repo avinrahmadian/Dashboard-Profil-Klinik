@@ -640,7 +640,12 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 │   ├── 📂 Raw/                 # Dataset mentah awal (Dataset_Klinik_Raw.csv)
 │   └── 📂 Database/            # File database lokal aplikasi
 ├── 📂 Documentation/           # Dokumentasi teknis proyek
-│   └── 🖼️ ERD.png              # Gambar Entity Relationship Diagram (ERD)
+│   ├── 🎥 Doctor.webm          
+│   ├── 🎥 Home.webm            
+│   ├── 🎥 Klinik.webm          
+│   ├── 🎥 Obat.webm           
+│   ├── 🎥 Pasien.webm          
+│   └── 🎥 Team.webm            
 ├── 📂 Images/                  # Aset visual untuk UI dashboard dan README
 │   ├── 🖼️ Header.png            
 │   ├── 🖼️ Image 10-03-26 at 15.23.png 
