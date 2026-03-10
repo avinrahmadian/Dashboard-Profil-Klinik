@@ -96,7 +96,7 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
 <p>Sistem basis data dalam proyek <b>Djiwa Medical</b> dirancang menggunakan arsitektur relasional untuk memastikan integritas data medis dan efisiensi <i>query</i>. Semua entitas operasional terpusat dan berelasi kuat dengan entitas utama layanan kesehatan.</p>
 
 <div align="center">
-  <img src="images/ERD.png" alt="Entity Relationship Diagram Djiwa Medical" width="80%">
+  <img src="Images/Image 10-03-26 at 15.23.png" alt="Entity Relationship Diagram Djiwa Medical" width="80%">
   <br>
   <i>Gambar 1: Entity Relationship Diagram (ERD) Djiwa Medical</i>
 </div>
