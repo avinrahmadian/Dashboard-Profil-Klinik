@@ -663,7 +663,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <img src="Images/ika.png" width="250" alt="Ika">
     </td>
     <td width="70%">
-      <h3><a href="https://github.com/username_ika">Ika Lailia Nur Rohmatun Nazila</a></h3>
+      <h3><a href="https://github.com/ikalailia06">Ika Lailia Nur Rohmatun Nazila</a></h3>
       <b>M0501251020 | 📊 Data Analyst</b>
       <hr>
       <i>Mengeksplorasi dataset, mengekstrak insight klinis, dan merancang metrik visualisasi.</i>
