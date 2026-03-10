@@ -16,8 +16,11 @@
 </div>
 
 <br>
-
-## 📑 Menu
+<p align="center">
+  <img src="Images/menu.png" width="1000" height="300">
+<div>
+  
+</div>
 
 <div align="center">
   <a href="#apa-itu-Djiwa Medical"><img src="https://img.shields.io/badge/1.-Apa_itu_Djiwa_Medical%3F-00599C?style=for-the-badge"></a>
