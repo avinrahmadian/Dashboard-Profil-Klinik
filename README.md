@@ -648,7 +648,7 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 │   └── 🎥 Team.webm            
 ├── 📂 Images/                  # Aset visual untuk UI dashboard dan README
 │   ├── 🖼️ Header.png            
-│   ├── 🖼️ Image 10-03-26 at 15.23.png 
+│   ├── 🖼️ ERD.png 
 │   ├── 🖼️ avin2.png            
 │   ├── 🖼️ click_video_demo.png 
 │   ├── 🖼️ footer.png           
