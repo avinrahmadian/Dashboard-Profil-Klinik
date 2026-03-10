@@ -10,9 +10,9 @@
   
 
 <div align="center">
-  <a href="MASUKKAN_LINK_SHINYAPPS_DI_SINI">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-Coba_Djiwa Medical_Sekarang!-2ea043?style=for-the-badge" alt="Live Demo">
-  </a>
+ <a href="https:"#" target="_blank">
+        <img src="Images/click_video_demo.png" alt="video demo" width="1000" height="300">
+      </a>
 </div>
 
 <br>
