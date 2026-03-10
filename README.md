@@ -622,7 +622,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
 <table width="100%">
   <tr>
     <td width="30%" align="center">
-      <img src="images/joice.png" width="250" alt="Joice">
+      <img src="Images/joy.png" width="250" alt="Joice">
     </td>
     <td width="70%">
       <h3><a href="https://github.com/JoiceJunansi">Joice Junansi Tandirerung</a></h3>
