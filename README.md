@@ -685,6 +685,11 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
 </table>
 <br>
 
+<p align="center">
+  <img src="Images/footer.png" width="1000" height="300">
+  <br>
+</p>
+
 
 
 
