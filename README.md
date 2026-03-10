@@ -1,3 +1,19 @@
+<div style="position:fixed; top:0; width:100%; background-color:#333; color:white; padding:15px;">
+
+<a href="#" style="color:white; margin-right:20px;">Home</a>
+<a href="#" style="color:white; margin-right:20px;">About</a>
+<a href="#" style="color:white;">Contact</a>
+
+</div>
+
+<div style="margin-top:70px;">
+<p>Isi halaman...</p>
+<p>Isi halaman...</p>
+<p>Isi halaman...</p>
+<p>Isi halaman...</p>
+</div>
+
+
 <!-- Header-->
 <div id="head">
   <p align="center">
