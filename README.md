@@ -588,12 +588,20 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 <br>
 
 <p align="center">
-  <b>Powered by R Libraries:</b><br>
-  <img src="https://img.shields.io/badge/tidyverse-blue?style=flat-square&logo=tidyverse&logoColor=white"> 
-  <img src="https://img.shields.io/badge/dplyr-red?style=flat-square&logo=r&logoColor=white"> 
-  <img src="https://img.shields.io/badge/ggplot2-green?style=flat-square&logo=r&logoColor=white"> 
-  <img src="https://img.shields.io/badge/DBI-orange?style=flat-square&logo=database&logoColor=white"> 
-  <img src="https://img.shields.io/badge/bs4Dash-lightgrey?style=flat-square&logo=bootstrap&logoColor=white">
+  <b>Powered by R Libraries:</b><br>
+  <img src="https://img.shields.io/badge/shiny-blue?style=flat-square&logo=r&logoColor=white"> 
+  <img src="https://img.shields.io/badge/bs4Dash-lightgrey?style=flat-square&logo=bootstrap&logoColor=white"> 
+  <img src="https://img.shields.io/badge/plotly-indigo?style=flat-square&logo=plotly&logoColor=white"> 
+  <img src="https://img.shields.io/badge/DT-lightgreen?style=flat-square&logo=r&logoColor=white"> 
+  <img src="https://img.shields.io/badge/wordcloud2-orange?style=flat-square&logo=r&logoColor=white"> 
+  <img src="https://img.shields.io/badge/shinyWidgets-cyan?style=flat-square&logo=r&logoColor=white"> 
+  <br> <img src="https://img.shields.io/badge/DBI-yellow?style=flat-square&logo=database&logoColor=white"> 
+  <img src="https://img.shields.io/badge/RMariaDB-003545?style=flat-square&logo=mariadb&logoColor=white"> 
+  <img src="https://img.shields.io/badge/dplyr-red?style=flat-square&logo=r&logoColor=white"> 
+  <img src="https://img.shields.io/badge/lubridate-blue?style=flat-square&logo=r&logoColor=white"> 
+  <img src="https://img.shields.io/badge/forecast-purple?style=flat-square&logo=r&logoColor=white"> 
+  <img src="https://img.shields.io/badge/sf-green?style=flat-square&logo=r&logoColor=white"> 
+  <img src="https://img.shields.io/badge/rnaturalearth-darkgreen?style=flat-square&logo=r&logoColor=white">
 </p>
 
 <h2 id="struktur-folder">📂 Struktur Folder</h2>
