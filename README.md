@@ -722,7 +722,16 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 ```
 
 </details>
-<p align="right"><a href="#-menu">⬆️ Kembali ke Menu</a></p>
+
+<!--Back to Home -->
+   <div align="right">
+    <a href="#home">
+      <img src="Images/backtohome.png" width="20" height="20">
+    </a>
+  </div>
+
+
+  <!--SECTION 6-->
 
 <h2 id="tools-digunakan"><p align="center">
   <img src="Images/section6.png" width="1000" height="300"></h2>
