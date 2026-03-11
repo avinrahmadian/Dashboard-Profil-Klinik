@@ -51,7 +51,12 @@
         <td align="justify" width="60%">
           <b>Djiwa Medical!</b> adalah platform analitik yang menghadirkan pengalaman terbaik dalam mengeksplorasi data kesehatan. Dengan database klinis yang terpercaya,
           pengguna dapat menelusuri profil pasien, tren penyakit, hingga statistik kunjungan secara akurat. Temukan wawasan medis terbaik hanya di Djiwa Medical! 📊🩺✨
-          <br> Coba langsung aplikasinya secara interaktif melalui link <h3><a href="https://github.com/avinrahmadian">Live Demo di sini</a></h3>
+          <br> Coba langsung aplikasinya secara interaktif melalui link 
+          <h3>
+            <a href="https://github.com/avinrahmadian">Live Demo di sini>
+              <img src="Images/live_demo.png" width="10%"
+            </a>
+          </h3>
           <!-- (MASUKKAN_LINK_SHINYAPPS_DI_SINI)-->
         </td>
       </tr>
