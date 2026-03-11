@@ -20,10 +20,16 @@
 <div class="section" align="center">
   <b>MENU</b>
 </div>
-<div style="width:200px;">
-  <div style="background:rgba(255,255,255,0.2); padding:20px; border-radius:30px;">
-    <img src="Images/click_video_demo.png" style="width:100%;">
-  </div>
+ <a href="#apa-itu-Djiwa Medical"><img src="Images/button1.png"></a>
+      <a href="#deskripsi-proyek"><<img src="Images/button2.png"></a>
+      <a href="#tampilan-dashboard"><img src="Images/button3.png"></a>
+      <a href="#skema-basis-data"><img src="Images/button4.png"></a>
+      <a href="#deskripsi-data"><img src="Images/button5.png"></a>
+      <a href="#tools-digunakan"><img src="Images/button6.png"></a>
+      <a href="#struktur-folder"><img src="Images/button7.png"></a>
+      <a href="#tim-pengembang"><img src="Images/button8.png"></a>
+<div>
+  
 </div>
 
 
