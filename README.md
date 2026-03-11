@@ -155,13 +155,13 @@ Hasil tampilan dashboard pada menu pasien :
 * Menyajikan grafik analisis keterkaitan antar obat yang sering diresepkan secara bersamaan dalam satu kunjungan.
 *  Terdapat tabel yang memberikan informasi mengenai detail transaksi obat, dosis, hingga harga per unit.
 
-Hasil tampilan dashboard pada menu farmasi : 
+Hasil tampilan dashboard pada menu obat : 
 
 [Obat.webm](https://github.com/user-attachments/assets/5bb5fc7a-83a9-4644-b262-5c2fe37e302e)
 
 **6. Tampilan Team (Informasi Penyusun)**
 
-Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yang berkontribusi dalam pengembangan aplikasi KlinikHub.
+Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yang berkontribusi dalam pengembangan dashboard Djiwa Medical.
 
 Hasil tampilan dashboard pada menu team: 
 
