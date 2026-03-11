@@ -87,11 +87,10 @@
           <br>
             <a href="https://joicejunans.shinyapps.io/dashboard-profil-klinik/">
               <img src="Images/live_demo3.png" align= "center" width="200">
-              <a href="#home">
-                <img src="Images/backtohome.png" align= "center" width="100">
-              </a>
             </a>
-          
+              <a href="#home">
+                <img src="Images/backtohome.png" align= "center" width="50" height="50">
+              </a>
         </td>
       </tr>
     </table>
