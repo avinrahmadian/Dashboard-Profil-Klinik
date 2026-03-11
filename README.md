@@ -7,10 +7,13 @@
   </p>
 </div>
 
-<!--
+
 <div>
   <p align="center">
     <img src="Images/header.png" width="1000" height="300">
+  </p>
+</div>
+    <!--
   <div align="center">
     <button>
     <a href="https://joicejunans.shinyapps.io/dashboard-profil-klinik/" target="_blank">
@@ -52,9 +55,10 @@
 
 
 <!--Tagline-->
+<!--
 <div>
   <p align="center">
-    <img src="Images/header.png" width="1000" height="300">
+    <img src="Images/header.png" width="1000" height="300"> -->
   <div align="center">
     <button>
     <a href="https://joicejunans.shinyapps.io/dashboard-profil-klinik/" target="_blank">
@@ -62,7 +66,6 @@
     </a>
       </button>
   </div>
-</div>
 <!-- Akhir dari tagline -->
 
 
