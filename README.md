@@ -91,10 +91,12 @@
         </td>
       </tr>
     </table>
-    <a href="#home" align="right">
+    <div align="right">
+    <a href="#home">
       <img src="Images/backtohome.png" width="20" height="20">
     </a>
   </div>
+</div>
 </div>
 
 
