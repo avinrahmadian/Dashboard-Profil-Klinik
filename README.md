@@ -87,8 +87,11 @@
           <br>
             <a href="https://joicejunans.shinyapps.io/dashboard-profil-klinik/">
               <img src="Images/live_demo3.png" align= "center" width="50%">
+              <a href="#home">
+                <img src="Images/backtohome.png" align= "center" width="50%">
+              </a>
             </a>
-          <!-- (MASUKKAN_LINK_SHINYAPPS_DI_SINI)-->
+          
         </td>
       </tr>
     </table>
