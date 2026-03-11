@@ -183,7 +183,7 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
 <tr>
     <td><b>Klinik → kunjungan</b></td>
     <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
-    <td>Satu klinik dapat memiliki <b>banyak kunjungan</b>.</td>
+    Satu klinik dapat melayani <b>banyak kunjungan pasien (visit)</b>, dan setiap kunjungan terjadi pada satu klinik tertentu..</td>
   </tr>
 
   <tr>
@@ -202,25 +202,25 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
 <tr>
     <td><b>Kunjungan → diagnosis</b></td>
     <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="M to N"></td>
-    <td>Satu kali kunjungan pasien dapat dilakukan <b>banyak diagnosis</b> </td>
+    <td>Satu kunjungan dapat memiliki <b>beberapa diagnosis</b>, dan satu diagnosis dapat muncul pada banyak kunjungan</td>
   </tr>
 
 <tr>
     <td><b>Kunjungan → tindakan medis</b></td>
     <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="M to N"></td>
-    <td>Satu kali kunjungan pasien dapat dilakukan <b>banyak tindakan medis</b> </td>
+    <td>Satu kunjungan dapat melibatkan beberapa tindakan medis, dan satu jenis tindakan dapat diterapkan pada banyak kunjungan</td>
   </tr>
 
   <tr>
     <td><b>Kunjungan → obat</b></td>
     <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="M to N"></td>
-    <td>Satu kali kunjungan pasien dapat diberikan <b>banyak obat</b> </td>
+    <td>Dalam satu kunjungan, pasien dapat menerima beberapa jenis obat, dan satu obat dapat diberikan pada banyak kunjungan</td>
   </tr>
 
   <tr>
     <td><b>Kunjungan → Transaksi</b></td>
     <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="1 to 1"></td>
-    <td>Satu kali kunjungan pasien <b>hanya menghasilkan 1 transaksi</b> </td>
+    <td>Setiap kunjungan memiliki satu transaksi pembayaran yang unik, sehingga satu record pada tabel transactions hanya terkait dengan satu kunjungan.</td>
   </tr>
 
 
