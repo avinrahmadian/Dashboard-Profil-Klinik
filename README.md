@@ -30,6 +30,12 @@
         <a href="#skema-basis-data"><img src="Images/button4.png"width="24%"></a>
       </td>
     </tr>
+    <td align="center">
+      <a href="#deskripsi-data"><img src="Images/button5.png" width="24%"></a>
+      <a href="#tools-digunakan"><img src="Images/button6.png" width="24%"></a>
+      <a href="#struktur-folder"><img src="Images/button7.png" width="24%"></a>
+      <a href="#tim-pengembang"><img src="Images/button8.png" width="24%"></a>
+    </td>
   </table>
 </div>
  <a href="#apa-itu-Djiwa Medical"><img src="Images/button1.png"></a>
