@@ -5,7 +5,7 @@ library(DT)
 library(wordcloud2)
 library(shinyWidgets)
 
-# DEFINISI PALET BARU (Berdasarkan gambar Cyan-Magenta)
+# DEFINISI PALET
 temps_pal <- c("#009B9E", "#159B91", "#33C1B1", "#E0F2F1", "#F8BBD0", "#F06292", "#CB5280")
 
 ui <- bs4DashPage(
@@ -494,7 +494,6 @@ tabItem(tabName = "tab_pasien",
                    title = tagList(icon("weight-scale"), "Analisis Status Gizi (BMI)"),
                    width = 12,
                    
-                   # Area Filter dengan background soft dan rapi
                    div(style = "padding: 20px; background: #F8FAFC; border-radius: 15px; border: 1px solid #E2E8F0; margin-bottom: 20px;",
                        fluidRow(
                          # Filter Gender
@@ -514,7 +513,7 @@ tabItem(tabName = "tab_pasien",
                                 )
                          ),
                          
-                         # Filter Rentang Umur (Sekarang Seragam dengan Gender)
+                         # Filter Rentang Umur
                          column(width = 6,
                                 shinyWidgets::pickerInput(
                                   inputId = "p_bmi_age", 
@@ -550,8 +549,7 @@ tabItem(tabName = "tab_pasien",
                  box(
                    title = tagList(icon("chart-line"), "Tren Diagnosis"), 
                    width = 12, 
-                   
-                   # Area Filter Dropdown Checklist yang Seragam dengan BMI
+                  
                    div(style = "margin-bottom: 20px; padding: 20px; background: #F8FAFC; border-radius: 15px; border: 1px solid #E2E8F0;",
                        fluidRow(
                          column(width = 12,
@@ -788,3 +786,4 @@ tabItem(tabName = "tab_team",
     )
   )
 )
+
