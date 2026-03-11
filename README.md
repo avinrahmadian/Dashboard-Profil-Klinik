@@ -175,11 +175,63 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
     <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
     <td>Satu klinik dapat memiliki <b>banyak dokter</b> yang berpraktik, tetapi satu profil dokter terkait dengan <b>satu klinik utama</b> dalam pencatatan ini.</td>
   </tr>
+
+<tr>
+    <td><b>Klinik → kunjungan</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
+    <td>Satu klinik dapat memiliki <b>banyak kunjungan</b>.</td>
+  </tr>
+
+  <tr>
+    <td><b>Dokter → Kunjungan</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
+    <td>Satu dokter dapat menangani <b>banyak kunjungan</b> pasien, tetapi satu sesi kunjungan spesifik hanya ditangani oleh <b>satu dokter penanggung jawab</b>.</td>
+  </tr>
+  
+
   <tr>
     <td><b>Pasien → Kunjungan</b></td>
     <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
     <td>Satu pasien dapat melakukan <b>banyak kunjungan</b> medis dari waktu ke waktu, tetapi satu rekam kunjungan hanya milik <b>satu pasien</b>.</td>
   </tr>
+
+<tr>
+    <td><b>Kunjungan → diagnosis</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="M to N"></td>
+    <td>Satu kali kunjungan pasien dapat dilakukan <b>banyak diagnosis</b> </td>
+  </tr>
+
+<tr>
+    <td><b>Kunjungan → tindakan medis</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="M to N"></td>
+    <td>Satu kali kunjungan pasien dapat dilakukan <b>banyak tindakan medis</b> </td>
+  </tr>
+
+  <tr>
+    <td><b>Kunjungan → obat</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="M to N"></td>
+    <td>Satu kali kunjungan pasien dapat diberikan <b>banyak obat</b> </td>
+  </tr>
+
+  <tr>
+    <td><b>Kunjungan → Transaksi</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="1 to 1"></td>
+    <td>Satu kali kunjungan pasien <b>hanya menghasilkan 1 transaksi</b> </td>
+  </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   <tr>
     <td><b>Dokter → Kunjungan</b></td>
     <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
