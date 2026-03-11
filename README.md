@@ -5,6 +5,10 @@
     <img src="Images/Header.png" width="1000" height="500">
     <br>
   </p>
+</div>
+
+<!--
+<div>
   <p align="center">
     <img src="Images/header.png" width="1000" height="300">
   <div align="center">
@@ -15,6 +19,7 @@
       </button>
   </div>
 </div>
+-->
 
 <!-- Menu bARU -->
 <div id="home" align="center">
@@ -44,6 +49,21 @@
   <br>
   <br>
 </div>
+
+
+<!--Tagline-->
+<div>
+  <p align="center">
+    <img src="Images/header.png" width="1000" height="300">
+  <div align="center">
+    <button>
+    <a href="https://joicejunans.shinyapps.io/dashboard-profil-klinik/" target="_blank">
+      <img src="Images/click_video_demo.png" alt="video demo" width="1000" height="300">
+    </a>
+      </button>
+  </div>
+</div>
+<!-- Akhir dari tagline -->
 
 
 
