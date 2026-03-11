@@ -108,6 +108,9 @@
 * Visualisasi jenis diagnosa penyakit yang paling sering muncul agar beban kesehatan pasien mudah diidentifikasi.
 * Menampilkan lokasi geografis seluruh cabang klinik untuk melihat jangkauan layanan.
 
+Hasil tampilan dashboard menu home:
+
+[Klinik.webm](https://github.com/user-attachments/assets/6e224b48-c44c-43ff-9a4f-a068065fc90e)
 
 **2. Tampilan Menu Klinik**
 * Menyediakan fitur filter dinamis untuk mencari data berdasarkan kategori tertentu.
