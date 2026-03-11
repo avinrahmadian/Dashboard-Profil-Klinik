@@ -109,6 +109,7 @@
 * Menampilkan lokasi geografis seluruh cabang klinik untuk melihat jangkauan layanan.
 
 Hasil tampilan dashboard homepage : 
+
 [Home.webm](https://github.com/user-attachments/assets/6e224b48-e44c-43ff-9a4f-a068065fc90e)
 
 **2. Tampilan Menu Klinik**
@@ -120,6 +121,7 @@ Hasil tampilan dashboard homepage :
 * Terdapat detail tabel data mentah lengkap mengenai seluruh aktivitas di level klinik.
 
 Hasil tampilan dashboard pada menu klinik :
+
 [Klinik.webm](https://github.com/user-attachments/assets/0bcd1984-ef62-43ca-a37c-f61afbddd52f)
 
 **3. Tampilan Menu Dokter (Analisis Tenaga Medis)**
