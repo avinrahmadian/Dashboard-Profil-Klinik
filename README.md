@@ -183,7 +183,7 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
 <tr>
     <td><b>Klinik → kunjungan</b></td>
     <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
-    Satu klinik dapat melayani <b>banyak kunjungan pasien (visit)</b>, dan setiap kunjungan terjadi pada satu klinik tertentu..</td>
+   <td> Satu klinik dapat melayani <b>banyak kunjungan pasien (visit)</b>, dan setiap kunjungan terjadi pada satu klinik tertentu..</td>
   </tr>
 
   <tr>
@@ -221,30 +221,6 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
     <td><b>Kunjungan → Transaksi</b></td>
     <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="1 to 1"></td>
     <td>Setiap kunjungan memiliki satu transaksi pembayaran yang unik, sehingga satu record pada tabel transactions hanya terkait dengan satu kunjungan.</td>
-  </tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <tr>
-    <td><b>Dokter → Kunjungan</b></td>
-    <td align="center"><img src="https://img.shields.io/badge/1%20:%20N-00599C?style=flat-square" alt="1 to N"></td>
-    <td>Satu dokter dapat menangani <b>banyak kunjungan</b> pasien, tetapi satu sesi kunjungan spesifik hanya ditangani oleh <b>satu dokter penanggung jawab</b>.</td>
-  </tr>
-  <tr>
-    <td><b>Kunjungan → Tindakan Medis</b></td>
-    <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="M to N"></td>
-    <td>Satu kunjungan bisa mencakup <b>banyak tindakan medis</b>, dan satu jenis tindakan bisa diberikan pada <b>banyak kunjungan</b>. Relasi <i>many-to-many</i> ini dikelola melalui tabel detail/penghubung.</td>
   </tr>
 </table>
 
