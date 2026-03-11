@@ -819,7 +819,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <a href="https:"#" target="_blank">
         <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
       </a>
-      <a href="#" target="_blank">
+      <a href="https://www.instagram.com/baiqwitaa/" target="_blank">
         <img src="Images/icon_ig.png" alt="Instagram" width="24">
       </a>
       <a href="#" target="_blank">
