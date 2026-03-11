@@ -17,7 +17,7 @@
 </div>
 
 <!-- Menu bARU -->
-<div class="section" align="center">
+<div id="home" align="center">
   <h3>MENU</h3>
   <br>
 </div>
