@@ -24,7 +24,7 @@
 <div>
   <table>
     <tr>
-      <td align="center">
+      <td align="center"padding="10px">
         <a href="#apa-itu-Djiwa Medical"><img src="Images/button1.png" width="24%"></a>
         <a href="#deskripsi-proyek"><img src="Images/button2.png" width="24%"></a>
         <a href="#tampilan-dashboard"><img src="Images/button3.png"width="24%"></a>
