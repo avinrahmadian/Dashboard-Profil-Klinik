@@ -16,6 +16,24 @@
   </div>
 </div>
 
+<!-- Menu bARU -->
+<div class="section" align="center">
+  <b>MENU</b>
+</div>
+<div class="card">
+  <div bacground="rgba(255,255,255,0.2)" padding="20px" border-radius="30px">
+    <img src="Images/click_video_demo.png" width : 100%>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 <!-- menu -->
