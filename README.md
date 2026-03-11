@@ -91,8 +91,8 @@
         </td>
       </tr>
     </table>
-    <a href="#home">
-      <img src="Images/backtohome.png" align= "center" width="50" height="50">
+    <a href="#home" align="right">
+      <img src="Images/backtohome.png" width="20" height="20">
     </a>
   </div>
 </div>
