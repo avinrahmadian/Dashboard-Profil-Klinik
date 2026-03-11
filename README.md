@@ -92,38 +92,6 @@
 
 
 <!-- Section 3_ Tampilan Dashboard-->
-<div>
-  <div>
-    <h2 id="tampilan-dashboard"><p align="center">
-      <img src="Images/section3.png" width="1000" height="300"></h2>
-  </div>
-  <div>
-    <h3>1. Tampilan Menu Utama atau Homepage</h3>
-  </div>
-  <div>
-    <table>
-      <tr>
-        <td id="penjelasan menu utama">
-          Menampilkan ringkasan informasi metrik penting (KPI) seperti : <br> - total kunjungan, total pendapatan, jumlah cabang klinik, serta jumlah pasien dan dokter. <br> - Grafik kunjungan pasien bulanan yang dilengkapi dengan fitur prediksi untuk membantu perencanaan operasional ke depan. <br> - Visualisasi jenis diagnosa penyakit yang paling sering muncul agar beban kesehatan pasien mudah diidentifikasi. <br> - Menampilkan lokasi geografis seluruh cabang klinik untuk melihat jangkauan layanan.
-        </td>
-      </tr>
-      <tr>
-        <td id="video menu utama">
-          <video width="100%" autoplay muted loop>
-            <source src="https://github.com/user-attachments/assets/6e224b48-e44c-43ff-9a4f-a068065fc90e" type="video/webm">
-          </video>
-        </td>
-      </tr>
-    </table>
-  </div>
-</div>
-
-
-
-
-
-
-
 
 
 
