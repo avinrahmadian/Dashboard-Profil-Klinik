@@ -780,7 +780,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
     <td width="30%" align="center">
       <img src="Images/joy1.png" width="250" alt="Joice">
     </td>
-    <td width="70%">
+    <td width="100%">
       <h3><a href="https://github.com/JoiceJunansi">Joice Junansi Tandirerung</a></h3>
       <b>M0501251007 | 🗄️ Database Manager</b>
       <hr>
@@ -816,7 +816,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <h5>
         <b>Contact Me On :</b>
       </h5>
-      <a href="https:"#" target="_blank">
+      <a href="https://www.linkedin.com/" target="_blank">
         <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
       </a>
       <a href="https://www.instagram.com/baiqwitaa/" target="_blank">
@@ -841,7 +841,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <h5>
         <b>Contact Me On :</b>
       </h5>
-      <a href="https:"#" target="_blank">
+      <a href="https://www.linkedin.com/" target="_blank">
         <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
       </a>
       <a href="#" target="_blank">
@@ -866,7 +866,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <h5>
         <b>Contact Me On :</b>
       </h5>
-      <a href="https:"#" target="_blank">
+      <a href="https://www.linkedin.com/" target="_blank">
         <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
       </a>
       <a href="#" target="_blank">
