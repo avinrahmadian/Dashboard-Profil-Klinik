@@ -20,6 +20,18 @@
 <div class="section" align="center">
   <b>MENU</b>
 </div>
+<div>
+  <table>
+    <tr>
+      <td>
+        <a href="#apa-itu-Djiwa Medical"><img src="Images/button1.png" width="25%"></a>
+        <a href="#deskripsi-proyek"><<img src="Images/button2.png" width="25%"></a>
+        <a href="#tampilan-dashboard"><img src="Images/button3.png"width="25%"></a>
+        <a href="#skema-basis-data"><img src="Images/button4.png"width="25%"></a>
+      </td>
+    </tr>
+  </table>
+</div>
  <a href="#apa-itu-Djiwa Medical"><img src="Images/button1.png"></a>
       <a href="#deskripsi-proyek"><<img src="Images/button2.png"></a>
       <a href="#tampilan-dashboard"><img src="Images/button3.png"></a>
