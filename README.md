@@ -130,12 +130,16 @@ Hasil tampilan dashboard pada menu klinik :
 * Menampilkan top 3 dokter dengan tarif tertinggi serta perbandingan harga konsultasi antar spesialis melalui grafik boxplot.
 * Terdapat detail tabel data mengenai profil dan performa masing-masing dokter.
 
+Hasil tampilan dashboard pada menu dokter :
+
 **4. Tampilan Menu Pasien (Analisis Demografi & Profil Kesehatan)**
 * Menyediakan informasi mengenai Distribusi pasien berdasarkan kelompok umur dan jenis kelamin.
 * Pengguna dapat melihat profil kesehatan fisik secara umum melalui grafik analisis hubungan tinggi dan berat badan pasien.
 * Visualisasi grafik garis yang menunjukkan perubahan jenis diagnosa penyakit dari waktu ke waktu.
 * Terdapat informasi mengenai proporsi pasien BPJS vs Umum serta metode pembayaran (Cash, Debit, QRIS) yang paling sering digunakan.
 * Tersedia tabel yang berisi data riwayat kunjungan pasien secara mendetail.
+
+Hasil tampilan dashboard pada menu pasien :
 
 **5. Tampilan Menu Obat (Analisis Farmasi)**
 * Menampilkan informasi mengenai total unit obat terjual, rata-rata jumlah obat dalam satu resep, dan kategori obat dengan harga tertinggi.
@@ -144,9 +148,13 @@ Hasil tampilan dashboard pada menu klinik :
 * Menyajikan grafik analisis keterkaitan antar obat yang sering diresepkan secara bersamaan dalam satu kunjungan.
 *  Terdapat tabel yang memberikan informasi mengenai detail transaksi obat, dosis, hingga harga per unit.
 
+Hasil tampilan dashboard pada menu farmasi : 
+
 **6. Tampilan Team (Informasi Penyusun)**
 
 Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yang berkontribusi dalam pengembangan aplikasi KlinikHub.
+
+Hasil tampilan dashboard pada menu team: 
 
 
 
