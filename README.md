@@ -134,6 +134,8 @@ Hasil tampilan dashboard pada menu klinik :
 
 Hasil tampilan dashboard pada menu dokter :
 
+[Doctor.webm](https://github.com/user-attachments/assets/9d513911-38ce-4f23-98a0-0d93636c7bf9)
+
 **4. Tampilan Menu Pasien (Analisis Demografi & Profil Kesehatan)**
 * Menyediakan informasi mengenai Distribusi pasien berdasarkan kelompok umur dan jenis kelamin.
 * Pengguna dapat melihat profil kesehatan fisik secara umum melalui grafik analisis hubungan tinggi dan berat badan pasien.
@@ -142,6 +144,9 @@ Hasil tampilan dashboard pada menu dokter :
 * Tersedia tabel yang berisi data riwayat kunjungan pasien secara mendetail.
 
 Hasil tampilan dashboard pada menu pasien :
+
+[Pasien.webm](https://github.com/user-attachments/assets/8e6440f1-8811-48f1-a876-98fe7c8b44f0)
+
 
 **5. Tampilan Menu Obat (Analisis Farmasi)**
 * Menampilkan informasi mengenai total unit obat terjual, rata-rata jumlah obat dalam satu resep, dan kategori obat dengan harga tertinggi.
@@ -152,11 +157,15 @@ Hasil tampilan dashboard pada menu pasien :
 
 Hasil tampilan dashboard pada menu farmasi : 
 
+[Obat.webm](https://github.com/user-attachments/assets/5bb5fc7a-83a9-4644-b262-5c2fe37e302e)
+
 **6. Tampilan Team (Informasi Penyusun)**
 
 Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yang berkontribusi dalam pengembangan aplikasi KlinikHub.
 
 Hasil tampilan dashboard pada menu team: 
+
+[Team.webm](https://github.com/user-attachments/assets/cd0adbb6-bf1b-4299-9c63-8db9577da7d1)
 
 
 
