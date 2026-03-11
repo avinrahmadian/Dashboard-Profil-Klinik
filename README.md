@@ -816,13 +816,13 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <h5>
         <b>Contact Me On :</b>
       </h5>
-      <a href="https://www.linkedin.com/" target="_blank">
+      <a href="https://www.linkedin.com/in/baiq-wita-rachmatia-2b1478292/" target="_blank">
         <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
       </a>
       <a href="https://www.instagram.com/baiqwitaa/" target="_blank">
         <img src="Images/icon_ig.png" alt="Instagram" width="24">
       </a>
-      <a href="#" target="_blank">
+      <a href="mailto:baiqwitaa18@gmail.com" target="_blank">
         <img src="Images/icon_email.png" alt="Instagram" width="25">
       </a>
     </td>
