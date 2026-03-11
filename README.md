@@ -124,6 +124,13 @@
         </td>
       </tr>
     </table>
+  
+  <!--Back to Home -->
+   <div align="right">
+    <a href="#home">
+      <img src="Images/backtohome.png" width="20" height="20">
+    </a>
+  </div>
 </div>
 
 
@@ -203,7 +210,16 @@ Hasil tampilan dashboard pada menu team:
 
 [Team.webm](https://github.com/user-attachments/assets/cd0adbb6-bf1b-4299-9c63-8db9577da7d1)
 
+<!--Back to Home -->
+   <div align="right">
+    <a href="#home">
+      <img src="Images/backtohome.png" width="20" height="20">
+    </a>
+  </div>
 
+
+
+  <!-- Section 6-->
 
 <h2 id="skema-basis-data"><p align="center">
   <img src="Images/section4.png" width="1000" height="300"></h2>
@@ -284,6 +300,16 @@ Hasil tampilan dashboard pada menu team:
   </td>
 </tr>
 </table>
+
+<!--Back to Home -->
+   <div align="right">
+    <a href="#home">
+      <img src="Images/backtohome.png" width="20" height="20">
+    </a>
+  </div>
+
+
+  <!-- new section-->
 
 <h2 id="deskripsi-data"><p align="center">
   <img src="Images/section5.png" width="1000" height="300"></h2>
@@ -751,6 +777,16 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
   <img src="https://img.shields.io/badge/rnaturalearth-darkgreen?style=flat-square&logo=r&logoColor=white">
 </p>
 
+<!--Back to Home -->
+   <div align="right">
+    <a href="#home">
+      <img src="Images/backtohome.png" width="20" height="20">
+    </a>
+  </div>
+
+
+  <!-- section struktur tabel-->
+
 <h2 id="struktur-folder"><p align="center">
   <img src="Images/section7.png" width="1000" height="300"></h2>
 
@@ -800,6 +836,20 @@ CREATE TABLE IF NOT EXISTS `visit_treatment` (
 │   └── 🖼️ wita2.png            
 └── 📝 README.md                # Dokumentasi utama repositori (file ini)
 ```
+
+
+
+
+<!--Back to Home -->
+   <div align="right">
+    <a href="#home">
+      <img src="Images/backtohome.png" width="20" height="20">
+    </a>
+  </div>
+
+
+
+  <!-- section tim pengembeng-->
 
 <h2 id="tim-pengembang"><p align="center">
   <img src="Images/section8.png" width="1000" height="300"></h2>
@@ -915,6 +965,15 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
   </tr>
 </table>
 <br>
+
+<!--Back to Home -->
+   <div align="right">
+    <a href="#home">
+      <img src="Images/backtohome.png" width="20" height="20">
+    </a>
+  </div>
+  
+<!-- Footer -->
 
 <p align="center">
   <img src="Images/footer2.png" width="1000" height="300">
