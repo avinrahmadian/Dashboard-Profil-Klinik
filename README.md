@@ -108,8 +108,10 @@
         </td>
       </tr>
       <tr>
-        <td id="Gambar Screenshoot menu utama">
-          [Home.webm](https://github.com/user-attachments/assets/6e224b48-e44c-43ff-9a4f-a068065fc90e)
+        <td id="video menu utama">
+          <video width="100%" autoplay muted loop>
+            <source src="https://github.com/user-attachments/assets/6e224b48-e44c-43ff-9a4f-a068065fc90e" type="video/webm">
+          </video>
         </td>
       </tr>
     </table>
