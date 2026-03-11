@@ -40,6 +40,10 @@
   </table>
 </div>
 
+<div>
+  <br>
+  <br>
+</div>
 
 
 
@@ -50,7 +54,8 @@
 
 
 
-<!-- menu -->
+
+<!-- menu 
 <div id="menu">
   <p align="center">
   <img src="Images/menu.png" width="1000" height="300">
@@ -64,7 +69,7 @@
       <a href="#struktur-folder"><img src="https://img.shields.io/badge/7.-Struktur_Folder-2E7D32?style=for-the-badge"></a>
       <a href="#tim-pengembang"><img src="https://img.shields.io/badge/8.-Tim_Pengembang-F57C00?style=for-the-badge"></a>
     </div>
-</div>
+</div> -->
 
 
 
