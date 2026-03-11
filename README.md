@@ -18,7 +18,8 @@
 
 <!-- Menu bARU -->
 <div class="section" align="center">
-  <b>MENU</b>
+  <h3>MENU</h3>
+  <br>
 </div>
 <div>
   <table>
@@ -37,17 +38,6 @@
       <a href="#tim-pengembang"><img src="Images/button8.png" width="24%"></a>
     </td>
   </table>
-</div>
- <a href="#apa-itu-Djiwa Medical"><img src="Images/button1.png"></a>
-      <a href="#deskripsi-proyek"><<img src="Images/button2.png"></a>
-      <a href="#tampilan-dashboard"><img src="Images/button3.png"></a>
-      <a href="#skema-basis-data"><img src="Images/button4.png"></a>
-      <a href="#deskripsi-data"><img src="Images/button5.png"></a>
-      <a href="#tools-digunakan"><img src="Images/button6.png"></a>
-      <a href="#struktur-folder"><img src="Images/button7.png"></a>
-      <a href="#tim-pengembang"><img src="Images/button8.png"></a>
-<div>
-  
 </div>
 
 
