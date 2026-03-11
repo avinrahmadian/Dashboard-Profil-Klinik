@@ -23,11 +23,11 @@
 <div>
   <table>
     <tr>
-      <td>
-        <a href="#apa-itu-Djiwa Medical"><img src="Images/button1.png" width="25%"></a>
-        <a href="#deskripsi-proyek"><<img src="Images/button2.png" width="25%"></a>
-        <a href="#tampilan-dashboard"><img src="Images/button3.png"width="25%"></a>
-        <a href="#skema-basis-data"><img src="Images/button4.png"width="25%"></a>
+      <td align="center">
+        <a href="#apa-itu-Djiwa Medical"><img src="Images/button1.png" width="24%"></a>
+        <a href="#deskripsi-proyek"><img src="Images/button2.png" width="24%"></a>
+        <a href="#tampilan-dashboard"><img src="Images/button3.png"width="24%"></a>
+        <a href="#skema-basis-data"><img src="Images/button4.png"width="24%"></a>
       </td>
     </tr>
   </table>
