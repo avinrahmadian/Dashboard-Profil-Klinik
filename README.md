@@ -229,11 +229,15 @@ Hasil tampilan dashboard pada menu team:
     <td>Dalam satu kunjungan, pasien dapat menerima beberapa jenis obat, dan satu obat dapat diberikan pada banyak kunjungan</td>
   </tr>
 
-  <tr>
-    <td><b>Kunjungan → Transaksi</b></td>
-    <td></td>
-    <td>Setiap kunjungan memiliki satu transaksi pembayaran yang unik, sehingga satu record pada tabel transactions hanya terkait dengan satu kunjungan.</td>
-  </tr>
+<tr>
+  <td><b>Kunjungan → Transaksi</b></td>
+  <td align="center">
+    <img src="https://img.shields.io/badge/1%20:%201-7B1FA2?style=flat-square" alt="1 to 1">
+  </td>
+  <td>
+    Setiap kunjungan memiliki satu transaksi pembayaran yang unik, sehingga satu record pada tabel transactions hanya terkait dengan satu kunjungan.
+  </td>
+</tr>
 </table>
 
 <h2 id="deskripsi-data"><p align="center">
