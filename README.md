@@ -110,7 +110,8 @@
 
 Hasil tampilan dashboard menu home:
 
-[Klinik.webm](https://github.com/user-attachments/assets/6e224b48-c44c-43ff-9a4f-a068065fc90e)
+[Home.webm](https://github.com/user-attachments/assets/20e4c6cc-013c-4ba5-8167-0c9342d9751e)
+
 
 **2. Tampilan Menu Klinik**
 * Menyediakan fitur filter dinamis untuk mencari data berdasarkan kategori tertentu.
