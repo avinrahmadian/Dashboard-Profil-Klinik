@@ -866,7 +866,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <h5>
         <b>Contact Me On :</b>
       </h5>
-      <a href="www.linkedin.com/in/ikalailianurrohmatunnazila/" target="_blank">
+      <a href="https://www.linkedin.com/in/ikalailianurrohmatunnazila/" target="_blank">
         <img src="Images/icon_linked1.png" alt="LinkedIn" width="24">
       </a>
       <a href="https://www.instagram.com/lailia_nazila/" target="_blank">
