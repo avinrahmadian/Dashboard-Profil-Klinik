@@ -54,7 +54,7 @@
           <br> Coba langsung aplikasinya secara interaktif melalui link 
           <br>
             <a href="https://github.com/avinrahmadian">
-              <img src="Images/live_demo2.png" width="600%">
+              <img src="Images/live_demo2.png" width="60%">
             </a>
           <!-- (MASUKKAN_LINK_SHINYAPPS_DI_SINI)-->
         </td>
