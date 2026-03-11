@@ -9,7 +9,7 @@
     <img src="Images/header.png" width="1000" height="300">
   <div align="center">
     <button>
-    <a href="https:"https://avinrahmadian.shinyapps.io/djiwamedical" target="_blank">
+    <a href="https://avinrahmadian.shinyapps.io/djiwamedical" target="_blank">
       <img src="Images/click_video_demo.png" alt="video demo" width="1000" height="300">
     </a>
       </button>
