@@ -9,7 +9,7 @@
     <img src="Images/header.png" width="1000" height="300">
   <div align="center">
     <button>
-    <a href="https://avinrahmadian.shinyapps.io/djiwamedical" target="_blank">
+    <a href="https://joicejunans.shinyapps.io/dashboard-profil-klinik/" target="_blank">
       <img src="Images/click_video_demo.png" alt="video demo" width="1000" height="300">
     </a>
       </button>
@@ -53,7 +53,7 @@
           pengguna dapat menelusuri profil pasien, tren penyakit, hingga statistik kunjungan secara akurat. Temukan wawasan medis terbaik hanya di Djiwa Medical! 📊🩺✨
           <br> Coba langsung aplikasinya secara interaktif melalui link 
           <br>
-            <a href="https://github.com/avinrahmadian">
+            <a href="https://joicejunans.shinyapps.io/dashboard-profil-klinik/">
               <img src="Images/live_demo3.png" align= "center" width="50%">
             </a>
           <!-- (MASUKKAN_LINK_SHINYAPPS_DI_SINI)-->
