@@ -872,7 +872,7 @@ Proyek **Djiwa Medical** ini dikembangkan melalui kolaborasi tim yang hebat, den
       <a href="#" target="_blank">
         <img src="Images/icon_ig.png" alt="Instagram" width="24">
       </a>
-      <a href="#" target="_blank">
+      <a href="https://www.instagram.com/lailia_nazila/" target="_blank">
         <img src="Images/icon_email.png" alt="Instagram" width="25">
       </a>
     </td>
