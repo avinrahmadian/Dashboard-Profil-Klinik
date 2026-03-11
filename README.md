@@ -219,7 +219,7 @@ Halaman yang berisi profil dan peran dari masing-masing anggota tim penyusun yan
 
   <tr>
     <td><b>Kunjungan → Transaksi</b></td>
-    <td align="center"><img src="https://img.shields.io/badge/M%20:%20N-7B1FA2?style=flat-square" alt="1 to 1"></td>
+    <td></td>
     <td>Setiap kunjungan memiliki satu transaksi pembayaran yang unik, sehingga satu record pada tabel transactions hanya terkait dengan satu kunjungan.</td>
   </tr>
 </table>
